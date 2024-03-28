@@ -1,7 +1,7 @@
 <template>
     <div>
         <div class="bg-indigo-darken-4 d-flex  align-center flex-column h-100 d-md-none" 
-        style="height: 550px; background-image: url('/img/Headers/2.svg'); background-position: 100%; background-size: cover; background-attachment: fixed;">
+        style="height: 550px; background-image: url('/2.svg'); background-position: 100%; background-size: cover; background-attachment: fixed;">
             <div style="background-color: rgba(26, 35, 126, .9);" class="w-100 h-100 px-5 py-8">
                 <div class="w-100 ">
                     <div class=" mt-4 mb-2 ml-2  text-h6 font-weight-bold text-white" style="color: #BDBDBD;">

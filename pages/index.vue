@@ -286,7 +286,7 @@
             >
                 <historia  style="position: relative; z-index: 10;"/>
 
-                <sobre style="position: relative; z-index: 10;"/>
+                <SobrePagePrincipal style="position: relative; z-index: 10;"/>
             </div>
 
 

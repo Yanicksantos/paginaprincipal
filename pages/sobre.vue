@@ -1,7 +1,7 @@
 <template >
     <div class="pt-14">
         <!-- BANNER PRINCIPAL -->
-        <PagesSobreBanner />
+        <SobreBanner />
 
         <!--conteudo-->
         <v-main class="pa-0">
@@ -10,7 +10,7 @@
                     <div style="width: 5px;  background-image: linear-gradient(to bottom, #B71C1C ,transparent, transparent);" class="mr-4 d-sm-none"></div>
                     <p class="text-body-2 mx-auto my-4 font-weight-bold">Nossas inovadoras soluções são disponibilizadas no mercado por meio de três áreas de atuação distintas: Serviços Técnicos, Tecnologia da Informação e Automação Industrial. </p>
                 </div>
-                <v-img src="/img/sobre/2.jpg" class="rounded mx-auto" max-width="800"></v-img>
+                <v-img src="~/assets/sobre/2.jpg" class="rounded mx-auto" max-width="800"></v-img>
             </div>
 
 
@@ -34,7 +34,7 @@
             <FormularioForm class="d-sm-none"/>
 
             <div class="bg-indigo-darken-4 d-flex  align-center flex-column h-100" 
-                style="background-image: url('/img/Headers/2.svg'); background-position: 100%; background-size: cover; background-attachment: fixed;"
+                style="background-image: url('/2.svg'); background-position: 100%; background-size: cover; background-attachment: fixed;"
             >
                 
                     <div style="background-color: rgba(26, 35, 126, .9);" class="w-100 h-100 px-5 py-8">
@@ -56,7 +56,7 @@
                 
             </div>
 
-            <PagesPrincipalForms />
+            <FormularioFormulariopages />
             
         </v-main>
     </div>
