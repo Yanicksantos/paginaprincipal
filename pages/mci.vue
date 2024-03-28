@@ -4,7 +4,7 @@
         <v-main class="pa-0">
            <MciConteudo />
            <mciSerie />
-            <FormularioPages />
+            <FormularioFormulariopages />
         </v-main>
     </div>
 </template>

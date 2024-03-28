@@ -1,24 +1,23 @@
-import { NuxtLoadingIndicator } from '#build/components';
-<template>
+<template class="testeover">
   <NuxtLoadingIndicator />
-  <NuxtLayout>
+  <NuxtLayout class="page-transition">
     <NuxtPage />
   </NuxtLayout>
 </template>
 
 
 <style>
-  .testeover{
-    overflow-x: hidden;
-  }
 
-  .template,
-.page-leave-active {
-  transition: all 5s;
+.testeover{
+  overflow-x: hidden;
 }
-.page-enter-from,
-.page-leave-to {
+
+.page-transition-enter-active, .page-transition-leave-active {
+  transition: opacity 20s;
+}
+
+.page-transition-enter, .page-transition-leave-to {
   opacity: 0;
-  filter: blur(1rem);
 }
+
 </style>
