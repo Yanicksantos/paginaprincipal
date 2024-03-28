@@ -1,5 +1,5 @@
 <template>
-    <div class="h-100 bg-blue-grey">
+    <div class="h-100 bg-blue-grey" v-if="imagemCarregada">
         <div class="" style="position: relative;">
             <v-img src="~/assets/predwhitedesf2.png" width="700" 
                     style="position: absolute; top: 13.5%; left: 40%;  height: 200px; z-index: 100;"
@@ -296,7 +296,10 @@
             >
             <v-img src="~/assets/predred.png" width="100%" height="300px" cover style="position: absolute; bottom: 0; left: 0;"></v-img>
                 <div class=" h-100 w-50">
-                    <v-img src="~/assets/sobre.png"  width="100%" class="h-100" cover ></v-img>
+                    <v-img src="~/assets/sobre.png"  width="100%" class="h-100" cover 
+                    @loadstart="handleLoadStart"
+                    @load="handleLoad"
+                    ></v-img>
                 </div>
 
                 <div class="d-flex  align-center h-100">
@@ -318,14 +321,34 @@
     </div>
 </template>
 
+
 <script>
-import historia from '~/components/historia.vue'
+
 export default {
-  components: { historia },
-  // Aplica o mixin 'montserrat' aos componentes desejados
-  mixins: ['montserrat']
-}
+ 
+data() {
+    return {
+      imagemCarregada: false
+    };
+  },
+  methods: {
+    handleLoadStart() {
+      // Define o estado de carregamento como falso quando o carregamento da imagem começa
+      this.imagemCarregada = false;
+    },
+    handleLoad() {
+      // Define o estado de carregamento como verdadeiro quando a imagem é totalmente carregada
+      this.imagemCarregada = true;
+    }
+  }
+};
+
+
 </script>
+
+
+
+
 
 <style>
 .texto-usado {
