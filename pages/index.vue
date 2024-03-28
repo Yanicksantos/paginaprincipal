@@ -1,5 +1,5 @@
 <template>
-    <div class="h-100 bg-blue-grey" v-if="imagemCarregada">
+    <div class="h-100 bg-blue-grey" >
         <div class="" style="position: relative;">
             <v-img src="~/assets/predwhitedesf2.png" width="700" 
                     style="position: absolute; top: 13.5%; left: 40%;  height: 200px; z-index: 100;"
@@ -101,6 +101,7 @@
                         append-icon="mdi-arrow-top-right"
                         variant="flat"
                         color="#B71C1C"
+                        to="/mci"
                         >Saiba mais sobre o método</v-btn>
                     </div>
                 </v-container>
