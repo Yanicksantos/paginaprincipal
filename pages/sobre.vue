@@ -31,7 +31,6 @@
             </div>
 
 
-            <FormularioForm class="d-sm-none"/>
 
             <div class="bg-indigo-darken-4 d-flex  align-center flex-column h-100" 
                 style="background-image: url('/2.svg'); background-position: 100%; background-size: cover; background-attachment: fixed;"
@@ -47,7 +46,7 @@
                                 ></div>
                                 <iframe class="w-100  rounded d-sm-none" height="180" src="https://www.youtube.com/embed/rIkOP6XrT-A?si=DUtUFaZoGeqyhGqF&amp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen
                                 ></iframe>
-                                <iframe class="w-100  rounded d-none d-sm-block" height="500" src="https://www.youtube.com/embed/rIkOP6XrT-A?si=DUtUFaZoGeqyhGqF&amp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen
+                                <iframe class="w-75 mx-auto rounded d-none d-sm-block" height="400"  src="https://www.youtube.com/embed/rIkOP6XrT-A?si=DUtUFaZoGeqyhGqF&amp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen
                                 ></iframe>
                             </v-container>
                         </div>

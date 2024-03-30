@@ -16,9 +16,31 @@
              class="rounded-lg mb-4"
              >
                  <v-carousel-item
-                 v-for="(src, i) in srcs"
-                 :key="i"
-                 :src=src
+                 src='~/assets/historias/2.jpeg'
+                 cover
+                 class="rounded-lg "
+                 ></v-carousel-item>
+
+                 <v-carousel-item
+                 src='~/assets/historias/3.jpeg'
+                 cover
+                 class="rounded-lg "
+                 ></v-carousel-item>
+
+                 <v-carousel-item
+                 src='~/assets/historias/4.jpeg'
+                 cover
+                 class="rounded-lg "
+                 ></v-carousel-item>
+
+                 <v-carousel-item
+                 src='~/assets/historias/5.jpeg'
+                 cover
+                 class="rounded-lg "
+                 ></v-carousel-item>
+
+                 <v-carousel-item
+                 src='~/assets/historias/6.jpeg'
                  cover
                  class="rounded-lg "
                  ></v-carousel-item>
@@ -45,9 +67,24 @@
                  class="rounded-xl mb-4 "
                  >
                  <v-carousel-item
-                 v-for="(src2, i) in scrs2"
-                 :key="i"
-                 :src=src2
+                 src='~/assets/historias/1.svg'
+               
+                 ></v-carousel-item>
+
+                 <v-carousel-item
+                 src='~/assets/historias/2.svg'
+               
+                 ></v-carousel-item>
+                 <v-carousel-item
+                 src='~/assets/historias/3.svg'
+               
+                 ></v-carousel-item>
+                 <v-carousel-item
+                 src='~/assets/historias/4.svg'
+               
+                 ></v-carousel-item>
+                 <v-carousel-item
+                 src='~/assets/historias/5.svg'
                
                  ></v-carousel-item>
              </v-carousel>
@@ -60,26 +97,3 @@
 
 
 
-
-<script>
- export default {
-   data () {
-     return {
-        srcs:[
-             '/historias/2.jpeg',
-             '/historias/3.jpeg',
-             '/historias/4.jpeg',
-             '/historias/5.jpeg',
-             '/historias/6.jpeg'
-        ],
-        scrs2:[
-             '/historias/1.svg',
-             '/historias/2.svg',
-             '/historias/3.svg',
-             '/historias/4.svg',
-             '/historias/5.svg'
-        ]
-     }
-   },
- }
-</script>

@@ -13,8 +13,8 @@
                         class="mb-6 mx-auto w-75"
                         ></div>
                         <div>
-                            <p class="text-right my-4 text-body-2 text-md-body-1">Quando se trata do setor de manutenção, você está obtendo o máximo da alta disponibilidade dos equipamentos da planta? Está impulsionando a produtividade ao máximo? Como anda a otimização dos custos e a eficiência nas rotinas de manutenção?</p>
-                            <p class="text-caption w-100  mx-auto">Nesta playlist, Ozório Rezende, diretor da Pred Engenharia, mergulha fundo no mundo da manutenção industrial e apresenta uma série de vídeos que vão revolucionar sua abordagem à manutenção. Prepare-se para uma jornada de descoberta e aprimoramento.</p>
+                            <p class="text-right my-4 w-75 mx-auto text-body-2 text-md-body-1">Quando se trata do setor de manutenção, você está obtendo o máximo da alta disponibilidade dos equipamentos da planta? Está impulsionando a produtividade ao máximo? Como anda a otimização dos custos e a eficiência nas rotinas de manutenção?</p>
+                            <p class="text-caption w-75  mx-auto">Nesta playlist, Ozório Rezende, diretor da Pred Engenharia, mergulha fundo no mundo da manutenção industrial e apresenta uma série de vídeos que vão revolucionar sua abordagem à manutenção. Prepare-se para uma jornada de descoberta e aprimoramento.</p>
                         </div>
                         <div class="d-flex justify-space-around align-center py-4 d-sm-none">
                             <v-btn
@@ -58,15 +58,16 @@
                         <v-carousel
                         v-model="model"
                         hide-delimiter-background
-                        height="500"
+                        height="400"
                         show-arrows="hover"
-                        class="pa-0 mx-auto  d-none d-sm-block"
+                        class=" d-none d-sm-block w-75 mx-auto"
                         
                         >
                             <v-carousel-item
                                 v-for="link in links"
+                                
                             >
-                                <iframe class="w-100  rounded" height="450" :src="link" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen
+                                <iframe class="w-100 mx-auto rounded" height="400" :src="link" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen
                                 ></iframe>
                             </v-carousel-item>
                             <v-carousel-item
