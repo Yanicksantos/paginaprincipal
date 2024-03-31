@@ -36,7 +36,7 @@
 
             <!--Começa as secções do site-->
             <div 
-            class="mt-16 d-flex justify-end align-center "
+            class="d-none  mt-16 d-sm-flex justify-end align-center "
             style="background-image: url('/banner.png'); background-size: contain; height: 900px; overflow: hidden; background-position: left left; position: relative;" 
             >
                 <div style="position: absolute; top: 0; bottom: 0; left: 0; right: 0; background-color: rgba(0, 0, 0, .2);"></div>
@@ -71,6 +71,8 @@
                 </div>
             
             </div>
+
+            <BannerPrincipalmobile />
 
 
 
