@@ -199,7 +199,7 @@
                     <v-btn       
                     append-icon="mdi-arrow-top-right"
                     class="mt-6 "
-                    to="/services/engenharia-manutencao-e-confiabilidade"
+                    to="/services/s3i"
                     color="#1A237E"
                     >Saiba mais</v-btn>
 
