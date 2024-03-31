@@ -1,8 +1,8 @@
 <template>
   <div>
       <v-container class=" h-100  d-sm-none" >
-             <div class=" mt-4 mb-2 ml-2  text-h6" style="color: #BDBDBD;">
-                 <strong class="font-weight-bold text-white"  >Um pouco da</strong>  nossa caminhada
+             <div class=" mt-4 mb-2 ml-2  text-h6 text-black" >
+                 <strong class="font-weight-bold text-black"  >Um pouco da</strong>  nossa caminhada
              </div>
              <div    
              style="width: 70%; height: 1px; background-image: linear-gradient(to left, transparent,white);" 

@@ -297,14 +297,12 @@
 
             <!--Formularios-->
             <div
-            class="bg-grey-lighten-1 d-flex"
+            class="bg-grey-lighten-1 d-sm-flex d-none "
             style="height: 550px; position: relative;"
             >
             <v-img src="~/assets/predred.png" width="100%" height="300px" cover style="position: absolute; bottom: 0; left: 0;"></v-img>
                 <div class=" h-100 w-50">
                     <v-img src="~/assets/sobre.png"  width="100%" class="h-100" cover 
-                    @loadstart="handleLoadStart"
-                    @load="handleLoad"
                     ></v-img>
                 </div>
 
@@ -319,6 +317,21 @@
 
             </div>
 
+            <div class="d-sm-none h-100">
+                <v-img
+                src="~/assets/sobre.png"
+                height="550"
+                cover
+                class="pa-4 "
+                >
+                <v-card>
+                        <v-card-item>
+                            <FormularioForm />
+                        </v-card-item>
+                    </v-card>
+                </v-img>
+            </div>
+
 
 
 
@@ -328,29 +341,6 @@
 </template>
 
 
-<script>
-
-export default {
- 
-data() {
-    return {
-      imagemCarregada: false
-    };
-  },
-  methods: {
-    handleLoadStart() {
-      // Define o estado de carregamento como falso quando o carregamento da imagem começa
-      this.imagemCarregada = false;
-    },
-    handleLoad() {
-      // Define o estado de carregamento como verdadeiro quando a imagem é totalmente carregada
-      this.imagemCarregada = true;
-    }
-  }
-};
-
-
-</script>
 
 
 
