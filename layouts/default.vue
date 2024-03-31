@@ -37,11 +37,5 @@
 
 <script setup>
   import { ref } from 'vue'
-import navoptions from '~/components/Nav/navoptions.vue'
-import Navusers from '~/components/Nav/Navusers.vue'
-
   const drawer = ref(false)
 </script>
-
-  components: { navoptions },
-  components: { Navusers },
