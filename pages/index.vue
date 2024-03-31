@@ -84,7 +84,7 @@
 
             <!--mci-->
             <div 
-            class=""
+            class="d-none d-sm-block"
             style="background-image: url('/bgmci.png'); background-size: cover; height: 1000px; overflow: hidden; background-position: left left; " 
             >
                 <v-container>
@@ -112,7 +112,7 @@
             </div>
 
 
-
+            <MciMciprincipal />  
 
 
 
