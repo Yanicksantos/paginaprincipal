@@ -128,7 +128,7 @@
 
             <!--serviços-->
             <div 
-            class="pb-16"
+            class="pb-16 d-none d-sm-block"
             style="background-image: url('/pred_site_03.png'); background-size: cover; overflow: hidden;" 
             >
             
@@ -237,7 +237,7 @@
 
 
 
-
+            <ServicesServicesmobile />
 
 
 
@@ -248,7 +248,7 @@
 
             <!--Visão-->
             <div 
-            class="w-100 d-flex"
+            class="w-100 d-none d-sm-flex"
             style="height: 350px;  position: relative; " 
             >
                 <div style="position: absolute; top: 0; bottom: 0; right: 0; left: 0; " class="gradiente"></div>

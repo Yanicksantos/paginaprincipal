@@ -7,7 +7,7 @@
                     <template #activator=" { props } ">
                         <v-btn icon="mdi-account" size="large" v-bind="props" ></v-btn>
                     </template>
-                    <v-list nav variant="compact" size="small">
+                    <v-list nav  size="small">
                         <v-list-item 
                         append-icon="mdi-account-cog-outline" 
                         href="http://www.pred.com.br/sgv/login/index.asp"
