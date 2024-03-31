@@ -1,35 +1,36 @@
 <template>
     <div class="h-100 bg-blue-grey" >
         <div class="" style="position: relative;">
-            <v-img src="~/assets/predwhitedesf2.png" width="700" 
-                    style="position: absolute; top: 13.5%; left: 40%;  height: 200px; z-index: 100;"
-            ></v-img>
+            <div class="d-none d-sm-block">
+                <v-img src="~/assets/predwhitedesf2.png" width="700" 
+                        style="position: absolute; top: 13.5%; left: 40%;  height: 200px; z-index: 100;"
+                ></v-img>
 
-            <v-img src="~/assets/predreddesf.png" width="700" cover
-                    style="position: absolute; top: 30.7%; right: -1%;  height: 200px;"
-            ></v-img>
+                <v-img src="~/assets/predreddesf.png" width="700" cover
+                        style="position: absolute; top: 30.7%; right: -1%;  height: 200px;"
+                ></v-img>
 
-            <v-img src="~/assets/predwhitedesf.png" width="85%" cover
-                    style="position: absolute; top: 61.5%; left: 5%; z-index: 1;  "
-            ></v-img>
-            
-            <v-img src="~/assets/predwhite.png" width="100" height="500" 
-                    style="position: absolute; top: 37.5%; left: -2.7%; z-index: 1;  "
-            ></v-img>
-              
-            <v-img src="~/assets/predwhite.png" width="100" height="500" 
-                    style="position: absolute; top: 43.3%; right:-3.1%; z-index: 1;  "
-            ></v-img>
+                <v-img src="~/assets/predwhitedesf.png" width="85%" cover
+                        style="position: absolute; top: 61.5%; left: 5%; z-index: 1;  "
+                ></v-img>
+                
+                <v-img src="~/assets/predwhite.png" width="100" height="500" 
+                        style="position: absolute; top: 37.5%; left: -2.7%; z-index: 1;  "
+                ></v-img>
+                
+                <v-img src="~/assets/predwhite.png" width="100" height="500" 
+                        style="position: absolute; top: 43.3%; right:-3.1%; z-index: 1;  "
+                ></v-img>
 
-            <v-img src="~/assets/predwhite.png" width="100" height="500" 
-                    style="position: absolute; top: 52.5%; left:-2.5%; z-index: 1;  "
-            ></v-img>
+                <v-img src="~/assets/predwhite.png" width="100" height="500" 
+                        style="position: absolute; top: 52.5%; left:-2.5%; z-index: 1;  "
+                ></v-img>
 
-            <v-img src="~/assets/predblue.png" width="300" height="1180"  
-                    style="position: absolute; top: 71.5%; right: -8%; z-index: 1;  "
-            ></v-img>
+                <v-img src="~/assets/predblue.png" width="300" height="1180"  
+                        style="position: absolute; top: 71.5%; right: -8%; z-index: 1;  "
+                ></v-img>
 
-      
+            </div>
 
 
 
