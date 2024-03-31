@@ -42,8 +42,8 @@
                     
                     >
                         <v-carousel-item
-                            v-for="[link,i] in links"
-                            :key="i"
+                        v-for="(link, i) in links"
+                        :key="i"
                         >
                             <iframe class="w-100  rounded" height="180" :src="link" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen
                             ></iframe>
