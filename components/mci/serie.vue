@@ -65,18 +65,16 @@
                         
                         >
                             <v-carousel-item
-                            v-for="[link,i] in links"
-                            :key="i"
+                                v-for="(link, i) in links"
+                                :key="i"
                                 
                             >
                                 <iframe class="w-100 mx-auto rounded" height="400" :src="link" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen
                                 ></iframe>
                             </v-carousel-item>
-                            <v-carousel-item
-                          
-                        >
-                        <nuxt-link to="https://www.youtube.com/playlist?list=PLA8tyKb1AjYCrcGFOOtj0GiE_o5Q4Rpdk" target="_blank"><v-img src='~/assets/mci/mciseries.jpg' height="450" ></v-img></nuxt-link>
-                        </v-carousel-item>
+                            <v-carousel-item>
+                                <nuxt-link to="https://www.youtube.com/playlist?list=PLA8tyKb1AjYCrcGFOOtj0GiE_o5Q4Rpdk" target="_blank"><v-img src='~/assets/mci/mciseries.jpg' height="450" ></v-img></nuxt-link>
+                            </v-carousel-item>
                         </v-carousel>
                     </v-container>
                 </div>

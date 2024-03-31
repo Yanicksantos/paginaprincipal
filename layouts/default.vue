@@ -16,7 +16,7 @@
     <v-navigation-drawer
       v-model="drawer"
       temporary
-    
+      location="end"
     >
       <!--  -->
     </v-navigation-drawer>
