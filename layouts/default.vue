@@ -1,12 +1,13 @@
   <template>
   <v-app id="inspire">
     <v-app-bar scroll-behavior="hide" scroll-threshold="10000" >
-      <v-app-bar-nav-icon @click="drawer = !drawer" v-if="false"></v-app-bar-nav-icon>
+      
       <v-app-bar-title><nuxt-link to="/"><v-img src="~/assets/logo.png" width="100"></v-img></nuxt-link></v-app-bar-title>
       <template #append>
         <div class="d-flex">
             <NavNavoptions />
             <navusers />
+            <v-app-bar-nav-icon @click="drawer = !drawer" class="d-md-none align-self-center"></v-app-bar-nav-icon>
         </div>
         
       </template>
