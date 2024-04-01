@@ -5,7 +5,7 @@
         height="350"
         gradient="to top, rgba(0,0,0,.9), transparent"
         cover
-        src="~/assets/services/2.svg"
+        src="~/assets/services2.jpg"
         dark
         >
             <div class=" d-flex flex-column justify-center align-center w-100 h-100 pa-4" style="background-image: linear-gradient(to top, rgba(0,0,0,.9), transparent);">
@@ -32,7 +32,7 @@
         gradient="to top, rgba(0,0,0,.9), transparent"
         height="600"
         cover
-        src="~/assets/services/2.svg"
+        src="~/assets/services2.jpg"
         dark
         >
             <div class=" d-flex flex-column justify-center align-center w-100 h-100 pa-4" style="background-image: linear-gradient(to top, rgba(0,0,0,.9), transparent);">

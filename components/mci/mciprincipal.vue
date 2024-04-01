@@ -2,7 +2,7 @@
     <v-img
     src="~/assets/4.jpg"
     cover
-    class="d-sm-none"
+    class="d-md-none"
     dark
     >
         <div class="d-flex flex-column justify-center pa-6 ">

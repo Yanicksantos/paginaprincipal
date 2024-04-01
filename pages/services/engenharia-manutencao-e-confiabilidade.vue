@@ -5,7 +5,7 @@
         gradient="to top, rgba(0,0,0,.9), rgba(0,0,0,.7),transparent"
         height="350"
         cover
-        src="~/assets/services/1.svg"
+        src="~/assets/services1.png"
         >
             <div class=" d-flex flex-column justify-center align-center w-100 h-100 pa-4" style="background-image: linear-gradient(to top, rgba(0,0,0,.9), rgba(0,0,0,.7),transparent);">
                 <div><v-icon icon="mdi-cog-play" size="50"></v-icon></div>
@@ -26,7 +26,7 @@
         gradient="to top, rgba(0,0,0,.9), rgba(0,0,0,.7),transparent"
         height="600"
         cover
-        src="~/assets/services/1.svg"
+        src="~/assets/services1.png"
         >
             <div class=" d-flex flex-column justify-center align-center w-100 h-100 pa-4" style="background-image: linear-gradient(to top, rgba(0,0,0,.9), rgba(0,0,0,.7),transparent);">
                 <div><v-icon icon="mdi-cog-play" size="50"></v-icon></div>

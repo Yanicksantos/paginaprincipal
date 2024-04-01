@@ -4,7 +4,7 @@
         class="d-md-none"
         height="350"
         cover
-        src="~/assets/services/4.svg"
+        src="~/assets/services4.png"
         gradient="to top, rgba(0,0,0,.9), rgba(0,0,0,.75), transparent"
         >
             <div class=" d-flex flex-column justify-center align-center w-100 h-100 pa-4" style="background-image: linear-gradient(to top, rgba(0,0,0,.9), rgba(0,0,0,.75), transparent);">
@@ -25,7 +25,7 @@
         class="d-none d-md-flex mt-14"
         cover
         height="600"
-        src="~/assets/services/4.svg"
+        src="~/assets/services4.png"
         gradient="to top, rgba(0,0,0,.9), rgba(0,0,0,.75), transparent"
         >
         <div class=" d-flex flex-column justify-center align-center w-100 h-100 pa-4" style="background-image: linear-gradient(to top, rgba(0,0,0,.9), rgba(0,0,0,.75), transparent);">

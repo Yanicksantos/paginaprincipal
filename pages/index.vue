@@ -1,17 +1,17 @@
 <template>
-    <div class="h-100 bg-blue-grey" >
+    <div class="h-100 bg-blue-grey " style="overflow-x: hidden;">
         <div class="" style="position: relative;">
-            <div class="d-none d-sm-block">
+            <div class="d-none d-md-block">
                 <v-img src="~/assets/predwhitedesf2.png" width="700" 
-                        style="position: absolute; top: 13.5%; left: 40%;  height: 200px; z-index: 100;"
+                        style="position: absolute; top: 800px; left: 40%;  height: 200px; z-index: 100;"
                 ></v-img>
 
                 <v-img src="~/assets/predreddesf.png" width="700" cover
-                        style="position: absolute; top: 30.7%; right: -1%;  height: 200px;"
+                        style="position: absolute; top: 1810px; right: -1%;  height: 200px;"
                 ></v-img>
 
                 <v-img src="~/assets/predwhitedesf.png" width="85%" cover
-                        style="position: absolute; top: 61.5%; left: 5%; z-index: 1;  "
+                        style="position: absolute; top: 3600px; left: 5%; z-index: 1;  "
                 ></v-img>
                 
                 <v-img src="~/assets/predwhite.png" width="100" height="500" 
@@ -27,7 +27,7 @@
                 ></v-img>
 
                 <v-img src="~/assets/predblue.png" width="300" height="1180"  
-                        style="position: absolute; top: 71.5%; right: -8%; z-index: 1;  "
+                        style="position: absolute; top: 4200px; right: -8%; z-index: 1;  "
                 ></v-img>
 
             </div>
@@ -36,8 +36,8 @@
 
             <!--Começa as secções do site-->
             <div 
-            class="d-none  mt-16 d-sm-flex justify-end align-center "
-            style="background-image: url('/banner.png'); background-size: contain; height: 900px; overflow: hidden; background-position: left left; position: relative;" 
+            class="d-none  mt-16 d-md-flex justify-end align-center "
+            style="background-image: url('/banner.png'); background-size: cover; height: 900px; overflow: hidden; background-position: left left; position: relative;" 
             >
                 <div style="position: absolute; top: 0; bottom: 0; left: 0; right: 0; background-color: rgba(0, 0, 0, .2);"></div>
                 <div class="h-75 w-50 pl-16 pr-4 " style="position: relative">
@@ -46,7 +46,7 @@
                         <div class="">
                             <div class="d-flex align-center  montserrat-font  " style="height: 200px; ">
                                 <div class=" d-flex h-100 pl-16 ml-16" >
-                                    <p class=" align-self-center text-h4 montserrat-font text-white font-weight-black ml-16">HÁ</p>
+                                    <p class=" align-self-center text-h4 montserrat-font text-white font-weight-black ml-1">HÁ</p>
                                     <p class=" montserrat-font font-weight-black text-white  "  style="font-size: 140px;">30</p>
                                     <p class="align-self-center mt-16 pt-8 text-h3 montserrat-font text-white font-weight-black">ANOS</p>
                                 </div> 
@@ -84,7 +84,7 @@
 
             <!--mci-->
             <div 
-            class="d-none d-sm-block"
+            class="d-none d-md-block"
             style="background-image: url('/bgmci.png'); background-size: cover; height: 1000px; overflow: hidden; background-position: left left; " 
             >
                 <v-container>
@@ -128,7 +128,7 @@
 
             <!--serviços-->
             <div 
-            class="pb-16 d-none d-sm-block"
+            class="pb-16 d-none d-md-block"
             style="background-image: url('/pred_site_03.png'); background-size: cover; overflow: hidden;" 
             >
             
@@ -146,11 +146,11 @@
                 </div>
                 <div class="w-50 px-8 mt-6">
                     <div class="mb-4">
-                        <h1 class="text-h4 text-white"><span class="text-red-accent-4">#1</span> <span>SERVIÇOS DE ENGENHARIA DE</span> <strong>MANUTENÇÃO & CONFIABILIDADE</strong></h1>
+                        <h1 class="text-h4 text-white"><strong class="text-red-accent-4"># 1</strong> <span>SERVIÇOS DE ENGENHARIA DE</span> <strong>MANUTENÇÃO & CONFIABILIDADE</strong></h1>
                     </div>
                     <div>
-                        <p class="text-white">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero unde rem vel voluptatem quia reprehenderit commodi. Aspernatur impedit neque maxime reprehenderit corporis incidunt ex! Porro provident optio ducimus illum maxime!
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit eveniet placeat laudantium quaerat itaque fugit ad dignissimos, ratione corrupti consequuntur suscipit optio ut quam incidunt est illum perspiciatis molestiae repudiandae?</p>
+                        <p class="text-white pr-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero unde rem vel voluptatem quia reprehenderit commodi. Aspernatur impedit neque maxime reprehenderit corporis incidunt ex! Porro provident optio ducimus illum maxime!
+                      incidunt est illum perspiciatis molestiae repudiandae?</p>
                     </div>
                     <v-btn       
                     append-icon="mdi-arrow-top-right"
@@ -168,11 +168,11 @@
                 <div class="w-50 pl-16 pr-4 mt-6">
                     <div class="ml-6">     
                         <div class="mb-4">
-                            <h1 class="text-h4 text-white"><span class="text-red-accent-4">#1</span> <span>SERVIÇOS DE ENGENHARIA DE</span> <strong>MANUTENÇÃO & CONFIABILIDADE</strong></h1>
+                            <h1 class="text-h4 text-white"><strong class="text-red-accent-4"># 2</strong> <span>SERVIÇOS TÉCNICOS DE </span> <strong>INSPEÇÃO</strong></h1>
                         </div>
                         <div>
                             <p class="text-white">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero unde rem vel voluptatem quia reprehenderit commodi. Aspernatur impedit neque maxime reprehenderit corporis incidunt ex! Porro provident optio ducimus illum maxime!
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit eveniet placeat laudantium quaerat itaque fugit ad dignissimos, ratione corrupti consequuntur suscipit optio ut quam incidunt est illum perspiciatis molestiae repudiandae?</p>
+                            illum perspiciatis molestiae repudiandae?</p>
                         </div>
                         <v-btn       
                         append-icon="mdi-arrow-top-right"
@@ -193,11 +193,11 @@
                 </div>
                 <div class="w-50 px-8 mt-6">
                     <div class="mb-4">
-                        <h1 class="text-h4 text-white"><span class="text-red-accent-4">#1</span> <span>SERVIÇOS DE ENGENHARIA DE</span> <strong>MANUTENÇÃO & CONFIABILIDADE</strong></h1>
+                        <h1 class="text-h4 text-white"><strong class="text-red-accent-4"># 3</strong> <strong>S3I</strong> <span> - SISTEMA INTELIGENTE DE INTERVENÇÃO INDUSTRIAL</span> </h1>
                     </div>
                     <div>
-                        <p class="text-white">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero unde rem vel voluptatem quia reprehenderit commodi. Aspernatur impedit neque maxime reprehenderit corporis incidunt ex! Porro provident optio ducimus illum maxime!
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit eveniet placeat laudantium quaerat itaque fugit ad dignissimos, ratione corrupti consequuntur suscipit optio ut quam incidunt est illum perspiciatis molestiae repudiandae?</p>
+                        <p class="text-white pr-6">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero unde rem vel voluptatem quia reprehenderit commodi. Aspernatur impedit neque maxime reprehenderit corporis incidunt ex! Porro provident optio ducimus illum maxime!
+                        est illum perspiciatis molestiae repudiandae?</p>
                     </div>
                     <v-btn       
                     append-icon="mdi-arrow-top-right"
@@ -214,11 +214,11 @@
                 <div class="w-50 pl-16 pr-4 mt-6">
                     <div class="ml-6">                 
                         <div class="mb-4">
-                            <h1 class="text-h4 text-white"><span class="text-red-accent-4">#1</span> <span>SERVIÇOS DE ENGENHARIA DE</span> <strong>MANUTENÇÃO & CONFIABILIDADE</strong></h1>
+                            <h1 class="text-h4 text-white"><strong class="text-red-accent-4"># 4</strong> <strong>SFT</strong> <span> - SISTEMA FIXO DE TERMOGRAFIA </span> </h1>
                         </div>
                         <div>
                             <p class="text-white">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero unde rem vel voluptatem quia reprehenderit commodi. Aspernatur impedit neque maxime reprehenderit corporis incidunt ex! Porro provident optio ducimus illum maxime!
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit eveniet placeat laudantium quaerat itaque fugit ad dignissimos, ratione corrupti consequuntur suscipit optio ut quam incidunt est illum perspiciatis molestiae repudiandae?</p>
+                             est illum perspiciatis molestiae repudiandae?</p>
                         </div>
                         <v-btn       
                         append-icon="mdi-arrow-top-right"
@@ -248,7 +248,7 @@
 
             <!--Visão-->
             <div 
-            class="w-100 d-none d-sm-flex"
+            class="w-100 d-none d-md-flex"
             style="height: 350px;  position: relative; " 
             >
                 <div style="position: absolute; top: 0; bottom: 0; right: 0; left: 0; " class="gradiente"></div>
@@ -297,7 +297,7 @@
 
             <!--Formularios-->
             <div
-            class="bg-grey-lighten-1 d-sm-flex d-none "
+            class="bg-grey-lighten-1 d-md-flex d-none "
             style="height: 550px; position: relative;"
             >
             <v-img src="~/assets/predred.png" width="100%" height="300px" cover style="position: absolute; bottom: 0; left: 0;"></v-img>
@@ -317,17 +317,17 @@
 
             </div>
 
-            <div class="d-sm-none h-100">
+            <div class="d-md-none h-100">
                 <v-img
                 src="~/assets/sobre.png"
                 height="550"
                 cover
-                class="pa-4 "
+                class="d-flex justify-center align-center pa-4"
                 >
-                <v-card>
-                        <v-card-item>
-                            <FormularioForm />
-                        </v-card-item>
+                    <v-card max-width="700" class="mx-auto">
+                            <v-card-item>
+                                <FormularioForm />
+                            </v-card-item>
                     </v-card>
                 </v-img>
             </div>
