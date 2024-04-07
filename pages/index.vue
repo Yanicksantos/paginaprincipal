@@ -2,16 +2,16 @@
     <div class="h-100 bg-blue-grey " style="overflow-x: hidden;">
         <div class="" style="position: relative;">
             <div class="d-none d-md-block">
-                <v-img src="~/assets/predwhitedesf2.png" width="700" 
+                <v-img src="~/assets/predwhitedesf2.png" width="600" 
                         style="position: absolute; top: 800px; left: 40%;  height: 200px; z-index: 100;"
                 ></v-img>
 
-                <v-img src="~/assets/predreddesf.png" width="700" cover
+                <v-img src="~/assets/predreddesf.png" width="600" 
                         style="position: absolute; top: 1810px; right: -1%;  height: 200px;"
                 ></v-img>
 
-                <v-img src="~/assets/predwhitedesf.png" width="85%" cover
-                        style="position: absolute; top: 3600px; left: 5%; z-index: 1;  "
+                <v-img src="~/assets/predwhitedesf.png" width="80%" cover
+                        style="position: absolute; top: 3630px; left: 5%; z-index: 14;  "
                 ></v-img>
                 
                 <v-img src="~/assets/predwhite.png" width="100" height="500" 
@@ -26,8 +26,8 @@
                         style="position: absolute; top: 52.5%; left:-2.5%; z-index: 1;  "
                 ></v-img>
 
-                <v-img src="~/assets/predblue.png" width="300" height="1180"  
-                        style="position: absolute; top: 4200px; right: -8%; z-index: 1;  "
+                <v-img src="~/assets/predblue.png" width="400" height="1220"  
+                        style="position: absolute; top: 4150px; right: -7%; z-index: 1;  "
                 ></v-img>
 
             </div>
@@ -54,7 +54,7 @@
 
                             <div>
                                 <div class="mt-2 pl-16">
-                                    <h2 class="text-white text-h4 montserrat-font">SUA PARCERIRA CONFIÁVEL</h2>
+                                    <h2 class="text-white text-h4  font-weight-thin">SUA PARCERIRA CONFIÁVEL</h2>
                                     <h2 class="text-white text-h4 montserrat-font ml-12">EM SOLUÇÕES INDUSTRIAIS</h2>
                                 </div>
 
@@ -91,13 +91,13 @@
                     <div class="">
                         <v-img src="~/assets/2.png" width="300" cover></v-img>
                         <div class="">
-                            <p class="text-h5 text-uppercase w-50 text-white montserrat-font">Obtenha <span class="text-white montserrat-font font-weight-black ">todo o potencial <br>na sua manutenção</span>  de <br>forma simples e estruturada</p>
+                            <p class="text-h5 text-uppercase w-50 text-grey-lighten-1 montserrat-font">Obtenha <span class="text-white Roboto-font font-weight-black " >todo o potencial <br>na sua manutenção</span>  de <br>forma simples e estruturada</p>
                         </div>
                         <div style="border: 10px solid white; width: 750px; height: 420px;" class=" d-flex justify-center align-center pa-3 mt-10" >
                             <v-img src="~/assets/mci.jpeg" cover height="400"></v-img>
                         </div>
                         <div class="my-6 ">
-                            <p class="text-white montserrat-font" style="width: 750px;">Desenvolvido pela Pred Engenharia, o método MCI® trouxe uma perspectiva inovadora que, diferente de outros métodos existentes no mercado, promove a integração da cadeia de valores da Manutenção através de atribuições e entregáveis claramente definidos e auditáveis...</p>
+                            <p class="text-grey-lighten-1 montserrat-font" style="width: 750px;">Desenvolvido pela Pred Engenharia, o método MCI® trouxe uma perspectiva inovadora que, diferente de outros métodos existentes no mercado, promove a integração da cadeia de valores da Manutenção através de atribuições e entregáveis claramente definidos e auditáveis...</p>
                         </div>
 
                         <v-btn
@@ -144,9 +144,9 @@
                 <div class="w-50">
                     <v-img src="~/assets/services1.png" ></v-img>
                 </div>
-                <div class="w-50 px-8 mt-6">
+                <div class="w-50 px-6 mt-6">
                     <div class="mb-4">
-                        <h1 class="text-h4 text-white"><strong class="text-red-accent-4"># 1</strong> <span>SERVIÇOS DE ENGENHARIA DE</span> <strong>MANUTENÇÃO & CONFIABILIDADE</strong></h1>
+                        <h1 class="text-h4 text-white montserrat-font"><strong class="text-red-accent-4"># 1</strong> <span  style="opacity: .8;">SERVIÇOS DE ENGENHARIA DE</span> <strong class="">MANUTENÇÃO & CONFIABILIDADE</strong></h1>
                     </div>
                     <div>
                         <p class="text-white pr-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero unde rem vel voluptatem quia reprehenderit commodi. Aspernatur impedit neque maxime reprehenderit corporis incidunt ex! Porro provident optio ducimus illum maxime!
@@ -168,7 +168,7 @@
                 <div class="w-50 pl-16 pr-4 mt-6">
                     <div class="ml-6">     
                         <div class="mb-4">
-                            <h1 class="text-h4 text-white"><strong class="text-red-accent-4"># 2</strong> <span>SERVIÇOS TÉCNICOS DE </span> <strong>INSPEÇÃO</strong></h1>
+                            <h1 class="text-h4 text-white "><strong class="text-red-accent-4"># 2</strong> <span class="" style="opacity: .8;">SERVIÇOS TÉCNICOS <br>DE </span> <strong>INSPEÇÃO</strong></h1>
                         </div>
                         <div>
                             <p class="text-white">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero unde rem vel voluptatem quia reprehenderit commodi. Aspernatur impedit neque maxime reprehenderit corporis incidunt ex! Porro provident optio ducimus illum maxime!
@@ -193,7 +193,7 @@
                 </div>
                 <div class="w-50 px-8 mt-6">
                     <div class="mb-4">
-                        <h1 class="text-h4 text-white"><strong class="text-red-accent-4"># 3</strong> <strong>S3I</strong> <span> - SISTEMA INTELIGENTE DE INTERVENÇÃO INDUSTRIAL</span> </h1>
+                        <h1 class="text-h4 text-white"><strong class="text-red-accent-4"># 3</strong> <strong>S3I</strong> <span  style="opacity: .8;"> - SISTEMA INTELIGENTE <br>DE INTERVENÇÃO INDUSTRIAL</span> </h1>
                     </div>
                     <div>
                         <p class="text-white pr-6">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero unde rem vel voluptatem quia reprehenderit commodi. Aspernatur impedit neque maxime reprehenderit corporis incidunt ex! Porro provident optio ducimus illum maxime!
@@ -214,7 +214,7 @@
                 <div class="w-50 pl-16 pr-4 mt-6">
                     <div class="ml-6">                 
                         <div class="mb-4">
-                            <h1 class="text-h4 text-white"><strong class="text-red-accent-4"># 4</strong> <strong>SFT</strong> <span> - SISTEMA FIXO DE TERMOGRAFIA </span> </h1>
+                            <h1 class="text-h4 text-white"><strong class="text-red-accent-4"># 4</strong> <strong>SFT</strong> <span style="opacity: .8;"> - SISTEMA FIXO DE TERMOGRAFIA </span> </h1>
                         </div>
                         <div>
                             <p class="text-white">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero unde rem vel voluptatem quia reprehenderit commodi. Aspernatur impedit neque maxime reprehenderit corporis incidunt ex! Porro provident optio ducimus illum maxime!
@@ -249,16 +249,17 @@
             <!--Visão-->
             <div 
             class="w-100 d-none d-md-flex"
-            style="height: 350px;  position: relative; " 
+            style="height: 300px;  position: relative; " 
             >
-                <div style="position: absolute; top: 0; bottom: 0; right: 0; left: 0; " class="gradiente"></div>
-                <div style="width: 50%;"></div>
-                <div class="" style="height: 350px;  width: 50%; background-image: url('/visao.png'); background-position: right right; background-size: cover;"></div>
+                <div style="position: absolute; top: 0; bottom: 0; right: 0; left: 0; background-color: rgba(21, 101, 192, .7); z-index: 10;" ></div>
+                <div style="position: absolute; top: 0; bottom: 0; right: 0; left: 0; background-color: rgba(0, 0, 0, .4); z-index: 12;" ></div>
+                <div style="width: 25%;"></div>
+                <div class="" style="height: 300px;  width: 75%; background-image: url('/visao.png'); background-position: center center; background-size: cover; "></div>
                 <!--Conteudo-->
-                <div style="position: absolute; top: -5%; bottom: 0; right: 0; left: 4%;  z-index: 1;">
-                    <div style="height: 370px; width: 45%;" class=" bg-red-accent-4 ml-16 rounded-te-xl rounded-be-xl rounded-bs-xl d-flex justify-center align-center" >
-                        <div class="px-10">
-                            <p class="text-h5 font-weight-light">A <span class="font-weight-black"> PRED ENGENHARIA</span> visa atender às necessidades das indústrias, na área de manutenção preditiva industrial, através de prestação de serviços e consultorias. Atua também na pesquisa e desenvolvimento de dispositivos, equipamentos e sistemas voltados para área de manutenção preditiva, instrumentação e controle.</p>
+                <div style="position: absolute; top: -6%; bottom: 0; right: 0; left: 4%;  z-index: 15;">
+                    <div style="height: 320px; width: 40%;" class=" bg-red-accent-4 ml-16 rounded-te-xl rounded-be-xl rounded-bs-xl d-flex justify-center align-center" >
+                        <div class="px-8">
+                            <p class="text-h6  montserrat-font" >A <span class="font-weight-black text-white Roboto-font" style="opacity: 1;"> PRED ENGENHARIA</span> visa atender às necessidades das indústrias, na área de manutenção preditiva industrial, através de prestação de serviços e consultorias. Atua também na pesquisa e desenvolvimento de dispositivos, equipamentos e sistemas voltados para área de manutenção preditiva, instrumentação e controle.</p>
                         </div>
                        
                     </div>
@@ -347,13 +348,13 @@
 
 
 <style>
-.texto-usado {
-  /* Pode usar a classe customizada para aplicar a fonte Montserrat também */
-  font-family: 'Montserrat', sans-serif;
-}
 
 .montserrat-font {
   font-family: 'Montserrat', sans-serif;
+}
+
+.Roboto-font {
+    font-family: 'Roboto', sans-serif;
 }
 
 .gradiente{
