@@ -38,7 +38,7 @@
 
                     
                     <div class="d-flex align-center justify-center my-6">
-                        <div class=" mr-10"><v-img src="~/assets/partelogo2.png" width="40"></v-img></div>
+                        <div class=" mr-10"><v-img src="/partelogo2.png" width="40"></v-img></div>
                         <h1 class="text-deep-purple-darken-4 font-weight-black">CONHEÇA-NOS</h1>
                     </div>
                  

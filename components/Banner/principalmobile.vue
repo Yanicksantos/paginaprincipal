@@ -1,7 +1,7 @@
 <template>
     <v-img
     class="d-md-none mt-14"
-    src="~/assets/5.svg"
+    src="/5.webp"
     cover
     
     height="600"

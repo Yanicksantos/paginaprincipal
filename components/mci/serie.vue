@@ -7,14 +7,20 @@
                 
                 <div class="w-100 ">
                     <v-container>
-                        <p class="text-center mb-4 text-body-1 text-md-h4">SÉRIE MCI NO YOUTUBE</p>
+                        <p class="text-center mb-4 text-body-1 text-md-h5">SÉRIE MCI® NO YOUTUBE: <span class="text-red">ELEVE SUA MANUTENÇÃO A UM NOVO PATAMAR</span> </p>
                         <div    
                         style="height: 1px; background-image: linear-gradient(to left, transparent,white, transparent);" 
                         class="mb-6 mx-auto w-75"
                         ></div>
                         <div>
-                            <p class="text-right my-4 w-75 mx-auto text-body-2 text-md-body-1">Quando se trata do setor de manutenção, você está obtendo o máximo da alta disponibilidade dos equipamentos da planta? Está impulsionando a produtividade ao máximo? Como anda a otimização dos custos e a eficiência nas rotinas de manutenção?</p>
-                            <p class="text-caption w-75  mx-auto">Nesta playlist, Ozório Rezende, diretor da Pred Engenharia, mergulha fundo no mundo da manutenção industrial e apresenta uma série de vídeos que vão revolucionar sua abordagem à manutenção. Prepare-se para uma jornada de descoberta e aprimoramento.</p>
+                            <p class="text-right my-4 w-75 mx-auto text-body-2 text-md-body-1">Você está realmente maximizando a disponibilidade dos equipamentos da sua
+                            planta? Como anda a sua produtividade? E o controle de custos e eficiência das
+                            rotinas de manutenção?</p>
+                            <p class="text-caption w-75  mx-auto">Em nossa playlist exclusiva, <span class="text-green-lighten-2">Ozório Rezende, Assessor Técnico da Pred Engenharia,</span> 
+                            mergulha profundamente no universo da manutenção industrial. <br><br><span class="text-body-1 mt-2">Prepare-se para
+                            uma série de vídeos que vão transformar a sua abordagem à manutenção. Esteja
+                            pronto para uma jornada de aprendizado e aprimoramento que levará sua
+                            manutenção a um novo patamar!</span> </p>
                         </div>
                         <div class="d-flex justify-space-around align-center py-4 d-sm-none">
                             <v-btn
@@ -51,7 +57,7 @@
                         <v-carousel-item
                           
                         >
-                        <nuxt-link to="https://www.youtube.com/playlist?list=PLA8tyKb1AjYCrcGFOOtj0GiE_o5Q4Rpdk" target="_blank"><v-img src='~/assets/mci/mciseries.jpg' height="180"></v-img></nuxt-link>
+                        <nuxt-link to="https://www.youtube.com/playlist?list=PLA8tyKb1AjYCrcGFOOtj0GiE_o5Q4Rpdk" target="_blank"><v-img src='mci/mciseries.jpg' height="180"></v-img></nuxt-link>
                         </v-carousel-item>
                     </v-carousel>
 
@@ -73,7 +79,7 @@
                                 ></iframe>
                             </v-carousel-item>
                             <v-carousel-item>
-                                <nuxt-link to="https://www.youtube.com/playlist?list=PLA8tyKb1AjYCrcGFOOtj0GiE_o5Q4Rpdk" target="_blank"><v-img src='~/assets/mci/mciseries.jpg' height="450" ></v-img></nuxt-link>
+                                <nuxt-link to="https://www.youtube.com/playlist?list=PLA8tyKb1AjYCrcGFOOtj0GiE_o5Q4Rpdk" target="_blank"><v-img src='/mci/mciseries.jpg' height="450" ></v-img></nuxt-link>
                             </v-carousel-item>
                         </v-carousel>
                     </v-container>

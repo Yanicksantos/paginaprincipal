@@ -3,7 +3,7 @@
         <form @submit.prevent="submit">
         <div>
             <div class="px-2 pb-2 d-flex justify-center align-center">
-             <v-img src="~/assets/partelogo.png" width="40" height="40"></v-img>  
+             <v-img src="/partelogo.png" width="40" height="40"></v-img>  
              <span class="text-h6  text-indigo-darken-4 ml-4">Insira seus dados no formulário abaixo para agendar a sua demonstração.</span>
              
             </div>
@@ -66,25 +66,6 @@
       </form>
     </div>
 </template>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 <script setup>
 import { useField, useForm } from 'vee-validate'

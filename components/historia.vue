@@ -16,31 +16,31 @@
              class="rounded-lg mb-4"
              >
                  <v-carousel-item
-                 src='~/assets/historias/2.jpeg'
+                 src='/historias/21.webp'
                  cover
                  class="rounded-lg "
                  ></v-carousel-item>
 
                  <v-carousel-item
-                 src='~/assets/historias/3.jpeg'
+                 src='/historias/31.webp'
                  cover
                  class="rounded-lg "
                  ></v-carousel-item>
 
                  <v-carousel-item
-                 src='~/assets/historias/4.jpeg'
+                 src='/historias/41.webp'
                  cover
                  class="rounded-lg "
                  ></v-carousel-item>
 
                  <v-carousel-item
-                 src='~/assets/historias/5.jpeg'
+                 src='/historias/51.webp'
                  cover
                  class="rounded-lg "
                  ></v-carousel-item>
 
                  <v-carousel-item
-                 src='~/assets/historias/6.jpeg'
+                 src='/historias/61.webp'
                  cover
                  class="rounded-lg "
                  ></v-carousel-item>
@@ -54,7 +54,7 @@
 
            
             <div class="d-flex align-center justify-center my-6">
-                <div class=" mr-10"><v-img src="~/assets/partelogo3.png" width="40"></v-img></div>
+                <div class=" mr-10"><v-img src="/partelogo3.png" width="40"></v-img></div>
                 <h1 class="text-deep-purple-darken-4 font-weight-black">UM POUCO DA NOSSA CAMINHADA</h1>
             </div>
 
@@ -67,24 +67,24 @@
                  class="rounded-xl mb-4 "
                  >
                  <v-carousel-item
-                 src='~/assets/historias/1.svg'
+                 src='/historias/1.webp'
                
                  ></v-carousel-item>
 
                  <v-carousel-item
-                 src='~/assets/historias/2.svg'
+                 src='/historias/2.webp'
                
                  ></v-carousel-item>
                  <v-carousel-item
-                 src='~/assets/historias/3.svg'
+                 src='/historias/3.webp'
                
                  ></v-carousel-item>
                  <v-carousel-item
-                 src='~/assets/historias/4.svg'
+                 src='/historias/4.webp'
                
                  ></v-carousel-item>
                  <v-carousel-item
-                 src='~/assets/historias/5.svg'
+                 src='/historias/5.webp'
                
                  ></v-carousel-item>
              </v-carousel>

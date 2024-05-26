@@ -7,7 +7,7 @@
           <v-col cols="6" class="bg-white  pa-4"><FormularioForm /></v-col>
           
           <v-col cols="6" >
-            <v-img src="~/assets/formulario.png"  height="500" ></v-img>
+            <v-img src="/formulario.png"  height="500" ></v-img>
           </v-col>
         </v-row>
       </v-container>
