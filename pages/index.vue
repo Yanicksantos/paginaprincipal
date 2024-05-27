@@ -1,5 +1,5 @@
 <template>
-    <div class="h-100 bg-blue-grey " style="overflow-x: hidden;">
+    <div class="h-100  " style="overflow-x: hidden; background-color: #838595;">
         <div class="" style="position: relative;">
             <div class="d-none d-md-block">
                 <v-img src="/predwhitedesf2.png" width="600" 
@@ -41,7 +41,7 @@
             >
                 <div style="position: absolute; top: 0; bottom: 0; left: 0; right: 0; background-color: rgba(0, 0, 0, .2);"></div>
                 <div class="h-75 w-50 pl-16 pr-4 " style="position: relative">
-                    <v-img src="/partelogo2.png" width="200" class="" ></v-img>
+                    <v-img src="/partelogo2.webp" width="200" class="" ></v-img>
                     <div style="position: absolute; top: 0; left: 0; bottom: 0; right: 0; z-index: 10;">
                         <div class="">
                             <div class="d-flex align-center  montserrat-font  " style="height: 200px; ">
@@ -90,16 +90,16 @@
             <!--mci-->
             <div 
             class="d-none d-md-block"
-            style="background-image: url('/bgmci.png'); background-size: cover; height: 1000px; overflow: hidden; background-position: left left; " 
+            style="background-image: url('/bgmci.webp'); background-size: cover; height: 1000px; overflow: hidden; background-position: left left; " 
             >
                 <v-container>
                     <div class="">
-                        <v-img src="/2.png" width="300" cover></v-img>
+                        <v-img src="/2.webp" width="300" cover></v-img>
                         <div class="">
                             <p class="text-h5 text-uppercase w-50 text-grey-lighten-1 montserrat-font">Obtenha <span class="text-white Roboto-font font-weight-black " >todo o potencial <br>na sua manutenção</span>  de <br>forma simples e estruturada</p>
                         </div>
                         <div style="border: 10px solid white; width: 750px; height: 420px;" class=" d-flex justify-center align-center pa-3 mt-10" >
-                            <v-img src="/mci.jpeg" cover height="400"></v-img>
+                            <v-img src="/mci.webp" cover height="400"></v-img>
                         </div>
                         <div class="my-4 ">
                             <p class="text-grey-lighten-1 montserrat-font" style="width: 750px;">Com o <span class="text-red text-h6">método MCI® da Pred Engenharia,</span>  você experimentará uma perspectiva
@@ -138,20 +138,20 @@
             <!--serviços-->
             <div 
             class="pb-16 d-none d-md-block"
-            style="background-image: url('/pred_site_03.png'); background-size: cover; overflow: hidden;" 
+            style="background-image: url('/pred_site_03.webp'); background-size: cover; overflow: hidden;" 
             >
             
         
 
             <div class="d-flex pa-16 align-center">
-                <div class=" mr-10"><v-img src="/partelogo2.png" width="40"></v-img></div>
+                <div class=" mr-10"><v-img src="/partelogo2.webp" width="40"></v-img></div>
                 
                 <h1 class="text-white montserrat-font font-weight-black">NOSSOS SERVIÇOS</h1>
             </div>
 
             <div class="w-100 d-flex">
                 <div class="w-50">
-                    <v-img src="/services1.png" ></v-img>
+                    <v-img src="/services1.webp" ></v-img>
                 </div>
                 <div class="w-50 px-6 mt-6">
                     <div class="mb-4">
@@ -203,13 +203,13 @@
                     </div>
 
                 </div>
-                <div class="w-50"><v-img src="/services2.jpg" ></v-img></div>
+                <div class="w-50"><v-img src="/services2.webp" ></v-img></div>
             </div>
 
 
             <div class="w-100 d-flex">
                 <div class="w-50">
-                    <v-img src="/services3.png" ></v-img>
+                    <v-img src="/services3.webp" ></v-img>
                 </div>
                 <div class="w-50 px-8 mt-6">
                     <div class="mb-4">
@@ -256,7 +256,7 @@
                     </div>
 
                 </div>
-                <div class="w-50"><v-img src="/services4.png" ></v-img></div>
+                <div class="w-50"><v-img src="/services4.webp" ></v-img></div>
             </div>
 
 
@@ -281,7 +281,7 @@
                 <div style="position: absolute; top: 0; bottom: 0; right: 0; left: 0; background-color: rgba(21, 101, 192, .7); z-index: 10;" ></div>
                 <div style="position: absolute; top: 0; bottom: 0; right: 0; left: 0; background-color: rgba(0, 0, 0, .4); z-index: 12;" ></div>
                 <div style="width: 25%;"></div>
-                <div class="" style="height: 300px;  width: 75%; background-image: url('/visao.png'); background-position: center center; background-size: cover; "></div>
+                <div class="" style="height: 300px;  width: 75%; background-image: url('/visao.webp'); background-position: center center; background-size: cover; "></div>
                 <!--Conteudo-->
                 <div style="position: absolute; top: -6%; bottom: 0; right: 0; left: 4%;  z-index: 15;">
                     <div style="height: 320px; width: 40%;" class=" bg-red-accent-4 ml-16 rounded-te-xl rounded-be-xl rounded-bs-xl d-flex justify-center align-center" >
@@ -302,10 +302,10 @@
             <div class="mb-2 bg-white">
                 <v-container class="w-100 ">
                     <v-row class="w-100 ">
-                        <v-col cols="6" md="3"><v-img src="/parceiro/1.png" ></v-img></v-col>
-                        <v-col cols="6" md="3"><v-img src="/parceiro/2.png"></v-img></v-col>
-                        <v-col cols="6" md="3"><v-img src="/parceiro/3.png"></v-img></v-col>
-                        <v-col cols="6" md="3"><v-img src="/parceiro/4.png"></v-img></v-col>
+                        <v-col cols="6" md="3"><v-img src="/parceiro/1.webp" ></v-img></v-col>
+                        <v-col cols="6" md="3"><v-img src="/parceiro/2.webp"></v-img></v-col>
+                        <v-col cols="6" md="3"><v-img src="/parceiro/3.webp"></v-img></v-col>
+                        <v-col cols="6" md="3"><v-img src="/parceiro/4.webp"></v-img></v-col>
                     </v-row>
                 </v-container>
             </div>
@@ -315,7 +315,7 @@
             <!--Historias e Conheça-nos-->
             <div
             
-            style=" background-image: url('/pred_site_04.png'); background-size: cover; background-position: center center;"
+            style=" background-image: url('/pred_site_04.webp'); background-size: cover; background-position: center center;"
             >
                 <historia  style="position: relative; z-index: 10;"/>
 
@@ -330,7 +330,7 @@
             >
             <v-img src="/predred.png" width="100%" height="300px" cover style="position: absolute; bottom: 0; left: 0;"></v-img>
                 <div class=" h-100 w-50">
-                    <v-img src="/sobre.png"  width="100%" class="h-100" cover 
+                    <v-img src="/sobre.webp"  width="100%" class="h-100" cover 
                     ></v-img>
                 </div>
 
@@ -347,7 +347,7 @@
 
             <div class="d-md-none h-100">
                 <v-img
-                src="/sobre.png"
+                src="/sobre.webp"
                 height="550"
                 cover
                 class="d-flex justify-center align-center pa-4"

@@ -86,7 +86,7 @@
             { title:'Capacitação de Equipes', icon:'mdi-info'}, 
             {title:'Auditoria da Manutenção', icon:'mdi-info'}
           ],
-          src:'/services1.png',
+          src:'/services1.webp',
           to: '/services/engenharia-manutencao-e-confiabilidade'
         },
 
@@ -99,7 +99,7 @@
             {title:'Inspeções', icon:'mdi-info'}, 
             {title:'Inspeções por Ultrassom', icon:'mdi-info'}
           ],
-          src:'/services2.jpg',
+          src:'/services2.webp',
           to:'/services/inspecoes' 
         },
 
@@ -108,7 +108,7 @@
           id:3,
           title: 'S3I - Sistema Inteligente de Inspeção Industrial',
           subtile: false,
-          src:'/services3.png',
+          src:'/services3.webp',
           content:'Lorem ipsum dolor hjfjhjf sit amet, consectetur adipisicing elit. Quibusdam quas animi neque aliquam voluptate, magnam dolorum eveniet, tempore aspernatur alias quo nam ut consequatur nulla officiis velit rem sint quos!',
           to:'/services/s3i' 
         },
@@ -117,7 +117,7 @@
           id:4,
           title: 'SFT - Sistema Fixo de Termografia',
           subtile: false,
-          src:'/services4.png',
+          src:'/services4.webp',
           content:'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam quas animi neque aliquam voluptate, magnam dolorum eveniet, tempore aspernatur alias quo nam ut consequatur nulla officiis velit rem sint quos!',
           to:'/services/sft'  
         },

@@ -12,7 +12,7 @@
                    <span class="text-red text-body-1">Serviços Técnicos, Tecnologia da Informação e Automação Industrial.</span>  
                     </p>
                 </div>
-                <v-img src="/sobre/2.jpg" class="rounded mx-auto" max-width="600"></v-img>
+                <v-img src="/sobre/2.webp" class="rounded mx-auto" max-width="600"></v-img>
             </div>
 
 
@@ -43,7 +43,7 @@
 
 
             <div class="bg-indigo-darken-4 d-flex  align-center flex-column h-100" 
-                style="background-image: url('/2.svg'); background-position: 100%; background-size: cover; background-attachment: fixed;"
+                style="background-image: url('/2.webp'); background-position: 100%; background-size: cover; background-attachment: fixed;"
             >
                 
                     <div style="background-color: rgba(26, 35, 126, .9);" class="w-100 h-100 px-5 py-8">

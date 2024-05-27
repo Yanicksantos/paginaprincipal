@@ -5,7 +5,7 @@
         gradient="to top, rgba(0,0,0,.9), rgba(0,0,0,.7),transparent"
         height="350"
         cover
-        src="/services1.png"
+        src="/services1.webp"
         >
             <div class=" d-flex flex-column justify-center align-center w-100 h-100 pa-4" style="background-image: linear-gradient(to top, rgba(0,0,0,.9), rgba(0,0,0,.7),transparent);">
                 <div><v-icon icon="mdi-cog-play" size="50"></v-icon></div>
@@ -21,7 +21,7 @@
         gradient="to top, rgba(0,0,0,.9), rgba(0,0,0,.7),transparent"
         height="600"
         cover
-        src="/services1.png"
+        src="/services1.webp"
         >
             <div class=" d-flex flex-column justify-center align-center w-100 h-100 pa-4" style="background-image: linear-gradient(to top, rgba(0,0,0,.9), rgba(0,0,0,.7),transparent);">
                 <div><v-icon icon="mdi-cog-play" size="50"></v-icon></div>
@@ -43,7 +43,7 @@
                     </div>
 
                     <div class="px-6 pb-4">
-                        <v-img src="/man/1.jpg" class="rounded my-6" max-width="700"></v-img>
+                        <v-img src="/man/1.webp" class="rounded my-6" max-width="700"></v-img>
                         <div class="text-grey-darken-3 my-4">
                             <p class="text-caption my-2">A sistemática eficiente da manutenção pode gerar uma redução significativa, entre
                             15% e 30%, nos custos fixos e variáveis. <span class="font-italic">(Enterprise Resource Planning)</span>, é hora da manutenção partir para uma nova forma de integrar seus ativos reduzindo custos e melhorando controles.</p>
@@ -118,7 +118,7 @@
                             <p class="text-body-2 text-md-body-1 mb-2">Na Pred Engenharia, oferecemos cinco serviços essenciais de engenharia para
                             otimizar seus processos de lubrificação e impulsionar a eficiência técnica, gerencial
                             e financeira:</p>
-                            <v-img src="/man/2.png" class="rounded mx-auto my-4" max-width="500"></v-img>
+                            <v-img src="/man/2.webp" class="rounded mx-auto my-4" max-width="500"></v-img>
                         </div>
                     </v-container>
                 </div>
@@ -137,7 +137,7 @@
                             <p class="text-white text-caption s font-weight-light">O seu planejamento da manutenção foi feito em campo ou dentro de sala?</p>
                         </div>
                         <div >
-                            <v-img src="/man/3.png" class="rounded-shaped my-6 mx-auto" max-width="700"></v-img>
+                            <v-img src="/man/3.webp" class="rounded-shaped my-6 mx-auto" max-width="700"></v-img>
                             <div>
                                 <p class="text-body-2 text-md-body-1 mt-4">Um plano de manutenção bem elaborado, feito por profissionais experientes e no
                                 local, não só aumenta a eficácia das operações, mas também reduz o tempo de
@@ -164,7 +164,7 @@
                             <p class="text-white text-caption s font-weight-light">Um diagnóstico racional da sua manutenção fornecerá subsídios para decisões que poderão reduzir seus custos na ordem de 15 a 30%.</p>
                         </div>
                         <div >
-                            <v-img src="/man/4.png" class="rounded-shaped my-6 mx-auto" max-width="600"></v-img>
+                            <v-img src="/man/4.webp" class="rounded-shaped my-6 mx-auto" max-width="600"></v-img>
                             <p class="text-body-2 text-md-body-1 mt-4">A metodologia Pred Engenharia para a elaboração do diagnóstico da manutenção lhe permite cruzar informações de cinco fontes, e assim obter indicadores que determinarão as medidas necessárias para otimizar os resultados de sua manutenção.</p>
                         </div>
                     </v-container>
@@ -226,7 +226,7 @@
                             <p class="text-grey-darken-3 text-caption text-medium-emphasis font-weight-light">Confira, através de auditorias, se os planos e as rotinas de sua manutenção estão sendo de fato atualizados na linha do tempo.</p>
                         </div>
                         <div >
-                            <v-img src="/man/5.jpg" class="rounded my-6 mx-auto" max-width="600"></v-img>
+                            <v-img src="/man/5.webp" class="rounded my-6 mx-auto" max-width="600"></v-img>
                             <p class="text-body-2  text-md-body-1 mb-3">O grande desafio dos gestores da manutenção é garantir que, os processos de análise crítica sobre as rotinas da manutenção, estejam acontecendo e que os resultados destes estejam sendo usados na otimização do plano de manutenção.</p>
                             <p class="text-body-2 text-md-body-1 mb-2">Com um programa regular de auditorias você terá como detectar a descontinuidade destes processos e tomar medidas para a regularização, antes que os mesmos reflitam na sua taxa de falhas/interrupções e/ou nos custos da manutenção.</p>
                         </div>

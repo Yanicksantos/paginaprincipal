@@ -2,7 +2,7 @@
     <v-img
     class="d-md-none" 
     cover
-    src="/visao.png"
+    src="/visao.webp"
     height="400"
     >
         <div style="height: 400px; position: relative; background-color: rgba(0, 0, 0, .2);" class="">

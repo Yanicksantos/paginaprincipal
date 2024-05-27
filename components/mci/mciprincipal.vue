@@ -1,19 +1,19 @@
 <template>
     <v-img
-    src="/4.jpg"
+    src="/4.webp"
     cover
     class="d-md-none"
     dark
     >
         <div class="d-flex flex-column justify-center pa-6 ">
             <div class="">
-                <v-img src="/mcilogo.png" cover max-width="50" class="mx-auto"></v-img>
+                <v-img src="/mcilogo.webp" cover max-width="50" class="mx-auto"></v-img>
                 <p class="w-100 mx-auto my-4 px-4 text-center text-h5 text-black">Obtenha <strong>todo o potencial na sua manutenção </strong>de forma simples e estruturada</p>
             </div>
             <div>
                 <v-container>
                     <v-row>
-                        <v-col cols="12"><v-img src="/mci.jpeg"></v-img></v-col>
+                        <v-col cols="12"><v-img src="/mci.webp"></v-img></v-col>
                         <v-col cols="12"> <p class="text-body-2 text-black">Desenvolvido pela Pred Engenharia, o método MCI® trouxe uma perspectiva inovadora que, diferente de outros métodos existentes no mercado, promove a integração da cadeia de valores da Manutenção através de atribuições e entregáveis claramente definidos e auditáveis...
                         </p>
                         

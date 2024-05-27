@@ -1,6 +1,6 @@
 <template>
     <div>
-        <div style="background-image: url('/1.jpg'); background-size: cover; background-position: center center; height: 400px;" class="d-sm-none">
+        <div style="background-image: url('/1.webp'); background-size: cover; background-position: center center; height: 400px;" class="d-sm-none">
             <div class="w-100 h-100 d-flex justify-center align-center pa-2 " style="background-color: rgba(0, 0, 0, .75);">
                 <div class="elevation-24 pa-4 rounded" style="background-color: rgba(0, 0, 0, .3);">
                     <h1 class="text-h5 font-weight-black text-white">Especializada em soluções de confiabilidade e produtividade para áreas de O&M</h1>
@@ -16,7 +16,7 @@
         </div>
 
         <!-- desktop -->
-        <div style="background-image: url('/1.jpg'); background-size: cover; background-position: center center; height: 600px;" class="d-none d-sm-block">
+        <div style="background-image: url('/1.webp'); background-size: cover; background-position: center center; height: 600px;" class="d-none d-sm-block">
             <div class="w-100 h-100 d-flex justify-center align-center pa-2 " style="background-color: rgba(0, 0, 0, .75);">
                 <v-container>
                     <div class="elevation-24 pa-8 rounded text-center" style="background-color: rgba(0, 0, 0, .3);">

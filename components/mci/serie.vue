@@ -1,7 +1,7 @@
 <template >
     <div>
         <div class="bg-indigo-darken-4 d-flex  align-center flex-column h-100" 
-            style="background-image: url('/2.svg'); background-position: 100%; background-size: cover; background-attachment: fixed;"
+            style="background-image: url('/2.webp'); background-position: 100%; background-size: cover; background-attachment: fixed;"
         >
             <div style="background-color: rgba(26, 35, 126, .9);" class="w-100 h-100 px-5 py-8">
                 
@@ -57,7 +57,7 @@
                         <v-carousel-item
                           
                         >
-                        <nuxt-link to="https://www.youtube.com/playlist?list=PLA8tyKb1AjYCrcGFOOtj0GiE_o5Q4Rpdk" target="_blank"><v-img src='mci/mciseries.jpg' height="180"></v-img></nuxt-link>
+                        <nuxt-link to="https://www.youtube.com/playlist?list=PLA8tyKb1AjYCrcGFOOtj0GiE_o5Q4Rpdk" target="_blank"><v-img src='/mci/mciseries.webp' height="180"></v-img></nuxt-link>
                         </v-carousel-item>
                     </v-carousel>
 
@@ -79,7 +79,7 @@
                                 ></iframe>
                             </v-carousel-item>
                             <v-carousel-item>
-                                <nuxt-link to="https://www.youtube.com/playlist?list=PLA8tyKb1AjYCrcGFOOtj0GiE_o5Q4Rpdk" target="_blank"><v-img src='/mci/mciseries.jpg' height="450" ></v-img></nuxt-link>
+                                <nuxt-link to="https://www.youtube.com/playlist?list=PLA8tyKb1AjYCrcGFOOtj0GiE_o5Q4Rpdk" target="_blank"><v-img src='/mci/mciseries.webp' height="450" ></v-img></nuxt-link>
                             </v-carousel-item>
                         </v-carousel>
                     </v-container>
