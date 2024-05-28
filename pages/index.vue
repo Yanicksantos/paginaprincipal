@@ -1,5 +1,5 @@
 <template>
-    <div class="h-100  " style="overflow-x: hidden; background-color: #838595; max-width: 1280px">
+    <div class="h-100  " style="overflow-x: hidden; background-color: #838595; ">
         <div class="" style="position: relative;">
             <div class="d-none d-md-block">
                 <v-img src="/predwhitedesf2.png" width="600" 
