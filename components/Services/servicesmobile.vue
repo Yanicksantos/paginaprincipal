@@ -106,10 +106,10 @@
 
         {
           id:3,
-          title: 'S3I - Sistema Inteligente de Inspeção Industrial',
+          title: 'S3I® - Sistema Inteligente de Inspeção Industrial',
           subtile: false,
           src:'/services3.webp',
-          content:'Lorem ipsum dolor hjfjhjf sit amet, consectetur adipisicing elit. Quibusdam quas animi neque aliquam voluptate, magnam dolorum eveniet, tempore aspernatur alias quo nam ut consequatur nulla officiis velit rem sint quos!',
+          content:'Convidamos você a explorar uma nova era na gestão industrial. Imagine uma ferramenta que não apenas simplifica, mas também aprimora cada etapa da sua manutenção. Aperte abaixo para mergulhar no mundo do S3i® e descubra como ele pode elevar sua operação a novos patamares de excelência.',
           to:'/services/s3i' 
         },
 
@@ -118,7 +118,7 @@
           title: 'SFT - Sistema Fixo de Termografia',
           subtile: false,
           src:'/services4.webp',
-          content:'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam quas animi neque aliquam voluptate, magnam dolorum eveniet, tempore aspernatur alias quo nam ut consequatur nulla officiis velit rem sint quos!',
+          content:'Imagine ter o controle completo das temperaturas críticas em suas operações industriais, mesmo em condições desafiadoras. Com o Sistema Fixo de Termografia (SFT) da Pred Engenharia, essa visão se torna realidade. Quer descobrir como o SFT (Sistema Fixo de Termografia ) pode transformar sua abordagem à segurança operacional e eficiência na indústria? Aperte abaixo para saber mais sobre essa ferramenta inteligente de monitoramento termográfico e leve sua operação a um novo patamar de precisão e confiabilidade.',
           to:'/services/sft'  
         },
       

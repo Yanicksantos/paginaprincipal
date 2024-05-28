@@ -33,7 +33,8 @@
             <div>
                 <v-container>
                     <div class="px-6 py-4">
-                        <h1 class="text-body-2 text-md-body-1 font-weight-bold text-center">Uma solução da Pred acompanhada de engenharia de aplicação e ferramentas específicas</h1>
+                        <h1 class="text-body-2 text-md-body-1 font-weight-bold text-center">Uma solução da Pred acompanhada de engenharia de aplicação e ferramentas
+                            específicas</h1>
                         <div 
                         style="width: 50%; height: 1px; background-image: linear-gradient(to left, transparent, #1A237E, transparent);" 
                         class="mx-auto my-6"></div>
@@ -41,9 +42,12 @@
                     </div>
 
                     <div class="px-6 pb-1 d-md-none">
+                        <h1>SFT: Seu Aliado Confiável para Controle Térmico na Indústria
+</h1>
                         <p class="text-caption my-2">Na indústria, muitas anormalidades ou acidentes operacionais poderiam ser facilmente evitados ou amenizado os seus impactos, se as operações fossem visualizadas em tempo real e integral. Inconvenientes como baixa luminosidade, mal tempo e condições operacionais adversas, dificultam a visualização das operações e consequentemente ampliam a probabilidade da ocorrência de um acidente ou da perda do controle de um processo.</p>
                         <v-img src="/sft/1.webp" class="rounded " cover height="200"></v-img>
                         <div class="text-grey-darken-3 ">
+
                             <p class="text-caption my-2">A termografia por infravermelho é o método mais confiável e preciso no acompanhamento contínuo de operações onde a temperatura é uma das variáveis do processo. As câmeras termográficas utilizadas pela Pred Engenharia, possuem lentes com zoom contínuo oferecendo uma solução singular de rastreamento e medição de temperaturas em diferentes distancias. A lente de zoom é totalmente controlada por software especialista. Os sistemas fixos de termografia (SFT), fornecidos pela Pred Engenharia, são customizados para atender as mais diversas aplicações de análises e avaliações sistêmicas de irregularidades quantitativas e/ou qualitativas. Sua aplicação se faz presente em processos relacionados à visão de apoio e em controle de processos.</p>
                             <p class="text-caption my-2">Único no mercado que realiza auditoria da qualidade e efetividade de todos os tipos de inspeção em tempo real por meio de uma metodologia própria.</p>
                             <v-img src="/sft/2.webp" class="rounded mt-4" ></v-img>
@@ -52,8 +56,12 @@
 
                     <div class="d-none d-md-block">
                         <v-row class="my-4">
-                            <v-col cols="5" class="d-flex justify-center align-center"> 
-                                <p class="text-body-1 pa-2">Na indústria, muitas anormalidades ou acidentes operacionais poderiam ser facilmente evitados ou amenizado os seus impactos, se as operações fossem visualizadas em tempo real e integral. Inconvenientes como baixa luminosidade, mal tempo e condições operacionais adversas, dificultam a visualização das operações e consequentemente ampliam a probabilidade da ocorrência de um acidente ou da perda do controle de um processo.</p>
+                            <v-col cols="5" class="d-flex flex-column justify-center align-center"> 
+                                <h1 class="text-h6 mb-4 font-weight-black">SFT: Seu Aliado Confiável para Controle Térmico na Indústria</h1>
+                                <p class="text-body-1 pa-2">Na indústria, a segurança e a eficiência operacional são essenciais. Imagine se você
+                                pudesse visualizar suas operações em tempo real, mesmo em condições
+                                desafiadoras como baixa luminosidade ou clima adverso. Com o Sistema Fixo de
+                                Termografia (SFT) da Pred Engenharia, isso é possível!</p>
                             </v-col>
                             <v-col cols="7">
                                 <v-img src="/sft/1.webp" class="rounded-xl " height="400" cover></v-img>
@@ -66,8 +74,10 @@
                            </v-col>
                             <v-col cols="6" class="d-flex justify-center align-center">
                                 <div>
-                                    <p class="text-body-1 pa-2 my-2">A termografia por infravermelho é o método mais confiável e preciso no acompanhamento contínuo de operações onde a temperatura é uma das variáveis do processo. As câmeras termográficas utilizadas pela Pred Engenharia, possuem lentes com zoom contínuo oferecendo uma solução singular de rastreamento e medição de temperaturas em diferentes distancias. A lente de zoom é totalmente controlada por software especialista. Os sistemas fixos de termografia (SFT), fornecidos pela Pred Engenharia, são customizados para atender as mais diversas aplicações de análises e avaliações sistêmicas de irregularidades quantitativas e/ou qualitativas. Sua aplicação se faz presente em processos relacionados à visão de apoio e em controle de processos.</p>
-                                    <p class="text-body-1 pa-2 my-2">Único no mercado que realiza auditoria da qualidade e efetividade de todos os tipos de inspeção em tempo real por meio de uma metodologia própria.</p>
+                                    <p class="text-body-1 pa-2 my-2">O SFT é muito mais do que apenas uma câmera termográfica. É uma solução
+                                    completa, acompanhada de engenharia de aplicação e ferramentas específicas para
+                                    garantir o máximo desempenho em diversas aplicações industriais.</p>
+                                   
                                 </div>
                            </v-col>
                           
@@ -110,12 +120,17 @@
 
 
                         <div class="d-none d-md-block">
+                            <div class="mb-6 text-center text-indigo-darken-4"><h1>Por que escolher o SFT? Aqui estão alguns benefícios-chave:</h1></div>
                             <v-row>
                                 <v-col>
+
                                     <div>
-                                        <h1 class="text-body-1 font-weight-bold px-6 my-4">Visão de Apoio</h1>
-                                            <p class="text-body-1 mt-8 px-6">Com ênfase na segurança operacional em equipamentos e processos, esse tipo de aplicação, classificada de baixo custo e de alto valor agregado, é essencialmente qualitativa (distribuição térmica) e possibilita supervisão em tempo real e integral.</p>
-                                        </div>
+                                        <h1 class="text-body-1 font-weight-bold px-6 my-4">Precisão e Confiabilidade</h1>
+                                            <p class="text-body-1 mt-8 px-6">A termografia por infravermelho é o método mais
+                                            confiável para monitoramento contínuo de operações onde a temperatura é
+                                            crítica. Nossas câmeras termográficas possuem lentes com zoom contínuo,
+                                            oferecendo medição precisa em diferentes distâncias.</p>
+                                    </div>
                                 </v-col>
                                 <v-col>
                                     <v-img src="/sft/3.webp" class="rounded mt-4" height="200" cover></v-img>
@@ -125,8 +140,10 @@
                             <v-row class="text-grey-darken-3 my-6">
                                 <v-col>
                                     <div>
-                                        <h1 class="text-body-1 font-weight-bold px-6 my-4">Controle de Processos</h1>
-                                            <p class="text-body-1 mt-8 px-6">A termografia aplicada a controle de processos visa assegurar qualidade, produtividade e/ou segurança. As aplicações são qualitativas e também quantitativas em operações em tempo real e integral.</p>
+                                        <h1 class="text-body-1 font-weight-bold px-6 my-4">Visão de Apoio</h1>
+                                            <p class="text-body-1 mt-8 px-6">Priorizando a segurança operacional, o SFT oferece uma
+                                            visão qualitativa em tempo real, permitindo a supervisão integral das
+                                            operações.</p>
                                         </div>
                                 </v-col>
                                 <v-col>
@@ -139,13 +156,28 @@
                                     <v-img src="/sft/4.webp" class="rounded mt-4" height="400" cover></v-img>
                                 </v-col>
                                 <v-col cols="7" class="d-flex justify-center align-center">
+                                    <div class="d-flex flex-column">
+
+                                    
                                     <div>
-                                        <p  class="text-body-1 pa-2 my-2">As soluções da Pred, aplicadas a controle de processos são sempre acompanhadas de engenharia de aplicação e ferramentas específicas. O Portal SFT é uma dessas ferramentas. É um sistema inteligente para a supervisão e monitoração de tendências termográficas de equipamentos e processos nas mais diversas aplicações industriais. O Portal SFT é totalmente configurável e apto a trabalhar em nuvem.</p>
-                                        <p class="text-body-1 pa-2  my-2">A termografia por infravermelho é o método mais confiável e preciso no acompanhamento contínuo de operações em locais com condições adversas para visualização.</p> 
+                                        <h1 class="text-body-1 font-weight-bold px-6 my-4">Controle de Processos</h1>
+                                        <p class="text-body-1 pa-2  my-2">Garanta qualidade, produtividade e segurança em
+                                        suas operações com análises qualitativas e quantitativas em tempo real.</p> 
                                     </div>
+
+                                    <div>
+                                        <h1 class="text-body-1 font-weight-bold px-6 my-4">Engenharia Especializada</h1>
+                                        <p class="text-body-1 pa-2  my-2">Nossas soluções são acompanhadas de
+                                        engenharia de aplicação e ferramentas específicas, incluindo o Portal SFT, um
+                                        sistema inteligente para monitorar tendências termográficas em nuvem.</p> 
+                                    </div>
+                                </div>
                                 </v-col>
                               
                             </v-row>
+                            <p class="text-body-1 text-indigo-darken-4">Obtenha o potencial da sua operação com o SFT da Pred Engenharia. Conte com a
+                            termografia por infravermelho para manter suas operações seguras e eficientes,
+                            mesmo nas condições mais adversas.</p>
                         </div>                    
                     </v-container>
                 </div>

@@ -1,5 +1,5 @@
 <template>
-    <div class="h-100  " style="overflow-x: hidden; background-color: #838595;">
+    <div class="h-100  " style="overflow-x: hidden; background-color: #838595; max-width: 1280px">
         <div class="" style="position: relative;">
             <div class="d-none d-md-block">
                 <v-img src="/predwhitedesf2.png" width="600" 
@@ -11,7 +11,7 @@
                 ></v-img>
 
                 <v-img src="/predwhitedesf.png" width="80%" cover
-                        style="position: absolute; top: 3630px; left: 5%; z-index: 14;  "
+                        style="position: absolute; top: 3550px; left: 5%; z-index: 14;  "
                 ></v-img>
                 
                 <v-img src="/predwhite.png" width="100" height="500" 
@@ -27,7 +27,7 @@
                 ></v-img>
 
                 <v-img src="/predblue.png" width="400" height="1220"  
-                        style="position: absolute; top: 4150px; right: -7%; z-index: 1;  "
+                        style="position: absolute; top: 4050px; right: -7%; z-index: 1;  "
                 ></v-img>
 
             </div>
@@ -158,7 +158,7 @@
                         <h1 class="text-h4 text-white montserrat-font"><strong class="text-red-accent-4"># 1</strong> <span  style="opacity: .8;">SERVIÇOS DE ENGENHARIA DE</span> <strong class="">MANUTENÇÃO & CONFIABILIDADE</strong></h1>
                     </div>
                     <div>
-                        <p class="text-white pr-4">Na Pred Engenharia, oferecemos uma gama completa de serviços de engenharia
+                        <p class="text-white pr-4 text-body-2">Na Pred Engenharia, oferecemos uma gama completa de serviços de engenharia
                         projetados para otimizar a performance dos seus equipamentos e processos
                         industriais. De diagnósticos precisos a treinamentos especializados, nossa equipe
                         de especialistas está aqui para impulsionar a eficiência, reduzir custos e maximizar
@@ -184,7 +184,7 @@
                             <h1 class="text-h4 text-white "><strong class="text-red-accent-4"># 2</strong> <span class="" style="opacity: .8;">SERVIÇOS TÉCNICOS <br>DE </span> <strong>INSPEÇÃO</strong></h1>
                         </div>
                         <div>
-                            <p class="text-white">Na Pred Engenharia, oferecemos mais do que simples inspeções; oferecemos uma
+                            <p class="text-white text-body-2">Na Pred Engenharia, oferecemos mais do que simples inspeções; oferecemos uma
                             visão detalhada e abrangente do estado dos seus equipamentos industriais. Nossos
                             serviços técnicos de inspeção vão além do óbvio, utilizando tecnologias avançadas
                             e abordagens inovadoras para revelar os segredos que podem estar escondidos nas
@@ -213,12 +213,12 @@
                 </div>
                 <div class="w-50 px-8 mt-6">
                     <div class="mb-4">
-                        <h1 class="text-h4 text-white"><strong class="text-red-accent-4"># 3</strong> <strong>S3I</strong> <span  style="opacity: .8;"> - SISTEMA INTELIGENTE <br>DE INTERVENÇÃO INDUSTRIAL</span> </h1>
+                        <h1 class="text-h4 text-white"><strong class="text-red-accent-4"># 3</strong> <strong>S3I®</strong> <span  style="opacity: .8;"> - SISTEMA INTELIGENTE <br>DE INTERVENÇÃO INDUSTRIAL</span> </h1>
                     </div>
                     <div>
-                        <p class="text-white pr-6">Convidamos você a explorar uma nova era na gestão industrial.
+                        <p class="text-white pr-6 text-body-2">Convidamos você a explorar uma nova era na gestão industrial.
                         Imagine uma ferramenta que não apenas simplifica, mas também aprimora cada
-                        etapa da sua manutenção. Aperte abaixo para mergulhar no mundo do S3i e
+                        etapa da sua manutenção. Aperte abaixo para mergulhar no mundo do S3i® e
                         descubra como ele pode elevar sua operação a novos patamares de excelência.</p>
                     </div>
                     <v-btn       
@@ -239,7 +239,7 @@
                             <h1 class="text-h4 text-white"><strong class="text-red-accent-4"># 4</strong> <strong>SFT</strong> <span style="opacity: .8;"> - SISTEMA FIXO DE TERMOGRAFIA </span> </h1>
                         </div>
                         <div>
-                            <p class="text-white">Imagine ter o controle completo das temperaturas críticas em suas operações
+                            <p class="text-white text-body-2">Imagine ter o controle completo das temperaturas críticas em suas operações
                             industriais, mesmo em condições desafiadoras. Com o Sistema Fixo de Termografia
                             (SFT) da Pred Engenharia, essa visão se torna realidade.
                             Quer descobrir como o SFT (Sistema Fixo de Termografia ) pode transformar sua

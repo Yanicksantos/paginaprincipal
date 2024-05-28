@@ -1,7 +1,7 @@
 <template>
     <div>
         <div class="bg-indigo-darken-4 d-flex  align-center flex-column h-100 d-md-none" 
-        style="height: 550px; background-image: url('/2.svg'); background-position: 100%; background-size: cover; background-attachment: fixed;">
+        style="height: 550px; background-image: url('/2.webp'); background-position: 100%; background-size: cover; background-attachment: fixed;">
             <div style="background-color: rgba(26, 35, 126, .9);" class="w-100 h-100 px-5 py-8">
                 <div class="w-100 ">
                     <div class=" mt-4 mb-2 ml-2  text-h6 font-weight-bold text-white" style="color: #BDBDBD;">
@@ -38,14 +38,14 @@
 
                     
                     <div class="d-flex align-center justify-center my-6">
-                        <div class=" mr-10"><v-img src="/partelogo2.png" width="40"></v-img></div>
+                        <div class=" mr-10"><v-img src="/partelogo2.webp" width="40"></v-img></div>
                         <h1 class="text-deep-purple-darken-4 font-weight-black">CONHEÇA-NOS</h1>
                     </div>
                  
-                    <v-row>
-                        <v-col class="6">
+                    <v-row >
+                        <v-col cols="6">
                             <div class="pt-6 d-flex" >
-                                <div  class="text-h6 text-deep-purple-darken-4 montserrat-font">A Pred Engenharia é uma provedora de soluções para gestão de ativos e processos com foco na garantia da segurança, confiabilidade e produtividade das atividades, atuando na indústria e área de serviços desde 1993. Suas inovadoras soluções são fornecidas ao mercado através de três área de negócios: Serviços Técnicos, Tecnologia de Informação e Automação Industrial.</div>
+                                <div  class="text-body-1 text-deep-purple-darken-4 montserrat-font">A Pred Engenharia é uma provedora de soluções para gestão de ativos e processos com foco na garantia da segurança, confiabilidade e produtividade das atividades, atuando na indústria e área de serviços desde 1993. Suas inovadoras soluções são fornecidas ao mercado através de três área de negócios: Serviços Técnicos, Tecnologia de Informação e Automação Industrial.</div>
                             </div>
 
                     
@@ -58,8 +58,9 @@
                             color="red-accent-4"
                             >Saiba mais</v-btn>
                         </v-col>
-                        <v-col class="6">
-                            <iframe class="w-100  rounded-lg" max-width="400" height="300" src="https://www.youtube.com/embed/rIkOP6XrT-A?si=DUtUFaZoGeqyhGqF&amp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        <v-spacer></v-spacer>
+                        <v-col cols="6">
+                            <iframe class="w-100  rounded-lg" max-width="500" height="300" src="https://www.youtube.com/embed/rIkOP6XrT-A?si=DUtUFaZoGeqyhGqF&amp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                         </v-col>
                     </v-row>
                 </div>

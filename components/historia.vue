@@ -54,7 +54,7 @@
 
            
             <div class="d-flex align-center justify-center my-6">
-                <div class=" mr-10"><v-img src="/partelogo3.png" width="40"></v-img></div>
+                <div class=" mr-10"><v-img src="/partelogo3.webp" width="40"></v-img></div>
                 <h1 class="text-deep-purple-darken-4 font-weight-black">UM POUCO DA NOSSA CAMINHADA</h1>
             </div>
 

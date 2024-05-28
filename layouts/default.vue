@@ -21,7 +21,7 @@
       <!--  -->
     </v-navigation-drawer>
 
-    <slot />
+    <slot style="max-width: 1280px;"/>
 
     <div style="position: fixed; max-width: 50px; max-height: 20%; right:10px; bottom: 5%; z-index: 100000;">
             <v-tooltip text="Fale connosco">

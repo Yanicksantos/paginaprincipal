@@ -155,17 +155,26 @@
                 <div  class="bg-white px-6 py-4">
                     <v-container>
                         <div class=" py-2 ml-6" >
-                            <div class=" mt-4 text-h4 font-weight-bold " >
-                                Diagnóstico da Manutenção
+                            <div class=" mt-4 text-h6 font-weight-bold " >
+                                DIAGNÓSTICO DA MANUTENÇÃO: REDUZA CUSTOS E OTIMIZE RESULTADOS
                             </div>
                             <div    
                             style="width: 70%; height: 1px; background-image: linear-gradient(to left, transparent, transparent,#1A237E);" 
                             class="my-6"></div>
-                            <p class="text-white text-caption s font-weight-light">Um diagnóstico racional da sua manutenção fornecerá subsídios para decisões que poderão reduzir seus custos na ordem de 15 a 30%.</p>
+                            <p class="text-indigo-darken-4 text-body-1 s font-weight-light font-italic">Você sabia que um diagnóstico racional da sua manutenção pode resultar em
+                            uma redução significativa de custos, entre 15% e 30%?</p>
                         </div>
                         <div >
                             <v-img src="/man/4.webp" class="rounded-shaped my-6 mx-auto" max-width="600"></v-img>
-                            <p class="text-body-2 text-md-body-1 mt-4">A metodologia Pred Engenharia para a elaboração do diagnóstico da manutenção lhe permite cruzar informações de cinco fontes, e assim obter indicadores que determinarão as medidas necessárias para otimizar os resultados de sua manutenção.</p>
+                            <p class="text-body-2 text-md-body-1 mt-4">Na Pred Engenharia, nossa metodologia para elaboração do diagnóstico da
+                            manutenção permite cruzar informações de cinco fontes diferentes. Isso não só
+                            fornece uma visão abrangente da situação atual, mas também gera indicadores
+                            precisos que direcionam as medidas necessárias para otimizar os resultados da sua
+                            manutenção.</p>
+                            <p class="text-body-2 text-md-body-1 mt-4">Com o diagnóstico da Pred Engenharia, você não apenas identifica áreas de
+                            melhoria, mas também toma decisões embasadas em dados concretos, reduzindo
+                            seus custos operacionais e aumentando a eficiência dos seus processos de
+                            manutenção.</p>
                         </div>
                     </v-container>
                 </div>
@@ -176,37 +185,43 @@
                     <v-container>
                         <div class=" pa-2">
                             <div class="px-6 py-4">
-                            <h1 class="text-h4 font-weight-bold">Capacitação de Equipes</h1>
+                            <h1 class="text-h6 font-weight-bold">CAPACITAÇÃO DE EQUIPES: ELEVE O NÍVEL DE COMPETÊNCIA E EFICIÊNCIA</h1>
                             <div 
                             style="width: 100%; height: 1px; background-image: linear-gradient(to left, transparent, transparent,#1A237E);" 
                             class="my-6"></div>
-                            <p class="text-grey-darken-3 text-body-2 text-md-body-1">A Pred Engenharia disponibiliza treinamentos abertos ou fechados às suas reais necessidades, sempre acompanhados de medição de eficiência e eficácia.</p>
+                            <p class="text-grey-darken-3 text-body-2 text-md-body-1">Na Pred Engenharia, oferecemos treinamentos fechados, adaptados às suas
+                            necessidades específicas, sempre acompanhados de medição de eficiência e
+                            eficácia.</p>
                         </div>
 
                         
                         <div class="bg-grey-lighten-3 mt-2 pa-6 rounded">
-                            <p class="text-body-2 py-2 px-4 text-md-body-1">A Pred Engenharia é especialista em treinamentos de alto valor agregado. Através da FLIR, disponibiliza os Treinamentos nível 1 e 2 do ITC (Infrared Training Center), em ambientes abertos e também in company. Promove também treinamentos fechados, customizados e voltados à engenharia de aplicação de técnicas e práticas de planejamento e controle da manutenção/inspeção. São eles:</p>
-                            <v-list-item prepend-icon="mdi-cog-play" class="text-caption text-md-body-2 mb-2">
-                                Planejamento e Controle da Manutenção – Partindo da RBM (Rice & Beans Maintenance) e chegando a RCM (Reliability Centered Maintenance).
+                            <p class="text-body-2 py-2 px-4 text-md-body-1">Nossos treinamentos são projetados para fornecer um alto valor agregado,
+                            capacitando suas equipes com as habilidades e conhecimentos necessários para
+                            alcançar o máximo desempenho. Através de parcerias com instituições
+                            reconhecidas, como a FLIR, oferecemos treinamentos de nível 1 e 2 do ITC (Infrared
+                            Training Center), tanto em ambientes abertos quanto in company.</p>
+                            <p class="text-body-2 py-2 px-4 text-md-body-1 mb-6">Além disso, oferecemos nossos treinamentos voltados para a aplicação de técnicas
+                            avançadas de manutenção e inspeção, incluindo:</p>
+                            <v-list-item prepend-icon="mdi-cog-play" class="text-indigo-darken-4 text-caption text-md-body-2 mb-2">
+                                Planejamento e Controle da Manutenção: Desde a abordagem RBM até a
+                                RCM, fornecendo as ferramentas necessárias para otimizar seus processos
+                                de manutenção
                             </v-list-item>
-                            <v-list-item prepend-icon="mdi-cog-play" class="text-caption text-md-body-2 mb-2">
-                                Aplicações avançadas da termografia em inspeções de instalações elétricas.
+                            <v-list-item prepend-icon="mdi-cog-play" class="text-indigo-darken-4 text-caption text-md-body-2 mb-2">
+                                Aplicações avançadas da termografia em diversas áreas, como inspeções
+                                elétricas, revestimentos estruturais, equipamentos rotativos e estáticos, e
+                                monitoramento de processos.
                             </v-list-item>
-                            <v-list-item prepend-icon="mdi-cog-play" class="text-caption text-md-body-2 mb-2">
-                                Aplicações avançadas da termografia em inspeções de revestimentos estruturais (refratários).
+                            <v-list-item prepend-icon="mdi-cog-play" class="text-indigo-darken-4 text-caption text-md-body-2 mb-2">
+                                Capacitação de equipes de lubrificação e gestores, garantindo que suas
+                                equipes estejam totalmente preparadas para enfrentar os desafios do dia a
+                                dia com confiança e expertise.
                             </v-list-item>
-                            <v-list-item prepend-icon="mdi-cog-play" class="text-caption text-md-body-2 mb-2">
-                                Aplicações avançadas da termografia em inspeções de equipamentos rotativos.
-                            </v-list-item>
-                            <v-list-item prepend-icon="mdi-cog-play" class="text-caption text-md-body-2">
-                                Aplicações avançadas da termografia em inspeções de equipamentos estáticos.
-                            </v-list-item>
-                            <v-list-item prepend-icon="mdi-cog-play" class="text-caption text-md-body-2">
-                                Aplicações avançadas da termografia em monitoramento de processos (automação).
-                            </v-list-item>
-                            <v-list-item prepend-icon="mdi-cog-play" class="text-caption text-md-body-2">
-                                Capacitação de equipes de lubrificadores e gestores.
-                            </v-list-item>
+                            <p class="text-body-2 py-2 px-4 text-md-body-1">Investir na capacitação de suas equipes não apenas aumenta a eficiência
+                            operacional, mas também contribui para a segurança, qualidade e
+                            longevidade de seus ativos.
+                            </p>
                         </div>
                         
                     </div>
@@ -219,16 +234,31 @@
                 <div class="bg-white px-6 py-4" >
                     <v-container>
                         <div class=" py-4 ml-6">
-                            <h1 class="text-h4 font-weight-bold">Auditoria da Manutenção</h1>
+                            <h1 class="text-h6 font-weight-bold">AUDITORIA DA MANUTENÇÃO: GARANTA EFICIÊNCIA E REDUZA FALHAS</h1>
                             <div 
                             style="width: 100%; height: 1px; background-image: linear-gradient(to left, transparent, transparent,#1A237E);" 
                             class="my-6"></div>
-                            <p class="text-grey-darken-3 text-caption text-medium-emphasis font-weight-light">Confira, através de auditorias, se os planos e as rotinas de sua manutenção estão sendo de fato atualizados na linha do tempo.</p>
+                            <p class="text-grey-darken-3 text-caption text-medium-emphasis font-weight-light">Na Pred Engenharia, oferecemos serviços de auditoria da manutenção para garantir
+                            que seus planos e rotinas estejam sempre atualizados e alinhados com as melhores
+                            práticas do setor.
+                            </p>
                         </div>
                         <div >
                             <v-img src="/man/5.webp" class="rounded my-6 mx-auto" max-width="600"></v-img>
-                            <p class="text-body-2  text-md-body-1 mb-3">O grande desafio dos gestores da manutenção é garantir que, os processos de análise crítica sobre as rotinas da manutenção, estejam acontecendo e que os resultados destes estejam sendo usados na otimização do plano de manutenção.</p>
-                            <p class="text-body-2 text-md-body-1 mb-2">Com um programa regular de auditorias você terá como detectar a descontinuidade destes processos e tomar medidas para a regularização, antes que os mesmos reflitam na sua taxa de falhas/interrupções e/ou nos custos da manutenção.</p>
+                            <p class="text-body-2  text-md-body-1 mb-3">O grande desafio dos gestores de manutenção é garantir que os processos de
+                            análise crítica sobre as rotinas estejam em andamento e que os resultados sejam
+                            utilizados para otimizar o plano de manutenção. Com um programa regular de
+                            auditorias, você pode detectar a descontinuidade desses processos e tomar
+                            medidas para regularizá-los antes que impactem negativamente sua taxa de falhas,
+                            interrupções ou custos de manutenção.</p>
+                            <p class="text-body-2 text-md-body-1 mb-2">Além de identificar áreas de melhoria, nossas auditorias fornecem insights valiosos
+                            para aprimorar seus processos de manutenção, aumentando a eficiência
+                            operacional e reduzindo os riscos de falhas não planejadas.
+                            </p>
+                            <p class="text-body-2 text-md-body-1">Invista na auditoria da manutenção com a Pred Engenharia e tenha a tranquilidade
+                            de saber que seus processos estão sempre em conformidade e prontos para
+                            enfrentar os desafios do dia a dia.
+                            </p>
                         </div>
                     </v-container>
                 </div>
