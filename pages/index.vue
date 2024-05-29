@@ -11,7 +11,7 @@
                 ></v-img>
 
                 <v-img src="/predwhitedesf.png" width="80%" cover
-                        style="position: absolute; top: 3550px; left: 5%; z-index: 14;  "
+                        style="position: absolute; top: 3600px; left: 5%; z-index: 14;  "
                 ></v-img>
                 
                 <v-img src="/predwhite.png" width="100" height="500" 
