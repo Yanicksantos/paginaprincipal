@@ -12,15 +12,10 @@
         >
             <div class="d-flex flex-column justify-center align-center h-100 px-6 pt-10" >
             <div class="">
-                <h1 class="w-100 text-h4 mt-8 mb-12" style="color: #FAFAFA;"> <strong> HÁ 30 ANOS</strong><br> SUA PARCEIRA CONFIAVEL EM SOLUÇÕES INDUSTRIAIS</h1>
+                <h1 class="w-100 text-h4 mt-8 mb-12" style="color: #FAFAFA;"> <strong> HÁ 30 ANOS</strong><br> SUA PARCEIRA CONFIÁVEL EM SOLUÇÕES INDUSTRIAIS</h1>
                 <div class="text-body-2 my-4 " style="color: #BDBDBD;">
                     <P class="" >
-                                    Por três décadas, temos sido a escolha confiável para empresas em busca de
-                                    soluções industriais. Oferecemos inspeções, consultoria e treinamentos
-                                    especializados. Além disso, fornecemos a <span class="text-red font-weight-bold">plataforma inteligente S3i®</span> para
-                                    inspeções industriais e soluções de automação, incluindo monitoramento térmico
-                                    por termografia infravermelha. Nosso compromisso é garantir segurança,
-                                    confiabilidade e produtividade para nossos clientes.
+                        <span class="font-weight-black text-white">Por três décadas</span>, temos sido a escolha confiável para empresas em busca de soluções industriais. Oferecemos inspeções, consultoria e treinamentos especializados. Além disso, fornecemos a <span class="text-red font-weight-bold">plataforma inteligente S3i®</span> para inspeções industriais e soluções de automação, incluindo monitoramento térmico por termografia infravermelha. Nosso compromisso é garantir segurança, confiabilidade e produtividade para nossos clientes.
                                 </P>
                 </div>
                 <v-btn
