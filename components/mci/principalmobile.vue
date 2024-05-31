@@ -15,8 +15,11 @@
                     <v-row>
                         <v-col cols="12"><v-img src="/mci.webp"></v-img></v-col>
                         <v-col cols="12"> 
-                            <p class=" montserrat-font text-black text-body-2" >Com o <span class="text-red ">método MCI® da Pred Engenharia,</span>  você experimentará uma perspectiva
-                            revolucionária na gestão da manutenção. Ao contrário de outros métodos, o MCI®
+                            <p class=" montserrat-font text-black text-body-2" >Com o <span class="text-red ">método 
+                                <span style="position: relative;" class="mr-2">MCI<span class="text-caption" style="position: absolute; top: -5px;">®</span></span>
+                                da Pred Engenharia,</span>  você experimentará uma perspectiva
+                            revolucionária na gestão da manutenção. Ao contrário de outros métodos, o 
+                            <span style="position: relative;" class="mr-2">MCI<span class="text-caption" style="position: absolute; top: -5px;">®</span></span>
                             não apenas integra a cadeia de valor da manutenção, mas também oferece
                             atribuições e resultados claros e auditáveis. <span class="text-whitetext-body-2 ">Prepare-se para uma transformação
                             completa na forma como você enxerga e gerencia a manutenção</span> .</p>
@@ -24,7 +27,7 @@
                         <v-btn
                         append-icon="mdi-arrow-top-right"
                         variant="flat"
-                        class="mt-6"
+                        class="mt-6 text-caption"
                         color="#B71C1C"
                         to="/mci"
                         >Saiba mais sobre o método</v-btn></v-col>

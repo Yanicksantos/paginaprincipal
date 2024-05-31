@@ -12,8 +12,9 @@
 
              <v-carousel  
                  hide-delimiter-background
-                 
-                 height="500"
+                 cycle
+                 height="400"
+                 :show-arrows=false
                  
                  class="rounded-xl mb-4 "
                  >

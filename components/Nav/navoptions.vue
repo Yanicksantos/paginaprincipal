@@ -12,6 +12,8 @@
                           variant="outlined" 
                           width="100%"
                           to="/sobre"
+                          class="text-caption"
+                         
                          
                           >
                             SOBRE NÓS
@@ -30,6 +32,8 @@
                              width="100%"
                              v-bind="menu"
                              append-icon="mdi-chevron-down"
+                             class="text-caption"
+                             
                            
                              >
                                NOSSOS SERVIÇOS
@@ -39,16 +43,16 @@
 
                         <v-list density="compact">
                             <v-list-item>
-                                <v-btn to="/services/engenharia-manutencao-e-confiabilidade"  class="w-100" variant="tonal">Serviços de Engenharia de Manutenção & Confiabilidade</v-btn>
+                                <v-btn to="/servicos/engenharia-manutencao-e-confiabilidade"  class="w-100 text-caption" variant="tonal" size="small">Serviços de Engenharia de Manutenção & Confiabilidade</v-btn>
                             </v-list-item>
                             <v-list-item>
-                                <v-btn to="/services/inspecoes"  class="w-100" variant="tonal">Serviços Técnicos de Inspeção</v-btn>
+                                <v-btn to="/servicos/inspecoes"  class="w-100 text-caption" variant="tonal" size="small">Serviços Técnicos de Inspeção</v-btn>
                             </v-list-item>
                             <v-list-item>
-                                <v-btn to="/services/s3i"  class="w-100" variant="tonal">S3I - Sistema Inteligente de Inspeção Industrial</v-btn>
+                                <v-btn to="/servicos/s3i"  class="w-100 text-caption" variant="tonal" size="small">S3I - Sistema Inteligente de Intervenção Industrial</v-btn>
                             </v-list-item>
                             <v-list-item>
-                                <v-btn to="/services/sft"  class="w-100" variant="tonal">SFT - Sistema Fixo de Termografia</v-btn>
+                                <v-btn to="/servicos/sft"  class="w-100 text-caption" variant="tonal" size="small">SFT - Sistema Fixo de Termografia</v-btn>
                             </v-list-item>
                         </v-list>
 
@@ -63,7 +67,8 @@
                           variant="outlined" 
                           width="100%"
                           href="https://suporte.s3i.com.br/blog/"
-                         
+                          class="text-caption"
+                                
                           >
                               BLOG
                           </v-btn>

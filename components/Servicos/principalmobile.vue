@@ -106,7 +106,7 @@
 
         {
           id:3,
-          title: 'S3I® - Sistema Inteligente de Inspeção Industrial',
+          title: 'S3I® - Sistema Inteligente de Intervenção Industrial',
           subtile: false,
           src:'/services3.webp',
           content:'Convidamos você a explorar uma nova era na gestão industrial. Imagine uma ferramenta que não apenas simplifica, mas também aprimora cada etapa da sua manutenção. Aperte abaixo para mergulhar no mundo do S3i® e descubra como ele pode elevar sua operação a novos patamares de excelência.',

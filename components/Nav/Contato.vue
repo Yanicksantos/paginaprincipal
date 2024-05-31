@@ -8,6 +8,8 @@
                  prepend-icon="mdi-card-account-mail"
                  v-bind="props"
                  color="#1A237E"
+                 class="text-caption"
+                                
                  >
                     Contato
                 </v-btn>

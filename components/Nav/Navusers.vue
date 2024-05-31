@@ -5,7 +5,7 @@
         <v-list-item>
                 <v-menu :close-on-content-click="false">
                     <template #activator=" { props } ">
-                        <v-btn icon="mdi-account" size="large" v-bind="props" ></v-btn>
+                        <v-icon icon="mdi-account" size="large" v-bind="props" ></v-icon>
                     </template>
                     <v-list nav  size="small">
                         <v-list-item 
@@ -13,6 +13,8 @@
                         href="http://www.pred.com.br/sgv/login/index.asp"
                         variant="tonal"
                         density="compact"
+                        class="text-caption"
+                                size="small"
                         
                         >
                             <v-list-item-title>
@@ -24,6 +26,8 @@
                         variant="tonal" 
                         density="compact"
                         href="http://www.pred.com.br/salavip/manutencao/default.asp"
+                        class="text-caption"
+                                size="small"
                         >
                             <v-list-item-title >
                                     Intranet

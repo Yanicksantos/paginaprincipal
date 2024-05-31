@@ -27,7 +27,7 @@
                 </div>
                 <v-btn       
                 append-icon="mdi-arrow-top-right"
-                class="mt-6 "
+                class="mt-6 text-caption"
                 to="/services/engenharia-manutencao-e-confiabilidade"
                 color="#1A237E"
                 >Saiba mais</v-btn>
@@ -56,7 +56,7 @@
                     </div>
                     <v-btn       
                     append-icon="mdi-arrow-top-right"
-                    class="mt-2 "
+                    class="mt-2 text-caption"
                     to="/services/inspecoes"
                     color="#1A237E"
                     >Saiba mais</v-btn>
@@ -73,7 +73,9 @@
             </div>
             <div class="w-50 px-8 mt-6">
                 <div class="mb-4">
-                    <h1 class="text-h4 text-white"><strong class="text-red-accent-4"># 3</strong> <strong>S3I®</strong> <span  style="opacity: .8;"> - SISTEMA INTELIGENTE <br>DE INTERVENÇÃO INDUSTRIAL</span> </h1>
+                    <h1 class="text-h4 text-white"><strong class="text-red-accent-4"># 3</strong> <strong>
+                        <span style="position: relative;" class="mr-2">S3I<span class="text-caption" style="position: absolute; top: 0;">®</span></span>
+                    </strong> <span  style="opacity: .8;"> - SISTEMA INTELIGENTE <br>DE INTERVENÇÃO INDUSTRIAL</span> </h1>
                 </div>
                 <div>
                     <p class="text-white pr-6 text-body-2">Convidamos você a explorar uma nova era na gestão industrial.
@@ -83,7 +85,7 @@
                 </div>
                 <v-btn       
                 append-icon="mdi-arrow-top-right"
-                class="mt-6 "
+                class="mt-6 text-caption"
                 to="/services/s3i"
                 color="#1A237E"
                 >Saiba mais</v-btn>
@@ -109,7 +111,7 @@
                     </div>
                     <v-btn       
                     append-icon="mdi-arrow-top-right"
-                    class="mt-6 "
+                    class="mt-6 text-caption"
                     to="/services/sft"
                     color="#1A237E"
                     >Saiba mais</v-btn>
