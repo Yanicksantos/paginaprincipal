@@ -24,6 +24,9 @@ export default defineNuxtConfig({
   },
   app: {
     head: {
+      htmlAttrs: {
+        lang: 'pt',
+      },
       charset: "utf-8",
       viewport: "width=device-width, initial-scale=1.0",
       meta: [
@@ -43,7 +46,6 @@ export default defineNuxtConfig({
       ],
       link: [
         { rel: "canonical", href: "https://pred-engenharia.vercel.app/" },
-        { rel: "stylesheet", href: "https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" }
       ],
       title: "Pred Engenharia"
     }
