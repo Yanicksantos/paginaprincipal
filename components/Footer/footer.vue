@@ -27,22 +27,17 @@
        </div>
      
 
-       <div style="background-color: #212121; background-image: url('/footer.gif'); background-size: cover; background-position: center center; overflow-x: hidden;" class="bg-grey w-100">
+       <div  class="bg-grey w-100">
            <div class="w-100 h-100 py-4 px-5" >
              <v-container>
-               <div class="mb-4 text-caption">
+               <div class="mb-4 text-caption text-md-body-2 text-indigo-darken-4">
                    <div> <v-icon icon="mdi-email-fast-outline"></v-icon> predengenharia@pred.com.br</div>
                    <div class="mt-2"> <v-icon icon="mdi-map-marker-radius"></v-icon> R. Italina Pereira Mota, 440 - Jardim Camburi, Vitória - ES, 29090-370</div>
                </div>
                <hr>
-               <div class="mt-4 text-caption">
-                   <div>Espírito Santo: +55 27 333755977</div>
-                   <div>São Paulo: +55 11 31360817</div>
-                   <div>Minas Gerais: +55 31 26261382</div>
-                   <div>Rio de Janeiro: +55 21 30053174</div>
-                   <div>Região Sul: +55 48 31810364</div>
-                   <div>Região Nordeste: +55 85 21805072</div>
-                   <div>Região Norte: +55 91 40404351</div>
+               <div class="mt-4 text-caption text-md-h6 text-indigo-darken-4">
+                   <div> <v-icon icon="mdi-phone-dial" class="mr-4 "></v-icon>  +55 27 333755977</div>
+                   
                </div>
              </v-container>
            </div>
