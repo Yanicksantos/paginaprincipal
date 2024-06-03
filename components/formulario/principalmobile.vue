@@ -1,5 +1,5 @@
 <template>
-  <div class="d-md-none h-100">
+  <div class="d-lg-none h-100">
     <v-img
     src="/sobre.webp"
     height="550"

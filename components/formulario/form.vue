@@ -2,15 +2,15 @@
     <div>
         <form @submit.prevent="submit">
         <div>
-            <div class="px-2 pb-2 d-flex justify-center align-center">
-             <v-img src="/partelogo.webp" width="40" height="40"></v-img>  
-             <span class="text-h6  text-indigo-darken-4 ml-4">Insira seus dados no formulário abaixo para agendar a sua demonstração.</span>
-             
+            <div class="px-2 pb-2 d-flex align-center">
+             <v-img src="/partelogo.webp" max-width="20" height="20" ></v-img>  
+             <p class="text-h6  text-indigo-darken-4 ml-2">Agende a sua demonstração.</p>
             </div>
             <div 
             style="width: 70%; height: 1px; background-image: linear-gradient(to left, transparent,#1A237E);" 
             class="mb-6 mx-2"></div>
         </div>
+
         <v-text-field
           v-model="name.value.value"
           :error-messages="name.errorMessage.value"

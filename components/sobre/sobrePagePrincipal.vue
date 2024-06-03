@@ -51,7 +51,7 @@
 
                         <v-col cols="5">
                             <div class="ml-6" >
-                                <div  class="text-body-1 text-black montserrat-font">A Pred Engenharia é uma provedora de soluções para gestão de ativos e processos, com foco na garantia da segurança, confiabilidade e produtividade das atividades. Atuando na indústria e na área de serviços desde 1993, suas inovadoras soluções são fornecidas ao mercado através de três áreas de negócios: Serviços Técnicos, Tecnologia da Informação e Automação Industrial.</div>
+                                <div  class="text-lg-body-1 text-caption text-black montserrat-font">A Pred Engenharia é uma provedora de soluções para gestão de ativos e processos, com foco na garantia da segurança, confiabilidade e produtividade das atividades. Atuando na indústria e na área de serviços desde 1993, suas inovadoras soluções são fornecidas ao mercado através de três áreas de negócios: Serviços Técnicos, Tecnologia da Informação e Automação Industrial.</div>
                             </div>
 
                     

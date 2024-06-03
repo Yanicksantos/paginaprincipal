@@ -12,19 +12,19 @@
                                 <div class=" d-flex h-100 pl-16 ml-16" >
                                     <p class=" align-self-center text-h4 montserrat-font text-white font-weight-black ml-1">HÁ</p>
                                     <p class=" montserrat-font font-weight-black text-white  "  style="font-size: 140px;">30</p>
-                                    <p class="align-self-center mt-16 pt-8 text-h3 montserrat-font text-white font-weight-black">ANOS</p>
+                                    <p class="align-self-center mt-16 pt-8 text-lg-h3 text-h4 montserrat-font text-white font-weight-black">ANOS</p>
                                 </div> 
                             </div>
 
                             <div>
                                 <div class=" pl-16">
-                                    <h2 class="text-white text-h4  font-weight-thin">SUA PARCEIRA CONFIÁVEL</h2>
-                                    <h2 class="text-white text-h4 montserrat-font ml-12">EM SOLUÇÕES INDUSTRIAIS</h2>
+                                    <h2 class="text-white text-lg-h4  font-weight-thin">SUA PARCEIRA CONFIÁVEL</h2>
+                                    <h2 class="text-white text-lg-h4 montserrat-font ml-12">EM SOLUÇÕES INDUSTRIAIS</h2>
                                 </div>
 
-                                <P class="w-75 text-h6 text-white montserrat-font  pl-16" >
+                                <P class="w-75 text-lg-h6 text-body-1 text-white montserrat-font  pl-16" >
                                     Por três décadas, temos sido a escolha confiável para empresas em busca de soluções industriais. Oferecemos inspeções, consultoria e treinamentos especializados. Além disso, fornecemos a 
-                                    <span class="text-black font-weight-bold mr-2" style="position: relative;">plataforma inteligente S3i<span class="text-caption text-black font-weight-bold" style="position: absolute; top: 0;">®</span></span> para inspeções industriais e soluções de automação, incluindo monitoramento térmico por termografia infravermelha. Nosso compromisso é garantir segurança, confiabilidade e produtividade para nossos clientes.
+                                    <span class="text-black font-weight-bold mr-2" style="position: relative;">plataforma inteligente S3i<span class="text-caption text-black font-weight-bold" style="position: absolute; top: -5px;">®</span></span> para inspeções industriais e soluções de automação, incluindo monitoramento térmico por termografia infravermelha. Nosso compromisso é garantir segurança, confiabilidade e produtividade para nossos clientes.
                                 </P>
                                 <v-btn class="mt-2 ml-16 text-caption" append-icon="mdi-arrow-top-right" color="indigo-darken-4" to="/sobre">SAIBA MAIS</v-btn>
                                 

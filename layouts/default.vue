@@ -18,7 +18,7 @@
       temporary
       location="end"
     >
-      <!--  -->
+     
     </v-navigation-drawer>
 
     <slot />
@@ -41,7 +41,7 @@
 </script>
 
 <style>
-  .hover-whatsaap:hover{
-    cursor: pointer;
-  }
+    .hover-whatsaap:hover{
+      cursor: pointer;
+    }
 </style>
