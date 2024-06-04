@@ -16,7 +16,7 @@
                 <div class="text-body-2 my-4 " style="color: #BDBDBD;">
                     <P class="" >
                         <span class="font-weight-black text-white">Por três décadas</span>, temos sido a escolha confiável para empresas em busca de soluções industriais. Oferecemos inspeções, consultoria e treinamentos especializados. Além disso, fornecemos a 
-                        <span class=" mr-2" style="position: relative;">plataforma inteligente S3i<span class="text-caption" style="position: absolute; top: 0;">®</span></span> 
+                        plataforma inteligente <span class=" mr-2" style="position: relative;">S3i<span class="text-caption" style="position: absolute; top: -5px;">®</span></span> 
                         para inspeções industriais e soluções de automação, incluindo monitoramento térmico por termografia infravermelha. Nosso compromisso é garantir segurança, confiabilidade e produtividade para nossos clientes.
                     </P>
                 </div>
