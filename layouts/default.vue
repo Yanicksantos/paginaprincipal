@@ -7,7 +7,6 @@
         <div class="d-flex">
             <NavNavoptions />
             <NavNavusers />
-            <v-app-bar-nav-icon @click="drawer = !drawer" class="d-md-none align-self-center" v-if="false"></v-app-bar-nav-icon>
         </div>
         
       </template>
