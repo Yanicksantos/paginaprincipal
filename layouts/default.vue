@@ -12,16 +12,7 @@
         
       </template>
     </v-app-bar>
-
-    <v-navigation-drawer
-      v-model="drawer"
-      temporary
-      location="end"
-    >
-     
-    </v-navigation-drawer>
-
-    <slot />
+   <slot />
 
     <div style="position: fixed; width: 50px; height: 50px; right:50px; bottom: 10%; z-index: 100000; ">
             <v-tooltip text="Fale conosco">
@@ -35,10 +26,7 @@
   </v-app>
 </template>
 
-<script setup>
-  import { ref } from 'vue'
-  const drawer = ref(false)
-</script>
+
 
 <style>
     .hover-whatsaap:hover{
