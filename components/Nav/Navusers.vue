@@ -10,11 +10,11 @@
                     <v-list nav  size="small">
                         <v-list-item 
                         append-icon="mdi-account-cog-outline" 
-                        href="http://www.pred.com.br/sgv/login/index.asp"
+                        href="http://www.pred.com.br/salavip/manutencao/default.asp"
                         variant="tonal"
                         density="compact"
                         class="text-caption"
-                                size="small"
+                        size="small"
                         
                         >
                             <v-list-item-title>
@@ -25,9 +25,9 @@
                         append-icon="mdi-account-hard-hat-outline" 
                         variant="tonal" 
                         density="compact"
-                        href="http://www.pred.com.br/salavip/manutencao/default.asp"
+                        href="http://www.pred.com.br/sgv/login/index.asp"
                         class="text-caption"
-                                size="small"
+                        size="small"
                         >
                             <v-list-item-title >
                                     Intranet

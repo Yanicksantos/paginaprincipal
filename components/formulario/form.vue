@@ -4,7 +4,7 @@
         <div>
             <div class="px-2 pb-2 d-flex align-center">
              <v-img src="/partelogo.webp" max-width="20" height="20" ></v-img>  
-             <p class="text-h6  text-indigo-darken-4 ml-2">Agende a sua demonstração.</p>
+             <p class="text-h6  text-indigo-darken-4 ml-2">Fale Conosco</p>
             </div>
             <div 
             style="width: 70%; height: 1px; background-image: linear-gradient(to left, transparent,#1A237E);" 

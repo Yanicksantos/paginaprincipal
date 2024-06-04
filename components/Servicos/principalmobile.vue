@@ -87,7 +87,7 @@
             {title:'Auditoria da Manutenção', icon:'mdi-info'}
           ],
           src:'/services1.webp',
-          to: '/services/engenharia-manutencao-e-confiabilidade'
+          to: '/servicos/engenharia-manutencao-e-confiabilidade'
         },
 
         {
@@ -100,7 +100,7 @@
             {title:'Inspeções por Ultrassom', icon:'mdi-info'}
           ],
           src:'/services2.webp',
-          to:'/services/inspecoes' 
+          to:'/servicos/inspecoes' 
         },
 
 
@@ -110,7 +110,7 @@
           subtile: false,
           src:'/services3.webp',
           content:'Convidamos você a explorar uma nova era na gestão industrial. Imagine uma ferramenta que não apenas simplifica, mas também aprimora cada etapa da sua manutenção. Aperte abaixo para mergulhar no mundo do S3i® e descubra como ele pode elevar sua operação a novos patamares de excelência.',
-          to:'/services/s3i' 
+          to:'/servicos/s3i' 
         },
 
         {
@@ -119,7 +119,7 @@
           subtile: false,
           src:'/services4.webp',
           content:'Imagine ter o controle completo das temperaturas críticas em suas operações industriais, mesmo em condições desafiadoras. Com o Sistema Fixo de Termografia (SFT) da Pred Engenharia, essa visão se torna realidade. Quer descobrir como o SFT (Sistema Fixo de Termografia ) pode transformar sua abordagem à segurança operacional e eficiência na indústria? Aperte abaixo para saber mais sobre essa ferramenta inteligente de monitoramento termográfico e leve sua operação a um novo patamar de precisão e confiabilidade.',
-          to:'/services/sft'  
+          to:'/servicos/sft'  
         },
       
       

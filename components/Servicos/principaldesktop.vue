@@ -28,7 +28,7 @@
                 <v-btn       
                 append-icon="mdi-arrow-top-right"
                 class="mt-2 text-caption"
-                to="/services/engenharia-manutencao-e-confiabilidade"
+                to="/servicos/engenharia-manutencao-e-confiabilidade"
                 color="#1A237E"
                 >Saiba mais</v-btn>
 
@@ -57,7 +57,7 @@
                     <v-btn       
                     append-icon="mdi-arrow-top-right"
                     class="mt-4 text-caption"
-                    to="/services/inspecoes"
+                    to="/servicos/inspecoes"
                     color="#1A237E"
                     >Saiba mais</v-btn>
                 </div>
@@ -86,7 +86,7 @@
                 <v-btn       
                 append-icon="mdi-arrow-top-right"
                 class="mt-4 text-caption"
-                to="/services/s3i"
+                to="/servicos/s3i"
                 color="#1A237E"
                 >Saiba mais</v-btn>
 
@@ -112,7 +112,7 @@
                     <v-btn       
                     append-icon="mdi-arrow-top-right"
                     class="mt-4 text-caption"
-                    to="/services/sft"
+                    to="/servicos/sft"
                     color="#1A237E"
                     >Saiba mais</v-btn>
                 </div>
