@@ -143,7 +143,7 @@
                                 local, não só aumenta a eficácia das operações, mas também reduz o tempo de
                                 inatividade não programado, melhorando a produtividade da sua equipe e a
                                 confiabilidade dos equipamentos.</p>
-                                <p class="text-body-2 text-md-body-1 my-3">A Pred Engenharia acredita que um bom plano de manutenção é aquele que é “cumprível”. Para tanto, precisa ser feito em campo e por profissionais experientes, seguindo procedimentos/diretrizes formalmente definidos no <a href="#" class="text-decoration-none">diagnóstico da manutenção</a>, sobre as quatro linhas de planejamento acima ilustrado.</p>
+                                <p class="text-body-2 text-md-body-1 my-3">A Pred Engenharia acredita que um bom plano de manutenção é aquele que é “cumprível”. Para tanto, precisa ser feito em campo e por profissionais experientes, seguindo procedimentos/diretrizes formalmente definidos no diagnóstico da manutenção, sobre as quatro linhas de planejamento acima ilustrado.</p>
                             </div>
                         
                         </div>

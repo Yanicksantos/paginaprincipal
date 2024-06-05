@@ -6,22 +6,32 @@
            <div class="d-flex w-100 align-center px-2">
              <strong class="text-caption text-md-subtitle-2">Conecte-se conosco nas redes sociais</strong>
              <v-spacer></v-spacer>
-             <v-btn
-                 v-for="icon in icons"
-                 :key="icon"
-                 class="mx-1 d-sm-none"
-                 :icon="icon"
-                 variant="plain"
-                 size="small"
-             ></v-btn>
-             <v-btn
-                 v-for="icon in icons"
-                 :key="icon"
-                 class="mx-1 d-none d-sm-block"
-                 :icon="icon"
-                 variant="plain"
+            
+                <v-btn
+                    v-for="(social, i) in socias"
+                    :key="i"
+                    class="mx-1 d-sm-none"
+                    :icon="social.icon"
+                    variant="compact"
+                    size="small"
+                    :href="social.to"
+                    target="_blank"
+                   
+                ></v-btn>
+               
+                <nuxt-link 
+                v-for="(social, i) in socias"
+                :key="i"
+                :to="social.to" 
+                target="_blank"
+                class="mx-2 d-none d-sm-inline"
+                    
+                >
+                <v-icon :icon="social.icon" color="white"></v-icon>
+              </nuxt-link>
                 
-             ></v-btn>
+             
+           
            </div>
          </v-container>
        </div>
@@ -53,16 +63,12 @@
 
 
 
-<script >
+<script setup>
 
-export default {
-   data: () => ({
-     icons: [
-       'mdi-linkedin',
-       'mdi-youtube',
-       'mdi-instagram',
-       'mdi-facebook'
-     ],
-   }),
- }
+const socias = [
+    { icon: 'mdi-linkedin', to: 'https://www.linkedin.com/company/pred-engenharia/' },
+    { icon: 'mdi-youtube', to: 'https://www.youtube.com/@predengenharia3567' },
+    { icon: 'mdi-instagram', to: 'https://www.instagram.com/predengenharia/' },
+    { icon: 'mdi-facebook', to: 'https://www.facebook.com/PredEngenharia/' }
+  ]
 </script>
