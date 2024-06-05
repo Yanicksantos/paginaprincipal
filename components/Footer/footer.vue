@@ -7,17 +7,17 @@
              <strong class="text-caption text-md-subtitle-2">Conecte-se conosco nas redes sociais</strong>
              <v-spacer></v-spacer>
             
-                <v-btn
-                    v-for="(social, i) in socias"
-                    :key="i"
-                    class="mx-1 d-sm-none"
-                    :icon="social.icon"
-                    variant="compact"
-                    size="small"
-                    :href="social.to"
-                    target="_blank"
-                   
-                ></v-btn>
+                
+                <nuxt-link 
+                v-for="(social, i) in socias"
+                :key="i"
+                :to="social.to" 
+                target="_blank"
+                class="mx-1 d-sm-none"
+                    
+                >
+                <v-icon :icon="social.icon" color="white"></v-icon>
+              </nuxt-link>
                
                 <nuxt-link 
                 v-for="(social, i) in socias"
