@@ -16,7 +16,7 @@
                 class="mx-1 d-sm-none"
                     
                 >
-                <v-icon :icon="social.icon" color="white"></v-icon>
+                <v-icon :icon="social.icon" color="white" size="small"></v-icon>
               </nuxt-link>
                
                 <nuxt-link 
