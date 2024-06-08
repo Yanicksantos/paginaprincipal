@@ -9,23 +9,23 @@
                 ></v-img>
 
                 <v-img src="/predwhitedesf.webp" width="80%" cover class="d-none d-lg-block"
-                        style="position: absolute; top: 3600px; left: 5%; z-index: 14;  "
+                        style="position: absolute; top: 3710px; left: 5%; z-index: 14;  "
                 ></v-img>
                 
                 <v-img src="/predwhite.webp" width="100" height="500" class="d-none d-lg-block"
-                        style="position: absolute; top: 37.5%; left: -2.7%; z-index: 1;  "
+                        style="position: absolute; top: 2250px; left: -2.7%; z-index: 1;  "
                 ></v-img>
                 
                 <v-img src="/predwhite.webp" width="100" height="500" class="d-none d-lg-block"
-                        style="position: absolute; top: 43.3%; right:-3.1%; z-index: 1;  "
+                        style="position: absolute; top: 2550px; right:-3.1%; z-index: 1;  "
                 ></v-img>
 
                 <v-img src="/predwhite.webp" width="100" height="500" class="d-none d-lg-block"
-                        style="position: absolute; top: 52.5%; left:-2.5%; z-index: 1;  "
+                        style="position: absolute; top: 3150px; left:-2.5%; z-index: 1;  "
                 ></v-img>
 
                 <v-img src="/predblue.webp" width="400" height="1220"  class="d-none d-lg-block"
-                        style="position: absolute; top: 4050px; right: -7%; z-index: 1;  "
+                        style="position: absolute; top: 4150px; right: -7%; z-index: 1;  "
                 ></v-img>
     </div>
 </template>

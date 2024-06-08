@@ -9,7 +9,7 @@
             <h1 class="text-white montserrat-font font-weight-black">NOSSOS SERVIÇOS</h1>
         </div>
 
-        <div class="w-100 d-flex">
+        <div class="w-100 d-flex py-4 " style="background-color: rgba(255, 0, 0, .1);">
             <div class="w-50">
                 <v-img src="/services1.webp" ></v-img>
             </div>
@@ -37,7 +37,7 @@
 
 
 
-        <div class="w-100 d-flex">
+        <div class="w-100 d-flex py-4 " style="background-color: rgba(25, 31, 52, .12);">
             <div class="w-50 pl-16 pr-4 ">
                 <div class="ml-6">     
                     <div class="mb-2">
@@ -67,7 +67,7 @@
         </div>
 
 
-        <div class="w-100 d-flex">
+        <div class="w-100 d-flex py-4" style="background-color: rgba(255, 0, 0, .1);">
             <div class="w-50">
                 <v-img src="/services3.webp" ></v-img>
             </div>
@@ -94,14 +94,14 @@
         </div>
 
 
-        <div class="w-100 d-flex mb-14">
+        <div class="w-100 d-flex py-4 " style="background-color: rgba(25, 31, 52, .12);">
             <div class="w-50 pl-16 pr-4">
                 <div class="ml-6">                 
                     <div class="mb-2">
                         <h1 class="text-lg-h4 text-h6 text-white"><strong class="text-red-accent-4"># 4</strong> <strong>SFT</strong> <span style="opacity: .8;"> - SISTEMA FIXO DE TERMOGRAFIA </span> </h1>
                     </div>
                     <div>
-                        <p class="text-white text-body-1">Imagine ter o controle completo das temperaturas críticas em suas operações
+                        <p class="text-white text-lg-body-1 text-caption">Imagine ter o controle completo das temperaturas críticas em suas operações
                         industriais, mesmo em condições desafiadoras. Com o Sistema Fixo de Termografia
                         (SFT) da Pred Engenharia, essa visão se torna realidade.
                         Quer descobrir como o SFT (Sistema Fixo de Termografia ) pode transformar sua
