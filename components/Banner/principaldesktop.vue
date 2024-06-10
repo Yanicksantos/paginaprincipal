@@ -22,7 +22,7 @@
                                     <h2 class="text-white text-lg-h4 montserrat-font ml-12">EM SOLUÇÕES INDUSTRIAIS</h2>
                                 </div>
 
-                                <P class="w-75 text-lg-h6 text-body-1 text-white montserrat-font  pl-16" >
+                                <P class="w-75 text-lg-subtitle-1 text-body-1 text-white montserrat-font  pl-16 my-10" >
                                     Por três décadas, temos sido a escolha confiável para empresas em busca de soluções industriais. Oferecemos inspeções, consultoria e treinamentos especializados. Além disso, fornecemos a 
                                     plataforma inteligente <span class=" mr-2" style="position: relative;">S3i<span class="text-caption " style="position: absolute; top: -5px;">®</span></span> para inspeções industriais e soluções de automação, incluindo monitoramento térmico por termografia infravermelha. Nosso compromisso é garantir segurança, confiabilidade e produtividade para nossos clientes.
                                 </P>
