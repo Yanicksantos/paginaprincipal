@@ -46,7 +46,7 @@
                </div>
                <hr>
                <div class="mt-4 text-caption text-md-h6 text-indigo-darken-4">
-                   <div> <v-icon icon="mdi-phone-dial" class="mr-4 "></v-icon>  +55 27 333755977</div>
+                   <div> <v-icon icon="mdi-phone-dial" class="mr-4 "></v-icon>  +55 27 3337-5977</div>
                    
                </div>
              </v-container>
