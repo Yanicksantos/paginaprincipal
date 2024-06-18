@@ -50,6 +50,45 @@ export default defineI18nConfig(() => ({
       phone_hint: "Enter a valid phone number",
       whatsapp_hint: "Enter a valid WhatsApp number",
       error_message: "Please fill out this field correctly",
+      Contact: 'Contact',
+
+
+      about_us: 'About Us',
+      our_services: 'Our Services',
+      engineering_maintenance_reliability_services: 'Engineering Maintenance & Reliability Services',
+      technical_inspection_services: 'Technical Inspection Services',
+      s3i_system: 'S3I - Intelligent Industrial Intervention System',
+      sft_system: 'SFT - Fixed Thermography System',
+      blog: 'Blog',
+
+      conditioned_maintenance1: 'Maintenance Inspection',
+      conditioned_maintenance2: 'Condition-Based',
+      discover_mci_method: 'DISCOVER THE MCI® METHOD: THE REVOLUTION IN MAINTENANCE',
+
+      rbm_notice: 'Ensure that RBM® (Rice & Beans Maintenance) is indeed implemented before investing time and energy in RCM® (Reliability Centered Maintenance). We explain how:',
+      mci_intro: 'Imagine a maintenance approach that not only integrates but also optimizes the entire maintenance value chain,',
+      unprecedented_efficiency: 'guaranteeing unprecedented efficiency and predictability.',
+      mci_offer: 'This is exactly what the',
+      mci_method: 'MCI® Method (Condition-Based Maintenance Inspection) from Pred Engenharia offers.',
+      mci_cycle_intro: 'In the MCI® Method, condition-based preventive maintenance and planned corrective maintenance are perfectly integrated into a closed loop. This cycle is driven by an intelligent tool called',
+      perigometro: 'PERIGÔMETRO®',
+      perigometro_role: ', developed by Pred Engenharia. The',
+      perigometro_benefit: 'accurately evaluates which maintenance interventions are truly necessary, providing balance to resources and ensuring availability and predictability at the lowest possible cost.',
+      mci_cycle_benefit: 'It is in this closed loop that we can ensure availability and predictability at the lowest possible cost, as we work with a minimum vision of 4 weeks ahead (S+4).',
+      mci_exceptional: 'But what makes the',
+      mci_simplicity: 'MCI® Method truly exceptional is its simplicity.',
+      mci_philosophy_intro: 'Based on the philosophy of',
+      mci_philosophy: '"simplicity is the ultimate sophistication",',
+      mci_philosophy_detail: 'all actions that support the method are simple and straightforward. However, this simplicity is the key to its solidity and predictability, providing a truly effective and reliable maintenance management.',
+
+      mci_series_youtube: 'MCI® SERIES ON YOUTUBE:',
+      elevate_maintenance: 'ELEVATE YOUR MAINTENANCE TO A NEW LEVEL',
+      maximize_availability: 'Are you really maximizing the availability of your plant equipment? How is your productivity? And the cost control and efficiency of maintenance routines?',
+      exclusive_playlist_intro: 'In our exclusive playlist,',
+      ozorio_rezende: 'Ozório Rezende, Technical Advisor at Pred Engenharia,',
+      deep_dive: 'dives deep into the world of industrial maintenance.',
+      video_series: 'Get ready for a series of videos that will transform your approach to maintenance. Be prepared for a journey of learning and improvement that will take your maintenance to a new level!',
+    
     },
     es: {
       years: '',
@@ -97,6 +136,46 @@ export default defineI18nConfig(() => ({
       phone_hint: "Ingresa un número de teléfono válido",
       whatsapp_hint: "Ingresa un número de WhatsApp válido",
       error_message: "Por favor, completa este campo correctamente",
+      Contact: 'Contacto',
+
+      about_us: 'Sobre Nosotros',
+      our_services: 'Nuestros Servicios',
+      engineering_maintenance_reliability_services: 'Servicios de Ingeniería de Mantenimiento y Confiabilidad',
+      technical_inspection_services: 'Servicios de Inspección Técnica',
+      s3i_system: 'S3I - Sistema de Intervención Industrial Inteligente',
+      sft_system: 'SFT - Sistema Fijo de Termografía',
+      blog: 'Blog',
+
+      conditioned_maintenance1: 'Mantenimiento',
+      conditioned_maintenance2: 'Condicionado a la Inspección',
+      discover_mci_method: 'DESCUBRE EL MÉTODO MCI®: LA REVOLUCIÓN EN EL MANTENIMIENTO',
+
+
+      rbm_notice: 'Asegúrese de que RBM® (Rice & Beans Maintenance) esté realmente implementado antes de invertir tiempo y energía en RCM® (Mantenimiento Centrado en la Confiabilidad). Te explicamos cómo:',
+      mci_intro: 'Imagine un enfoque de mantenimiento que no solo integra, sino que también optimiza toda la cadena de valor del mantenimiento,',
+      unprecedented_efficiency: 'garantizando una eficiencia y predictibilidad sin precedentes.',
+      mci_offer: 'Esto es exactamente lo que ofrece el',
+      mci_method: 'Método MCI® (Mantenimiento Condicionado a la Inspección) de Pred Engenharia.',
+      mci_cycle_intro: 'En el Método MCI®, el mantenimiento preventivo condicionado y el mantenimiento correctivo planificado están perfectamente integrados en un ciclo cerrado. Este ciclo está impulsado por una herramienta inteligente llamada',
+      perigometro: 'PERIGÔMETRO®',
+      perigometro_role: ', desarrollada por Pred Engenharia. El',
+      perigometro_benefit: 'evalúa con precisión qué intervenciones de mantenimiento son realmente necesarias, proporcionando equilibrio a los recursos y garantizando disponibilidad y predictibilidad al menor costo posible.',
+      mci_cycle_benefit: 'Es en este ciclo cerrado que podemos garantizar la disponibilidad y predictibilidad al menor costo posible, ya que trabajamos con una visión mínima de 4 semanas por delante (S+4).',
+      mci_exceptional: 'Pero lo que hace que el',
+      mci_simplicity: 'Método MCI® sea verdaderamente excepcional es su simplicidad.',
+      mci_philosophy_intro: 'Basado en la filosofía de',
+      mci_philosophy: '"la simplicidad es la máxima sofisticación",',
+      mci_philosophy_detail: 'todas las acciones que sustentan el método son simples y directas. Sin embargo, esta simplicidad es la clave de su solidez y predictibilidad, proporcionando una gestión de mantenimiento verdaderamente efectiva y confiable.',
+    
+
+      mci_series_youtube: 'SERIE MCI® EN YOUTUBE:',
+      elevate_maintenance: 'ELEVE SU MANTENIMIENTO A UN NUEVO NIVEL',
+      maximize_availability: '¿Realmente está maximizando la disponibilidad de los equipos de su planta? ¿Cómo está su productividad? ¿Y el control de costos y la eficiencia de las rutinas de mantenimiento?',
+      exclusive_playlist_intro: 'En nuestra lista de reproducción exclusiva,',
+      ozorio_rezende: 'Ozório Rezende, Asesor Técnico de Pred Engenharia,',
+      deep_dive: 'se sumerge profundamente en el mundo del mantenimiento industrial.',
+      video_series: 'Prepárese para una serie de videos que transformarán su enfoque de mantenimiento. ¡Prepárese para un viaje de aprendizaje y mejora que llevará su mantenimiento a un nuevo nivel!',
+    
     },
     pt: {
 
@@ -148,6 +227,50 @@ export default defineI18nConfig(() => ({
       phone_hint: "Digite um numero válido. Apenas numeros!",
       whatsapp_hint: "Digite um numero de WhatsApp válido",
       error_message: "Por favor, completa este campo corretamente",
+      
+      Contact: 'Contato',
+
+
+      about_us: 'Sobre Nós',
+      our_services: 'Nossos Serviços',
+      engineering_maintenance_reliability_services: 'Serviços de Engenharia de Manutenção & Confiabilidade',
+      technical_inspection_services: 'Serviços Técnicos de Inspeção',
+      s3i_system: 'S3I - Sistema Inteligente de Intervenção Industrial',
+      sft_system: 'SFT - Sistema Fixo de Termografia',
+      blog: 'Blog',
+
+
+    // MCI - PAGINA
+    conditioned_maintenance1: 'MANUTENÇÃO',
+    conditioned_maintenance2: 'CONDICIONADA À INSPEÇÃO',
+    discover_mci_method: 'DESCUBRA O MÉTODO MCI®: A REVOLUÇÃO NA MANUTENÇÃO',
+
+
+    rbm_notice: 'Certifique-se que a RBM® (Rice & Beans Maintenance), está, de fato, implementada antes de investir tempo e energia na RCM® (Reliability Centered maintenance). A gente te explica como:',
+      mci_intro: 'Imagine uma abordagem de manutenção que não apenas integra, mas também otimiza toda a cadeia de valores da manutenção,',
+      unprecedented_efficiency: 'garantindo eficiência e previsibilidade sem precedentes.',
+      mci_offer: 'Isso é exatamente o que o',
+      mci_method: 'Método MCI® (Manutenção Condicionada à Inspeção) da Pred Engenharia oferece.',
+      mci_cycle_intro: 'No Método MCI®, as manutenções preventivas condicionadas e corretivas planejadas são perfeitamente integradas em um ciclo fechado. Esse ciclo é impulsionado por uma ferramenta inteligente chamada',
+      perigometro: 'PERIGÔMETRO®',
+      perigometro_role: ', desenvolvida pela Pred Engenharia. O',
+      perigometro_benefit: 'avalia com precisão quais intervenções de manutenção são realmente necessárias, proporcionando equilíbrio aos recursos e garantindo disponibilidade e previsibilidade com o menor custo possível.',
+      mci_cycle_benefit: 'É nesse ciclo fechado que conseguimos garantir a disponibilidade e previsibilidade com o menor custo possível, pois se trabalha com a visão mínima de 4 semanas à frente (S+4).',
+      mci_exceptional: 'Mas o que torna o',
+      mci_simplicity: 'Método MCI® verdadeiramente excepcional é sua simplicidade.',
+      mci_philosophy_intro: 'Baseado na filosofia de',
+      mci_philosophy: '"o simples é o máximo da sofisticação",',
+      mci_philosophy_detail: 'todas as ações que sustentam o método são simples e diretas. No entanto, essa simplicidade é a chave para sua solidez e previsibilidade, proporcionando uma gestão de manutenção verdadeiramente eficaz e confiável.',
+
+      mci_series_youtube: 'SÉRIE MCI® NO YOUTUBE:',
+      elevate_maintenance: 'ELEVE SUA MANUTENÇÃO A UM NOVO PATAMAR',
+      maximize_availability: 'Você está realmente maximizando a disponibilidade dos equipamentos da sua planta? Como anda a sua produtividade? E o controle de custos e eficiência das rotinas de manutenção?',
+      exclusive_playlist_intro: 'Em nossa playlist exclusiva,',
+      ozorio_rezende: 'Ozório Rezende, Assessor Técnico da Pred Engenharia,',
+      deep_dive: 'mergulha profundamente no universo da manutenção industrial.',
+      video_series: 'Prepare-se para uma série de vídeos que vão transformar a sua abordagem à manutenção. Esteja pronto para uma jornada de aprendizado e aprimoramento que levará sua manutenção a um novo patamar!',
+    
+    
     }
   }
 }))

@@ -11,7 +11,7 @@
                  class="text-caption"
                                 
                  >
-                    Contato
+                    {{ $t('Contact') }}
                 </v-btn>
             </template>
 
