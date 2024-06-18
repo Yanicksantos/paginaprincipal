@@ -32,7 +32,24 @@ export default defineI18nConfig(() => ({
       s3i: 'INTELLIGENT INDUSTRIAL INTERVENTION SYSTEM',
       s3i_desc: 'We invite you to explore a new era in industrial management. Imagine a tool that not only simplifies but also enhances every step of your maintenance. Click below to dive into the world of S3i® and discover how it can elevate your operations to new levels of excellence.',
       sft: 'FIXED THERMOGRAPHY SYSTEM',
-      sft_desc: 'Imagine having complete control over critical temperatures in your industrial operations, even in challenging conditions. With Pred Engenharia’s Fixed Thermography System (SFT), this vision becomes a reality. Want to find out how the SFT can transform your approach to operational safety and efficiency in the industry? Click below to learn more about this intelligent thermographic monitoring tool and take your operations to a new level of precision and reliability.'
+      sft_desc: 'Imagine having complete control over critical temperatures in your industrial operations, even in challenging conditions. With Pred Engenharia’s Fixed Thermography System (SFT), this vision becomes a reality. Want to find out how the SFT can transform your approach to operational safety and efficiency in the industry? Click below to learn more about this intelligent thermographic monitoring tool and take your operations to a new level of precision and reliability.',
+      
+      know_us: "Get to Know Us",
+      about_description:"PRED Engineering is a provider of solutions for asset and process management, focused on ensuring the safety, reliability, and productivity of activities. Operating in industry and services since 1993, our innovative solutions are delivered to the market through three business areas: Technical Services, Information Technology, and Industrial Automation.",
+      connect_social: "Connect with us on social media",
+
+
+      contact_us: "Contact Us",
+      name: "Name",
+      email: "Email",
+      phone: "Phone",
+      whatsapp: "WhatsApp",
+      send: "Send",
+      name_hint: "Enter your name",
+      email_hint: "Enter a valid email address",
+      phone_hint: "Enter a valid phone number",
+      whatsapp_hint: "Enter a valid WhatsApp number",
+      error_message: "Please fill out this field correctly",
     },
     es: {
       years: '',
@@ -53,7 +70,7 @@ export default defineI18nConfig(() => ({
       
       pred_engineering_description:"PRED ENGENHARIA se dedica a satisfacer las necesidades de las industrias en el área de mantenimiento predictivo industrial mediante servicios de consultoría. También participamos en investigación y desarrollo de dispositivos, equipos y sistemas enfocados en el mantenimiento predictivo, instrumentación y control.",
       our_journey: "UN POCO DE NUESTRO CAMINO",
-      
+
       services: 'NUESTROS SERVICIOS',
       engineering: 'SERVICIOS DE INGENIERÍA DE MANTENIMIENTO Y CONFIABILIDAD',
       engineering_desc: 'En Pred Engenharia, ofrecemos una gama completa de servicios de ingeniería diseñados para optimizar el rendimiento de su equipo y procesos industriales. Desde diagnósticos precisos hasta formación especializada, nuestro equipo de expertos está aquí para aumentar la eficiencia, reducir costos y maximizar la productividad de sus operaciones. Descubra cómo nuestros servicios de vanguardia pueden elevar su negocio a nuevos niveles de éxito.',
@@ -63,7 +80,23 @@ export default defineI18nConfig(() => ({
       s3i: 'SISTEMA INTELIGENTE DE INTERVENCIÓN INDUSTRIAL',
       s3i_desc: 'Le invitamos a explorar una nueva era en la gestión industrial. Imagine una herramienta que no solo simplifica, sino que también mejora cada paso de su mantenimiento. Haga clic abajo para sumergirse en el mundo del S3i® y descubrir cómo puede elevar sus operaciones a nuevos niveles de excelencia.',
       sft: 'SISTEMA FIJO DE TERMOGRAFÍA',
-      sft_desc: 'Imagine tener el control total de las temperaturas críticas en sus operaciones industriales, incluso en condiciones desafiantes. Con el Sistema Fijo de Termografía (SFT) de Pred Engenharia, esta visión se convierte en realidad. ¿Quiere saber cómo el SFT puede transformar su enfoque hacia la seguridad operativa y la eficiencia en la industria? Haga clic abajo para saber más sobre esta herramienta inteligente de monitoreo termográfico y llevar sus operaciones a un nuevo nivel de precisión y fiabilidad.'
+      sft_desc: 'Imagine tener el control total de las temperaturas críticas en sus operaciones industriales, incluso en condiciones desafiantes. Con el Sistema Fijo de Termografía (SFT) de Pred Engenharia, esta visión se convierte en realidad. ¿Quiere saber cómo el SFT puede transformar su enfoque hacia la seguridad operativa y la eficiencia en la industria? Haga clic abajo para saber más sobre esta herramienta inteligente de monitoreo termográfico y llevar sus operaciones a un nuevo nivel de precisión y fiabilidad.',
+    
+      know_us: "Conócenos",
+      about_description:"PRED Engenharia es un proveedor de soluciones para la gestión de activos y procesos, enfocado en garantizar la seguridad, confiabilidad y productividad de las actividades. Con operaciones en la industria y servicios desde 1993, ofrecemos soluciones innovadoras a través de tres áreas de negocio: Servicios Técnicos, Tecnología de la Información y Automatización Industrial.",
+      connect_social: "Conéctate con nosotros en las redes sociales",
+
+      contact_us: "Contáctanos",
+      name: "Nombre",
+      email: "Correo electrónico",
+      phone: "Teléfono",
+      whatsapp: "WhatsApp",
+      send: "Enviar",
+      name_hint: "Introduce tu nombre",
+      email_hint: "Ingresa un correo electrónico válido",
+      phone_hint: "Ingresa un número de teléfono válido",
+      whatsapp_hint: "Ingresa un número de WhatsApp válido",
+      error_message: "Por favor, completa este campo correctamente",
     },
     pt: {
 
@@ -98,7 +131,23 @@ export default defineI18nConfig(() => ({
       s3i: 'SISTEMA INTELIGENTE DE INTERVENÇÃO INDUSTRIAL',
       s3i_desc: 'Convidamos você a explorar uma nova era na gestão industrial. Imagine uma ferramenta que não apenas simplifica, mas também aprimora cada etapa da sua manutenção. Aperte abaixo para mergulhar no mundo do S3i® e descubra como ele pode elevar sua operação a novos patamares de excelência.',
       sft: 'SISTEMA FIXO DE TERMOGRAFIA',
-      sft_desc: 'Imagine ter o controle completo das temperaturas críticas em suas operações industriais, mesmo em condições desafiadoras. Com o Sistema Fixo de Termografia (SFT) da Pred Engenharia, essa visão se torna realidade. Quer descobrir como o SFT pode transformar sua abordagem à segurança operacional e eficiência na indústria? Aperte abaixo para saber mais sobre essa ferramenta inteligente de monitoramento termográfico e leve sua operação a um novo patamar de precisão e confiabilidade.'
+      sft_desc: 'Imagine ter o controle completo das temperaturas críticas em suas operações industriais, mesmo em condições desafiadoras. Com o Sistema Fixo de Termografia (SFT) da Pred Engenharia, essa visão se torna realidade. Quer descobrir como o SFT pode transformar sua abordagem à segurança operacional e eficiência na indústria? Aperte abaixo para saber mais sobre essa ferramenta inteligente de monitoramento termográfico e leve sua operação a um novo patamar de precisão e confiabilidade.',
+
+      know_us: "CONHEÇA-NOS",
+      about_description:"A Pred Engenharia é uma provedora de soluções para gestão de ativos e processos, com foco na garantia da segurança, confiabilidade e produtividade das atividades. Atuando na indústria e na área de serviços desde 1993, suas inovadoras soluções são fornecidas ao mercado através de três áreas de negócios: Serviços Técnicos, Tecnologia da Informação e Automação Industrial.",
+      connect_social:'Conecte-se conosco nas redes sociais',
+
+      contact_us: "Fale Conosco",
+      name: "Nome",
+      email: "E-mail",
+      phone: "Celular",
+      whatsapp: "WhatsApp",
+      send: "Enviar",
+      name_hint: "Digite seu Nome",
+      email_hint: "Digite um e-mail válido",
+      phone_hint: "Digite um numero válido. Apenas numeros!",
+      whatsapp_hint: "Digite um numero de WhatsApp válido",
+      error_message: "Por favor, completa este campo corretamente",
     }
   }
 }))

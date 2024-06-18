@@ -4,7 +4,7 @@
        <div class="bg-indigo-darken-4 w-100">
          <v-container>
            <div class="d-flex w-100 align-center px-2">
-             <strong class="text-caption text-md-subtitle-2">Conecte-se conosco nas redes sociais</strong>
+             <strong class="text-caption text-md-subtitle-2">{{ $t('connect_social') }}</strong>
              <v-spacer></v-spacer>
             
                 

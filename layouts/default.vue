@@ -15,7 +15,7 @@
    <slot />
 
     <div style="position: fixed; width: 50px; height: 50px; right:50px; bottom: 10%; z-index: 100000; ">
-            <v-tooltip text="Fale conosco">
+            <v-tooltip :text="$t('contact_us')">
               <template v-slot:activator="{ props }">
                 <v-icon v-bind="props" icon="mdi-whatsapp"  color="green-darken-4" size="50" class="hover-whatsaap"></v-icon>
               </template>
