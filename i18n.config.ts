@@ -10,6 +10,16 @@ export default defineI18nConfig(() => ({
       industrial_solutions: 'IN INDUSTRIAL SOLUTIONS',
       description_banners: 'For three decades, we have been the trusted choice for companies seeking industrial solutions. We offer inspections, consulting, and specialized training. Additionally, we provide the intelligent platform ',
       description_bannerss: 'for industrial inspections and automation solutions, including thermal monitoring through infrared thermography. Our commitment is to ensure safety, reliability, and productivity for our clients.',
+      
+      mci_titile1: 'GET',
+      mci_titile2: 'ALL THE POTENTIAL',
+      mci_titile3: 'IN YOUR MAINTENANCE',
+      mci_titile4: 'SIMPLY AND STRUCTURED WAY',
+      mci_description1: 'With the method',
+      mci_description2: 'from Pred Engenharia, you will experience a revolutionary perspective in maintenance management. Unlike other methods,',
+      mci_description3: 'it not only integrates the maintenance value chain but also offers clear and auditable assignments and results. Get ready for a complete transformation in how you see and manage maintenance.',
+      mci_learn_more: 'Learn more about the method',
+        
       services: 'OUR SERVICES',
       engineering: 'MAINTENANCE & RELIABILITY ENGINEERING SERVICES',
       engineering_desc: 'At Pred Engenharia, we offer a full range of engineering services designed to optimize the performance of your equipment and industrial processes. From precise diagnostics to specialized training, our team of experts is here to boost efficiency, reduce costs, and maximize the productivity of your operations. Discover how our cutting-edge services can elevate your business to new heights of success.',
@@ -28,6 +38,16 @@ export default defineI18nConfig(() => ({
       industrial_solutions: 'EN SOLUCIONES INDUSTRIALES',
       description_banners: 'Durante tres décadas, hemos sido la elección de confianza para las empresas que buscan soluciones industriales. Ofrecemos inspecciones, consultoría y capacitación especializada. Además, proporcionamos la plataforma inteligente ',
       description_bannerss: 'para inspecciones industriales y soluciones de automatización, incluido el monitoreo térmico a través de termografía infrarroja. Nuestro compromiso es garantizar la seguridad, fiabilidad y productividad de nuestros clientes.',
+      
+      mci_titile1: 'OBTENGA',
+      mci_titile2: 'TODO EL POTENCIAL',
+      mci_titile3: 'EN SU MANTENIMIENTO',
+      mci_titile4: 'DE MANERA SIMPLES Y ESTRUCTURADA',
+      mci_description1: 'Con el método',
+      mci_description2: 'de Pred Engenharia, experimentará una perspectiva revolucionaria en la gestión del mantenimiento. A diferencia de otros métodos,',
+      mci_description3: 'no solo integra la cadena de valor del mantenimiento, sino que también ofrece atribuciones y resultados claros y auditables. Prepárese para una transformación completa en la forma en que ve y gestiona el mantenimiento.',
+      mci_learn_more: 'Más información sobre el método',
+      
       services: 'NUESTROS SERVICIOS',
       engineering: 'SERVICIOS DE INGENIERÍA DE MANTENIMIENTO Y CONFIABILIDAD',
       engineering_desc: 'En Pred Engenharia, ofrecemos una gama completa de servicios de ingeniería diseñados para optimizar el rendimiento de su equipo y procesos industriales. Desde diagnósticos precisos hasta formación especializada, nuestro equipo de expertos está aquí para aumentar la eficiencia, reducir costos y maximizar la productividad de sus operaciones. Descubra cómo nuestros servicios de vanguardia pueden elevar su negocio a nuevos niveles de éxito.',
@@ -40,12 +60,25 @@ export default defineI18nConfig(() => ({
       sft_desc: 'Imagine tener el control total de las temperaturas críticas en sus operaciones industriales, incluso en condiciones desafiantes. Con el Sistema Fijo de Termografía (SFT) de Pred Engenharia, esta visión se convierte en realidad. ¿Quiere saber cómo el SFT puede transformar su enfoque hacia la seguridad operativa y la eficiencia en la industria? Haga clic abajo para saber más sobre esta herramienta inteligente de monitoreo termográfico y llevar sus operaciones a un nuevo nivel de precisión y fiabilidad.'
     },
     pt: {
+
+
+      //pagina Principal
       years: 'HÁ',
       years_label: 'ANOS',
       trusted_partner: 'SUA PARCEIRA CONFIÁVEL',
       industrial_solutions: 'EM SOLUÇÕES INDUSTRIAIS',
       description_banners: 'Por três décadas, temos sido a escolha confiável para empresas em busca de soluções industriais. Oferecemos inspeções, consultoria e treinamentos especializados. Além disso, fornecemos a plataforma inteligente ',
       description_bannerss: 'para inspeções industriais e soluções de automação, incluindo monitoramento térmico por termografia infravermelha. Nosso compromisso é garantir segurança, confiabilidade e produtividade para nossos clientes.',
+      
+      mci_titile1:'OBTENHA',
+      mci_titile2: 'TODO O POTENCIAL',
+      mci_titile3:'NA SUA MANUTENÇÃO',
+      mci_titile4: 'DE FORMA SIMPLES E ESTRUTURADA',
+      mci_description1: 'Com o método',
+      mci_description2: 'da Pred Engenharia, você experimentará uma perspectiva revolucionária na gestão da manutenção. Ao contrário de outros métodos,',
+      mci_description3: 'não apenas integra a cadeia de valor da manutenção, mas também oferece atribuições e resultados claros e auditáveis. Prepare-se para uma transformação completa na forma como você enxerga e gerencia a manutenção .',
+      mci_learn_more: 'Saiba mais sobre o método',
+      
       services: 'NOSSOS SERVIÇOS',
       engineering: 'SERVIÇOS DE ENGENHARIA DE MANUTENÇÃO & CONFIABILIDADE',
       engineering_desc: 'Na Pred Engenharia, oferecemos uma gama completa de serviços de engenharia projetados para otimizar a performance dos seus equipamentos e processos industriais. De diagnósticos precisos a treinamentos especializados, nossa equipe de especialistas está aqui para impulsionar a eficiência, reduzir custos e maximizar a produtividade da sua operação. Descubra como nossos serviços de ponta podem elevar o seu negócio para novos patamares de sucesso.',
