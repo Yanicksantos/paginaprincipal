@@ -89,6 +89,23 @@ export default defineI18nConfig(() => ({
       deep_dive: 'dives deep into the world of industrial maintenance.',
       video_series: 'Get ready for a series of videos that will transform your approach to maintenance. Be prepared for a journey of learning and improvement that will take your maintenance to a new level!',
     
+      
+
+      main_content: 'Our innovative solutions are offered through three main areas:',
+      main_areas: 'Technical Services, Information Technology, and Industrial Automation.',
+      intro_paragraph: 'Each of our areas represents fundamental pillars that allow us to offer a wide range of solutions and expertise, effectively meeting the diverse needs of our clients.',
+      technical_services_area: 'In the Technical Services area,',
+      technical_services_description: 'we offer predictive inspection, maintenance engineering consulting, and technical training.',
+      it_area: 'In Information Technology,',
+      it_description: 'we present S3i (Intelligent Industrial Inspection System), a pioneering platform that has used mobile devices in a traceable, intelligent, and integrated manner with systems like IBM Maximo, Infor, Oracle JDE, SAP, and Totvs since 2002.',
+      industrial_automation_area: 'In the Industrial Automation area,',
+      industrial_automation_description: 'we provide thermal monitoring solutions through infrared thermography to enhance safety, quality, and efficiency in critical processes.',
+    
+    
+      specialized_solutions: 'Specialized in reliability and productivity solutions for O&M areas',
+      pred_engineering: 'Pred Engineering specializes in providing solutions for efficient asset and process management. Since 1993, we have been working to ensure the ',
+      om_industry_services: 'safety, reliability, and productivity of operations and maintenance (O&M) in the industry and services.',
+    
     },
     es: {
       years: '',
@@ -175,6 +192,21 @@ export default defineI18nConfig(() => ({
       ozorio_rezende: 'Ozório Rezende, Asesor Técnico de Pred Engenharia,',
       deep_dive: 'se sumerge profundamente en el mundo del mantenimiento industrial.',
       video_series: 'Prepárese para una serie de videos que transformarán su enfoque de mantenimiento. ¡Prepárese para un viaje de aprendizaje y mejora que llevará su mantenimiento a un nuevo nivel!',
+    
+    
+      main_content: 'Nuestras soluciones innovadoras se ofrecen a través de tres áreas principales:',
+      main_areas: 'Servicios Técnicos, Tecnología de la Información y Automatización Industrial.',
+      intro_paragraph: 'Cada una de nuestras áreas representa pilares fundamentales que nos permiten ofrecer una amplia gama de soluciones y experiencia, satisfaciendo eficazmente las diversas necesidades de nuestros clientes.',
+      technical_services_area: 'En el área de Servicios Técnicos,',
+      technical_services_description: 'ofrecemos inspección predictiva, consultoría en ingeniería de mantenimiento y capacitación técnica.',
+      it_area: 'En Tecnología de la Información,',
+      it_description: 'presentamos el S3i (Sistema Inteligente de Inspección Industrial), una plataforma pionera que utiliza dispositivos móviles de forma rastreable, inteligente e integrada con sistemas como IBM Maximo, Infor, Oracle JDE, SAP y Totvs desde 2002.',
+      industrial_automation_area: 'En el área de Automatización Industrial,',
+      industrial_automation_description: 'proporcionamos soluciones de monitoreo térmico mediante termografía infrarroja para mejorar la seguridad, la calidad y la eficiencia en procesos críticos.',
+    
+      specialized_solutions: 'Especializada en soluciones de confiabilidad y productividad para áreas de O&M',
+      pred_engineering: 'Pred Engineering se especializa en ofrecer soluciones para la gestión eficiente de activos y procesos. Desde 1993, hemos estado trabajando para garantizar la ',
+      om_industry_services: 'seguridad, confiabilidad y productividad de las operaciones y el mantenimiento (O&M) en la industria y los servicios.',
     
     },
     pt: {
@@ -270,6 +302,19 @@ export default defineI18nConfig(() => ({
       deep_dive: 'mergulha profundamente no universo da manutenção industrial.',
       video_series: 'Prepare-se para uma série de vídeos que vão transformar a sua abordagem à manutenção. Esteja pronto para uma jornada de aprendizado e aprimoramento que levará sua manutenção a um novo patamar!',
     
+      main_content: 'Nossas soluções inovadoras são oferecidas através de três áreas principais:',
+      main_areas: 'Serviços Técnicos, Tecnologia da Informação e Automação Industrial.',
+      intro_paragraph: 'Cada uma de nossas áreas representa pilares fundamentais que nos permitem oferecer uma ampla gama de soluções e expertise, atendendo eficazmente às diversas necessidades de nossos clientes.',
+      technical_services_area: 'Na área de Serviços Técnicos,',
+      technical_services_description: 'oferecemos inspeção preditiva, consultoria em engenharia de manutenção e treinamento técnico.',
+      it_area: 'Em Tecnologia da Informação,',
+      it_description: 'apresentamos o S3i (Sistema Inteligente de Inspeções Industriais), uma plataforma pioneira que utiliza dispositivos móveis de forma rastreável, inteligente e integrada com sistemas como IBM Maximo, Infor, Oracle JDE, SAP e Totvs, desde 2002.',
+      industrial_automation_area: 'Na área de Automação Industrial,',
+      industrial_automation_description: 'fornecemos soluções de monitoramento térmico por termografia infravermelha para aprimorar a segurança, qualidade e eficiência em processos críticos.',
+    
+      specialized_solutions: 'Especializada em soluções de confiabilidade e produtividade para áreas de O&M',
+      pred_engineering: 'A Pred Engenharia é especializada em oferecer soluções para a gestão eficiente de ativos e processos. Desde 1993, trabalhamos para garantir a ',
+      om_industry_services: 'segurança, confiabilidade e produtividade das operações e manutenções (O&M) na indústria e em serviços.',
     
     }
   }
