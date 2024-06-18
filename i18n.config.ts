@@ -21,7 +21,8 @@ export default defineI18nConfig(() => ({
       mci_learn_more: 'Learn more about the method',
       
       pred_engineering_description: "PRED ENGINEERING aims to meet the needs of industries in the field of industrial predictive maintenance through service provision and consulting. We also engage in research and development of devices, equipment, and systems focused on predictive maintenance, instrumentation, and control.",
-      
+      our_journey: "A BIT OF OUR JOURNEY",
+
       services: 'OUR SERVICES',
       engineering: 'MAINTENANCE & RELIABILITY ENGINEERING SERVICES',
       engineering_desc: 'At Pred Engenharia, we offer a full range of engineering services designed to optimize the performance of your equipment and industrial processes. From precise diagnostics to specialized training, our team of experts is here to boost efficiency, reduce costs, and maximize the productivity of your operations. Discover how our cutting-edge services can elevate your business to new heights of success.',
@@ -51,6 +52,7 @@ export default defineI18nConfig(() => ({
       mci_learn_more: 'Más información sobre el método',
       
       pred_engineering_description:"PRED ENGENHARIA se dedica a satisfacer las necesidades de las industrias en el área de mantenimiento predictivo industrial mediante servicios de consultoría. También participamos en investigación y desarrollo de dispositivos, equipos y sistemas enfocados en el mantenimiento predictivo, instrumentación y control.",
+      our_journey: "UN POCO DE NUESTRO CAMINO",
       
       services: 'NUESTROS SERVICIOS',
       engineering: 'SERVICIOS DE INGENIERÍA DE MANTENIMIENTO Y CONFIABILIDAD',
@@ -84,7 +86,8 @@ export default defineI18nConfig(() => ({
       mci_learn_more: 'Saiba mais sobre o método',
       
       pred_engineering_description: 'A PRED ENGENHARIA visa atender às necessidades das indústrias, na área de manutenção preditiva industrial, através de prestação de serviços e consultorias. Atua também na pesquisa e desenvolvimento de dispositivos, equipamentos e sistemas voltados para área de manutenção preditiva, instrumentação e controle.',
-
+      
+      our_journey:'UM POUCO DA NOSSA CAMINHADA',
 
       services: 'NOSSOS SERVIÇOS',
       engineering: 'SERVIÇOS DE ENGENHARIA DE MANUTENÇÃO & CONFIABILIDADE',
