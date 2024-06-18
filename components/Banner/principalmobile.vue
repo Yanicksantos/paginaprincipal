@@ -12,12 +12,12 @@
         >
             <div class="d-flex flex-column justify-center align-center h-100 px-6 pt-10" >
             <div class="">
-                <h1 class="w-100 text-h4 mt-8 mb-12" style="color: #FAFAFA;"> <strong> HÁ 30 ANOS</strong><br> SUA PARCEIRA CONFIÁVEL EM SOLUÇÕES INDUSTRIAIS</h1>
+                <h1 class="w-100 text-h4 mt-8 mb-12" style="color: #FAFAFA;"> <strong> {{ t('years') }} 30 {{ t('years_label') }}</strong><br> {{ t('trusted_partner') }} {{ t('industrial_solutions') }}</h1>
                 <div class="text-body-2 my-4 " style="color: #BDBDBD;">
                     <P class="" >
-                        <span class="font-weight-black text-white">Por três décadas</span>, temos sido a escolha confiável para empresas em busca de soluções industriais. Oferecemos inspeções, consultoria e treinamentos especializados. Além disso, fornecemos a 
-                        plataforma inteligente <span class=" mr-2" style="position: relative;">S3i<span class="text-caption" style="position: absolute; top: -5px;">®</span></span> 
-                        para inspeções industriais e soluções de automação, incluindo monitoramento térmico por termografia infravermelha. Nosso compromisso é garantir segurança, confiabilidade e produtividade para nossos clientes.
+                        {{ t('description_banners') }}
+                        <span class=" mr-2" style="position: relative;">S3i<span class="text-caption" style="position: absolute; top: -5px;">®</span></span> 
+                        {{ t('description_bannerss') }}
                     </P>
                 </div>
                 <v-btn
@@ -27,10 +27,16 @@
                 class="text-grey-lighten-5 text-caption"
                 color="#B71C1C"
                 to="/sobre"
-                >Saiba mais</v-btn>
+                >{{ t('learn_more') }}</v-btn>
             </div>
             </div>
         </div>
     </v-img>
    
 </template>
+
+<script setup>
+import { useI18n } from 'vue-i18n'
+
+const { t } = useI18n()
+</script>

@@ -4,6 +4,12 @@ export default defineI18nConfig(() => ({
   fallbackLocale: 'pt',
   messages: {
     en: {
+      years: 'FOR',
+      years_label: 'YEARS',
+      trusted_partner: 'YOUR TRUSTED PARTNER',
+      industrial_solutions: 'IN INDUSTRIAL SOLUTIONS',
+      description_banners: 'For three decades, we have been the trusted choice for companies seeking industrial solutions. We offer inspections, consulting, and specialized training. Additionally, we provide the intelligent platform ',
+      description_bannerss: 'for industrial inspections and automation solutions, including thermal monitoring through infrared thermography. Our commitment is to ensure safety, reliability, and productivity for our clients.',
       services: 'OUR SERVICES',
       engineering: 'MAINTENANCE & RELIABILITY ENGINEERING SERVICES',
       engineering_desc: 'At Pred Engenharia, we offer a full range of engineering services designed to optimize the performance of your equipment and industrial processes. From precise diagnostics to specialized training, our team of experts is here to boost efficiency, reduce costs, and maximize the productivity of your operations. Discover how our cutting-edge services can elevate your business to new heights of success.',
@@ -16,6 +22,12 @@ export default defineI18nConfig(() => ({
       sft_desc: 'Imagine having complete control over critical temperatures in your industrial operations, even in challenging conditions. With Pred Engenharia’s Fixed Thermography System (SFT), this vision becomes a reality. Want to find out how the SFT can transform your approach to operational safety and efficiency in the industry? Click below to learn more about this intelligent thermographic monitoring tool and take your operations to a new level of precision and reliability.'
     },
     es: {
+      years: '',
+      years_label: 'AÑOS',
+      trusted_partner: 'SU SOCIO DE CONFIANZA',
+      industrial_solutions: 'EN SOLUCIONES INDUSTRIALES',
+      description_banners: 'Durante tres décadas, hemos sido la elección de confianza para las empresas que buscan soluciones industriales. Ofrecemos inspecciones, consultoría y capacitación especializada. Además, proporcionamos la plataforma inteligente ',
+      description_bannerss: 'para inspecciones industriales y soluciones de automatización, incluido el monitoreo térmico a través de termografía infrarroja. Nuestro compromiso es garantizar la seguridad, fiabilidad y productividad de nuestros clientes.',
       services: 'NUESTROS SERVICIOS',
       engineering: 'SERVICIOS DE INGENIERÍA DE MANTENIMIENTO Y CONFIABILIDAD',
       engineering_desc: 'En Pred Engenharia, ofrecemos una gama completa de servicios de ingeniería diseñados para optimizar el rendimiento de su equipo y procesos industriales. Desde diagnósticos precisos hasta formación especializada, nuestro equipo de expertos está aquí para aumentar la eficiencia, reducir costos y maximizar la productividad de sus operaciones. Descubra cómo nuestros servicios de vanguardia pueden elevar su negocio a nuevos niveles de éxito.',
@@ -28,6 +40,12 @@ export default defineI18nConfig(() => ({
       sft_desc: 'Imagine tener el control total de las temperaturas críticas en sus operaciones industriales, incluso en condiciones desafiantes. Con el Sistema Fijo de Termografía (SFT) de Pred Engenharia, esta visión se convierte en realidad. ¿Quiere saber cómo el SFT puede transformar su enfoque hacia la seguridad operativa y la eficiencia en la industria? Haga clic abajo para saber más sobre esta herramienta inteligente de monitoreo termográfico y llevar sus operaciones a un nuevo nivel de precisión y fiabilidad.'
     },
     pt: {
+      years: 'HÁ',
+      years_label: 'ANOS',
+      trusted_partner: 'SUA PARCEIRA CONFIÁVEL',
+      industrial_solutions: 'EM SOLUÇÕES INDUSTRIAIS',
+      description_banners: 'Por três décadas, temos sido a escolha confiável para empresas em busca de soluções industriais. Oferecemos inspeções, consultoria e treinamentos especializados. Além disso, fornecemos a plataforma inteligente ',
+      description_bannerss: 'para inspeções industriais e soluções de automação, incluindo monitoramento térmico por termografia infravermelha. Nosso compromisso é garantir segurança, confiabilidade e produtividade para nossos clientes.',
       services: 'NOSSOS SERVIÇOS',
       engineering: 'SERVIÇOS DE ENGENHARIA DE MANUTENÇÃO & CONFIABILIDADE',
       engineering_desc: 'Na Pred Engenharia, oferecemos uma gama completa de serviços de engenharia projetados para otimizar a performance dos seus equipamentos e processos industriais. De diagnósticos precisos a treinamentos especializados, nossa equipe de especialistas está aqui para impulsionar a eficiência, reduzir custos e maximizar a produtividade da sua operação. Descubra como nossos serviços de ponta podem elevar o seu negócio para novos patamares de sucesso.',
