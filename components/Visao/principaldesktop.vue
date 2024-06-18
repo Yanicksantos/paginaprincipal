@@ -11,7 +11,7 @@
         <div style="position: absolute; top: -6%; bottom: 0; right: 0; left: 4%;  z-index: 15;">
             <div style="height: 320px; width: 40%;" class=" bg-red-accent-4 ml-16 rounded-te-xl rounded-be-xl rounded-bs-xl d-flex justify-center align-center" >
                 <div class="px-8">
-                    <p class="text-lg-h6 text-body-1  montserrat-font" >A <span class="font-weight-black text-white Roboto-font" style="opacity: 1;"> PRED ENGENHARIA</span> visa atender às necessidades das indústrias, na área de manutenção preditiva industrial, através de prestação de serviços e consultorias. Atua também na pesquisa e desenvolvimento de dispositivos, equipamentos e sistemas voltados para área de manutenção preditiva, instrumentação e controle.</p>
+                    <p class="text-lg-h6 text-body-1  montserrat-font" >{{ $t('pred_engineering_description') }}</p>
                 </div>
                 
             </div>

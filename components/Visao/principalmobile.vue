@@ -17,7 +17,7 @@
             <div 
             style="width: 50%; height: 1px; background-image: linear-gradient(to left, transparent, #fff, transparent);" 
             class="mx-auto my-4"></div>
-                <p class="text-right">A <span class="font-weight-black"> PRED ENGENHARIA</span> visa atender às necessidades das indústrias, na área de manutenção preditiva industrial, através de prestação de serviços e consultorias. Atua também na pesquisa e desenvolvimento de dispositivos, equipamentos e sistemas voltados para área de manutenção preditiva, instrumentação e controle.</p>
+                <p class="text-right">{{ $t('pred_engineering_description') }}</p>
             </div>           
         </div>
     </v-img>
