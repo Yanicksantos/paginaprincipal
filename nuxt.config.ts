@@ -8,7 +8,7 @@ export default defineNuxtConfig({
     injectAtEnd: true,
   },
   modules: [
-    'vuetify-nuxt-module', 
+    'vuetify-nuxt-module',
     '@vee-validate/nuxt',
     ['@nuxtjs/google-fonts', {
       families: {
@@ -16,7 +16,18 @@ export default defineNuxtConfig({
         Montserrat: true,
       }
     }],
+    '@nuxtjs/i18n'
   ],
+
+  i18n: {
+    locales: [
+      { code: 'pt', iso: 'pt-BR', name: 'Português' },
+      { code: 'en', iso: 'en-US', name: 'English' },
+      { code: 'es', iso: 'es-ES', name: 'Español' },
+    ],
+    defaultLocale: 'pt',
+   vueI18n: './i18n.config.ts'
+  },
   vuetify: {
     moduleOptions: {
       prefixComposables: true,
@@ -42,7 +53,6 @@ export default defineNuxtConfig({
         { name: "twitter:title", content: "Pred Engenharia" },
         { name: "twitter:description", content: "A Pred Engenharia é uma provedora de soluções para gestão de ativos e processos, com foco na garantia da segurança, confiabilidade e produtividade das atividades. Atuando na indústria e na área de serviços desde 1993, suas inovadoras soluções são fornecidas ao mercado através de três áreas de negócios: Serviços Técnicos, Tecnologia da Informação e Automação Industrial." },
         { name: "twitter:image", content: "https://pred-engenharia.vercel.app/30anos.webp" },
-
       ],
       link: [
         { rel: "canonical", href: "https://pred-engenharia.vercel.app/" },

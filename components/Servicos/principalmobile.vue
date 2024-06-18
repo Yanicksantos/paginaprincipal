@@ -78,28 +78,18 @@
         {
           id:1,
           title: 'Serviços de Engenharia de Manutenção & Confiabilidade',
-          subtile: [
-            {title:'Sistema de Manutenção', icon:'mdi-info'}, 
-            {title:'Engenharia de Lubrificação', icon:'mdi-info'}, 
-            {title:'Planejamento de Manutenção', icon:'mdi-info'}, 
-            {title:'Diagnóstico da Manutenção', icon:'mdi-info'},
-            { title:'Capacitação de Equipes', icon:'mdi-info'}, 
-            {title:'Auditoria da Manutenção', icon:'mdi-info'}
-          ],
+          subtile:false,
           src:'/services1.webp',
+          content:'Na Pred Engenharia, oferecemos uma gama completa de serviços de engenharia projetados para otimizar a performance dos seus equipamentos e processos industriais. De diagnósticos precisos a treinamentos especializados, nossa equipe de especialistas está aqui para impulsionar a eficiência, reduzir custos e maximizar a produtividade da sua operação. Descubra como nossos serviços de ponta podem elevar o seu negócio para novos patamares de sucesso.',
           to: '/servicos/engenharia-manutencao-e-confiabilidade'
         },
 
         {
           id:2,
           title: 'Serviços Técnicos de Inspeção',
-          subtile: [
-            {title:'Termografia', icon:'mdi-info'}, 
-            {title:'Análise de Vibração', icon:'mdi-info'}, 
-            {title:'Inspeções', icon:'mdi-info'}, 
-            {title:'Inspeções por Ultrassom', icon:'mdi-info'}
-          ],
+          subtile: false,
           src:'/services2.webp',
+          content:'Na Pred Engenharia, oferecemos mais do que simples inspeções; oferecemos uma visão detalhada e abrangente do estado dos seus equipamentos industriais. Nossos serviços técnicos de inspeção vão além do óbvio, utilizando tecnologias avançadas e abordagens inovadoras para revelar os segredos que podem estar escondidos nas entranhas da sua operação. Seja por meio da termografia, análise de vibração, inspeção sensitiva ou outras técnicas especializadas, estamos aqui para fornecer insights valiosos que impulsionam a eficiência, a segurança e a confiabilidade dos seus ativos.',
           to:'/servicos/inspecoes' 
         },
 

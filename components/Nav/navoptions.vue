@@ -74,10 +74,10 @@
                           </v-btn>
                       </v-list-item>
 
-
                       <v-list-item>
                           <NavContato/>
                       </v-list-item>
+
                   </v-list>
 
       

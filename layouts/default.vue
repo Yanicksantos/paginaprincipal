@@ -4,9 +4,10 @@
       
       <v-app-bar-title><nuxt-link to="/"><v-img src="/logo.webp" width="100"></v-img></nuxt-link></v-app-bar-title>
       <template #append>
-        <div class="d-flex">
+        <div class="d-flex align-center ">
             <NavNavoptions />
             <NavNavusers />
+            <NavLanguage />
         </div>
         
       </template>
