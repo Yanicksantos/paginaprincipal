@@ -132,10 +132,30 @@ export default defineI18nConfig(() => ({
       specialized_engineering: "Specialized Engineering",
       specialized_engineering_description: "Our solutions come with application engineering and specific tools, including the SFT Portal, an intelligent system for monitoring thermographic trends in the cloud.",
       sft_potential: "Unlock your operation's potential with Pred Engenharia's SFT. Rely on infrared thermography to keep your operations safe and efficient, even in the most adverse conditions.",
-      sft_more_than_camera_description:'The SFT is much more than just a thermographic camera. It is a complete solution, accompanied by application engineering and specific tools to ensure maximum performance in various industrial applications.'
+      sft_more_than_camera_description:'The SFT is much more than just a thermographic camera. It is a complete solution, accompanied by application engineering and specific tools to ensure maximum performance in various industrial applications.',
 
 
-
+      service_image3: "/services3.webp",
+      s3i_title: "INDUSTRIAL INTERVENTION INTELLIGENT SYSTEM",
+      solution_description: "A high-value solution should be more than just a simple e-paper",
+      subtitle: "MOBILITY FOR MAINTENANCE",
+      image_1: "/s3i/1.webp",
+      description_1: "Have you ever imagined optimizing inspection times with intelligence and intuitiveness, while increasing your productivity with safety, precision of information, and performance control of team activities?",
+      description_2: "The S3i software is a tool that adheres to operational routines using corporate mobility, ensuring traceability, intelligence, and productivity to inspection, testing, and auditing activities.",
+      description_3: "Unique in the market, it performs quality and effectiveness audits of all types of inspections in real-time through a proprietary methodology.",
+      traceability_intelligence_title: "Traceability and Intelligence for IBM Maximo, Infor, Oracle JDE, SAP, and Totvs",
+      traceability_intelligence_description_1: "S3i stands out with the ability to integrate maintenance with all other information systems used in companies. It has an easy-to-use interface that allows the management of predictive maintenance and the transfer of inspection information to an ERP database. Thus, they are processed, generating new information that allows decision-making about whether or not to repair the inspected equipment.",
+      traceability_intelligence_description_2: "As an autonomous system, when integrated with the management systems used by the company, S3i allows greater control over the fulfillment of activities, making the maintenance management system adopted by companies even more robust.",
+      image_2: "/s3i/2.webp",
+      exclusivities_title: "S3i Software Exclusivities:",
+      exclusivity_1: "Traceable and intelligent inspection operations with essential peculiarities for asset management;",
+      exclusivity_2: "Use of barcodes, 2D or RFID as a positioner for the inspector in relation to the parts of the Asset to be inspected;",
+      exclusivity_3: "Use of intelligent catalogs for recording and handling anomalies (FMEA) in the field;",
+      exclusivity_4: "Use of time and motion control tools to monitor inspection quality;",
+      exclusivity_5: "Use of post-repair reinspections as a way to validate the effectiveness of scheduled corrective maintenance;",
+      exclusivity_6: "Use of a feature that allows the simultaneous recording, handling of failures, and closing of anomalies eliminated at the time of detection;",
+      exclusivity_7: "Systemic risk of failure assessments (Perigometer) on each anomaly, using the GUT concept, allowing filtering of those that should actually generate a Note/Order in the ERP/EAM.",
+      image_3: "/s3i/3.webp",
     },
     es: {
       years: '',
@@ -265,10 +285,30 @@ export default defineI18nConfig(() => ({
       specialized_engineering: "Ingeniería Especializada",
       specialized_engineering_description: "Nuestras soluciones están acompañadas de ingeniería de aplicación y herramientas específicas, incluido el Portal SFT, un sistema inteligente para monitorear tendencias termográficas en la nube.",
       sft_potential: "Desbloquee el potencial de su operación con el SFT de Pred Engenharia. Confíe en la termografía por infrarrojos para mantener sus operaciones seguras y eficientes, incluso en las condiciones más adversas.",
-      sft_more_than_camera_description:'El SFT es mucho más que solo una cámara termográfica. Es una solución completa, acompañada de ingeniería de aplicación y herramientas específicas para garantizar el máximo rendimiento en diversas aplicaciones industriales.'
+      sft_more_than_camera_description:'El SFT es mucho más que solo una cámara termográfica. Es una solución completa, acompañada de ingeniería de aplicación y herramientas específicas para garantizar el máximo rendimiento en diversas aplicaciones industriales.',
 
-
-   
+      service_image3: "/services3.webp",
+      s3i_title: "SISTEMA INTELIGENTE DE INTERVENCIÓN INDUSTRIAL",
+      solution_description: "Una solución de alto valor agregado debe ser más que un simple e-paper",
+      subtitle: "MOVILIDAD PARA EL MANTENIMIENTO",
+      image_1: "/s3i/1.webp",
+      description_1: "¿Alguna vez has imaginado optimizar los tiempos de inspección con inteligencia e intuición, mientras aumentas tu productividad con seguridad, precisión de la información y control del rendimiento de las actividades del equipo?",
+      description_2: "El software S3i es una herramienta que se adhiere a las rutinas operativas utilizando la movilidad corporativa, asegurando trazabilidad, inteligencia y productividad en las actividades de inspección, prueba y auditoría.",
+      description_3: "Único en el mercado, realiza auditorías de calidad y efectividad de todo tipo de inspecciones en tiempo real mediante una metodología propia.",
+      traceability_intelligence_title: "Trazabilidad e Inteligencia para IBM Maximo, Infor, Oracle JDE, SAP y Totvs",
+      traceability_intelligence_description_1: "S3i se destaca por su capacidad para integrar el mantenimiento con todos los demás sistemas de información utilizados en las empresas. Tiene una interfaz fácil de usar que permite la gestión del mantenimiento predictivo y la transferencia de la información de inspección a una base de datos ERP. Así, se procesan, generando nueva información que permite la toma de decisiones sobre la necesidad o no de reparar el equipo inspeccionado.",
+      traceability_intelligence_description_2: "Como sistema autónomo, al integrarse con los sistemas de gestión utilizados por la empresa, S3i permite un mayor control sobre el cumplimiento de las actividades, haciendo que el sistema de gestión de mantenimiento adoptado por las empresas sea aún más robusto.",
+      image_2: "/s3i/2.webp",
+      exclusivities_title: "Exclusividades del Software S3i:",
+      exclusivity_1: "Operaciones de inspección rastreables e inteligentes con peculiaridades esenciales para la gestión de activos;",
+      exclusivity_2: "Uso de códigos de barras, 2D o RFID como posicionador del inspector en relación con las partes del Activo que se van a inspeccionar;",
+      exclusivity_3: "Uso de catálogos inteligentes para el registro y manejo de anomalías (FMEA) en el campo;",
+      exclusivity_4: "Uso de herramientas de control de tiempo y movimiento para monitorear la calidad de las inspecciones;",
+      exclusivity_5: "Uso de reinspecciones posteriores a la reparación como forma de validar la efectividad de las mantenimientos correctivos programados;",
+      exclusivity_6: "Uso de una función que permite el registro simultáneo, manejo de fallas y cierre de anomalías eliminadas en el momento de la detección;",
+      exclusivity_7: "Evaluaciones sistémicas del riesgo de falla (Perigómetro) sobre cada anomalía, utilizando el concepto GUT, permitiendo filtrar las que realmente deberían generar una Nota/Orden en el ERP/EAM.",
+      image_3: "/s3i/3.webp",
+      
     },
     pt: {
 
@@ -404,9 +444,29 @@ export default defineI18nConfig(() => ({
       specialized_engineering: "Engenharia Especializada",
       specialized_engineering_description: "Nossas soluções são acompanhadas de engenharia de aplicação e ferramentas específicas, incluindo o Portal SFT, um sistema inteligente para monitorar tendências termográficas em nuvem.",
       sft_potential: "Obtenha o potencial da sua operação com o SFT da Pred Engenharia. Conte com a termografia por infravermelho para manter suas operações seguras e eficientes, mesmo nas condições mais adversas.",
-      sft_more_than_camera_description:'O SFT é muito mais do que apenas uma câmera termográfica. É uma solução completa, acompanhada de engenharia de aplicação e ferramentas específicas para garantir o máximo desempenho em diversas aplicações industriais.'
+      sft_more_than_camera_description:'O SFT é muito mais do que apenas uma câmera termográfica. É uma solução completa, acompanhada de engenharia de aplicação e ferramentas específicas para garantir o máximo desempenho em diversas aplicações industriais.',
 
-
+      service_image3: "/services3.webp",
+      s3i_title: "SISTEMA INTELIGENTE DE INTERVENÇÃO INDUSTRIAL",
+      solution_description: "Uma solução de alto valor agregado deve ser mais do que um simples e-paper",
+      subtitle: "MOBILIDADE PARA MANUTENÇÃO",
+      image_1: "/s3i/1.webp",
+      description_1: "Já imaginou otimizar os tempos de inspeção com inteligência e intuição, enquanto aumenta sua produtividade com segurança, precisão das informações e controle de desempenho das atividades da equipe?",
+      description_2: "O software S3i é uma ferramenta que adere às rotinas operacionais utilizando a mobilidade corporativa, garantindo rastreabilidade, inteligência e produtividade às atividades de inspeção, teste e auditoria.",
+      description_3: "Único no mercado, realiza auditorias de qualidade e eficácia de todos os tipos de inspeções em tempo real por meio de uma metodologia própria.",
+      traceability_intelligence_title: "Rastreabilidade e Inteligência para IBM Maximo, Infor, Oracle JDE, SAP e Totvs",
+      traceability_intelligence_description_1: "O S3i se destaca pela capacidade de integrar a manutenção com todos os outros sistemas de informação utilizados nas empresas. Possui uma interface fácil de usar que permite o gerenciamento da manutenção preditiva e a transferência das informações de inspeção para um banco de dados ERP. Assim, são processadas, gerando novas informações que permitem a tomada de decisão sobre a necessidade ou não de reparar o equipamento inspecionado.",
+      traceability_intelligence_description_2: "Como sistema autônomo, quando integrado aos sistemas de gestão utilizados pela empresa, o S3i permite maior controle sobre o cumprimento das atividades, tornando o sistema de gestão de manutenção adotado pelas empresas ainda mais robusto.",
+      image_2: "/s3i/2.webp",
+      exclusivities_title: "Exclusividades do Software S3i:",
+      exclusivity_1: "Operações de inspeção rastreáveis e inteligentes com peculiaridades essenciais para a gestão de ativos;",
+      exclusivity_2: "Utilização de códigos de barras, 2D ou RFID como posicionador do inspetor em relação às partes do Ativo a ser inspecionado;",
+      exclusivity_3: "Utilização de catálogos inteligentes para o registro e tratamento de anomalias (FMEA) em campo;",
+      exclusivity_4: "Utilização de ferramentas de controle de tempos e movimentos como forma de monitorar a qualidade das inspeções;",
+      exclusivity_5: "Utilização de reinspeções pós–reparo como forma de validar a eficácia das manutenções corretivas programadas;",
+      exclusivity_6: "Utilização de recurso que permite o registro, tratamento de falha e encerramento simultâneo de anomalias eliminadas no ato da detecção;",
+      exclusivity_7: "Avaliações sistêmicas do risco de falha (Perigômetro) sobre cada anomalia, utilizando o conceito do GUT, permitindo assim filtrar as que de fato devem gerar Nota/Ordem no ERP/EAM.",
+      image_3: "/s3i/3.webp",
 
     }
   }
