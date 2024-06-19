@@ -1,30 +1,30 @@
 <template>
     <div>
         <v-img
-        class="d-md-none"
-        height="350"
-        cover
-        src="/services4.webp"
-        gradient="to top, rgba(0,0,0,.9), rgba(0,0,0,.75), transparent"
+            class="d-md-none"
+            height="350"
+            cover
+            :src="$t('service_image')"
+            gradient="to top, rgba(0,0,0,.9), rgba(0,0,0,.75), transparent"
         >
-            <div class=" d-flex flex-column justify-center align-center w-100 h-100 pa-4" style="background-image: linear-gradient(to top, rgba(0,0,0,.9), rgba(0,0,0,.75), transparent);">
+            <div class="d-flex flex-column justify-center align-center w-100 h-100 pa-4" style="background-image: linear-gradient(to top, rgba(0,0,0,.9), rgba(0,0,0,.75), transparent);">
                 <div><v-icon icon="mdi-cogs" size="50"></v-icon></div>
-                <h1 class="text-grey-lighten-1 text-h5 text-center font-weight-bold elevation-24 mt-2 pa-2">SFT <br>SISTEMA FIXO DE TERMOGRAFIA </h1>
+                <h1 class="text-grey-lighten-1 text-h5 text-center font-weight-bold elevation-24 mt-2 pa-2">SFT <br>{{ $t('sft_title') }}</h1>
             </div>
         </v-img>
   
 
         <!-- desktop -->
         <v-img
-        class="d-none d-md-flex mt-14"
-        cover
-        height="600"
-        src="/services4.webp"
-        gradient="to top, rgba(0,0,0,.9), rgba(0,0,0,.75), transparent"
+            class="d-none d-md-flex mt-14"
+            cover
+            height="600"
+            :src="$t('service_image')"
+            gradient="to top, rgba(0,0,0,.9), rgba(0,0,0,.75), transparent"
         >
-        <div class=" d-flex flex-column justify-center align-center w-100 h-100 pa-4" style="background-image: linear-gradient(to top, rgba(0,0,0,.9), rgba(0,0,0,.75), transparent);">
+            <div class="d-flex flex-column justify-center align-center w-100 h-100 pa-4" style="background-image: linear-gradient(to top, rgba(0,0,0,.9), rgba(0,0,0,.75), transparent);">
                 <div><v-icon icon="mdi-cogs" size="50"></v-icon></div>
-                <h1 class="text-grey-lighten-1 text-h5  text-md-h2  text-center font-weight-bold elevation-24 mt-2 pa-4">SFT <br>SISTEMA FIXO DE TERMOGRAFIA </h1>
+                <h1 class="text-grey-lighten-1 text-h5 text-md-h2 text-center font-weight-bold elevation-24 mt-2 pa-4">SFT <br>{{ $t('sft_title') }}</h1>
             </div>
         </v-img>
   
@@ -33,54 +33,44 @@
             <div>
                 <v-container>
                     <div class="px-6 py-4">
-                        <h1 class="text-body-2 text-md-body-1 font-weight-bold text-center">Uma solução da Pred acompanhada de engenharia de aplicação e ferramentas
-                            específicas</h1>
+                        <h1 class="text-body-2 text-md-body-1 font-weight-bold text-center">{{ $t('sft_solution_description') }}</h1>
                         <div 
                         style="width: 50%; height: 1px; background-image: linear-gradient(to left, transparent, #1A237E, transparent);" 
                         class="mx-auto my-6"></div>
-                        <p class="text-grey-darken-3 text-caption my-2 text-center d-md-none">SISTEMA FIXO POR TERMOGRAFIA</p>
+                        <p class="text-grey-darken-3 text-caption my-2 text-center d-md-none">{{ $t('sft_subtitle') }}</p>
                     </div>
 
                     <div class="px-6 pb-1 d-md-none">
-                        <h1>SFT: Seu Aliado Confiável para Controle Térmico na Indústria
-</h1>
-                        <p class="text-caption my-2">Na indústria, muitas anormalidades ou acidentes operacionais poderiam ser facilmente evitados ou amenizado os seus impactos, se as operações fossem visualizadas em tempo real e integral. Inconvenientes como baixa luminosidade, mal tempo e condições operacionais adversas, dificultam a visualização das operações e consequentemente ampliam a probabilidade da ocorrência de um acidente ou da perda do controle de um processo.</p>
-                        <v-img src="/sft/1.webp" class="rounded " cover height="200"></v-img>
+                        <h1>{{ $t('sft_reliable_ally_title') }}</h1>
+                        <p class="text-caption my-2">{{ $t('sft_reliable_ally_description') }}</p>
+                        <v-img :src="$t('sft_image_1')" class="rounded " cover height="200"></v-img>
                         <div class="text-grey-darken-3 ">
-
-                            <p class="text-caption my-2">A termografia por infravermelho é o método mais confiável e preciso no acompanhamento contínuo de operações onde a temperatura é uma das variáveis do processo. As câmeras termográficas utilizadas pela Pred Engenharia, possuem lentes com zoom contínuo oferecendo uma solução singular de rastreamento e medição de temperaturas em diferentes distancias. A lente de zoom é totalmente controlada por software especialista. Os sistemas fixos de termografia (SFT), fornecidos pela Pred Engenharia, são customizados para atender as mais diversas aplicações de análises e avaliações sistêmicas de irregularidades quantitativas e/ou qualitativas. Sua aplicação se faz presente em processos relacionados à visão de apoio e em controle de processos.</p>
-                            <p class="text-caption my-2">Único no mercado que realiza auditoria da qualidade e efetividade de todos os tipos de inspeção em tempo real por meio de uma metodologia própria.</p>
-                            <v-img src="/sft/2.webp" class="rounded mt-4" ></v-img>
+                            <p class="text-caption my-2">{{ $t('sft_thermal_imaging_description_1') }}</p>
+                            <p class="text-caption my-2">{{ $t('sft_unique_solution_description') }}</p>
+                            <v-img :src="$t('sft_image_2')" class="rounded mt-4"></v-img>
                        </div>
                     </div>
 
                     <div class="d-none d-md-block">
                         <v-row class="my-4">
                             <v-col cols="5" class="d-flex flex-column justify-center align-center"> 
-                                <h1 class="text-h6 mb-4 font-weight-black">SFT: Seu Aliado Confiável para Controle Térmico na Indústria</h1>
-                                <p class="text-body-1 pa-2">Na indústria, a segurança e a eficiência operacional são essenciais. Imagine se você
-                                pudesse visualizar suas operações em tempo real, mesmo em condições
-                                desafiadoras como baixa luminosidade ou clima adverso. Com o Sistema Fixo de
-                                Termografia (SFT) da Pred Engenharia, isso é possível!</p>
+                                <h1 class="text-h6 mb-4 font-weight-black">{{ $t('sft_reliable_ally_title') }}</h1>
+                                <p class="text-body-1 pa-2">{{ $t('sft_reliable_ally_description') }}</p>
                             </v-col>
                             <v-col cols="7">
-                                <v-img src="/sft/1.webp" class="rounded-xl " height="400" cover></v-img>
+                                <v-img :src="$t('sft_image_1')" class="rounded-xl" height="400" cover></v-img>
                             </v-col>
                         </v-row>
                       
                         <v-row class="my-4">
                             <v-col cols="6">
-                                <v-img src="/sft/2.webp" class="rounded align-left" height="600" cover></v-img>
+                                <v-img :src="$t('sft_image_2')" class="rounded align-left" height="600" cover></v-img>
                            </v-col>
                             <v-col cols="6" class="d-flex justify-center align-center">
                                 <div>
-                                    <p class="text-body-1 pa-2 my-2">O SFT é muito mais do que apenas uma câmera termográfica. É uma solução
-                                    completa, acompanhada de engenharia de aplicação e ferramentas específicas para
-                                    garantir o máximo desempenho em diversas aplicações industriais.</p>
-                                   
+                                    <p class="text-body-1 pa-2 my-2">{{ $t('sft_more_than_camera_description') }}</p>
                                 </div>
                            </v-col>
-                          
                         </v-row>
                     </div>
                 </v-container>
@@ -89,109 +79,86 @@
                 <div class="px-6 py-4 bg-grey-lighten-2">
                     <v-container>   
                         <div class="d-md-none">
-                            <h1 class="text-body-2 font-weight-bold text-center">Visão de Apoio</h1>
+                            <h1 class="text-body-2 font-weight-bold text-center">{{ $t('support_vision') }}</h1>
                             <div 
                             style="width: 50%; height: 1px; background-image: linear-gradient(to left, transparent, #1A237E, transparent);" 
                             class="mx-auto my-2"></div>
 
                             <div class="text-grey-darken-3 ">
-                                <p class="text-caption my-2">Com ênfase na segurança operacional em equipamentos e processos, esse tipo de aplicação, classificada de baixo custo e de alto valor agregado, é essencialmente qualitativa (distribuição térmica) e possibilita supervisão em tempo real e integral.</p>
-                                <v-img src="/sft/3.webp" class="rounded mt-4" height="200" cover></v-img>
+                                <p class="text-caption my-2">{{ $t('support_vision_description') }}</p>
+                                <v-img :src="$t('sft_image_3')" class="rounded mt-4" height="200" cover></v-img>
                             </div>
 
-                            <h1 class="text-body-2 font-weight-bold text-center mt-4">Controle de Processos</h1>
+                            <h1 class="text-body-2 font-weight-bold text-center mt-4">{{ $t('process_control') }}</h1>
                             <div 
                             style="width: 50%; height: 1px; background-image: linear-gradient(to left, transparent, #1A237E, transparent);" 
                             class="mx-auto my-2"></div>
 
                             <div class="text-grey-darken-3 ">
-                                <p class="text-caption my-2">A termografia aplicada a controle de processos visa assegurar qualidade, produtividade e/ou segurança. As aplicações são qualitativas e também quantitativas em operações em tempo real e integral.</p>
-                                <v-img src="/sft/3.webp" class="rounded mt-4" height="200" cover></v-img>
+                                <p class="text-caption my-2">{{ $t('process_control_description_1') }}</p>
+                                <v-img :src="$t('sft_image_3')" class="rounded mt-4" height="200" cover></v-img>
                             </div>
 
                             <div class="text-grey-darken-3 mt-2">
-                                <p class="text-caption my-2">A termografia aplicada a controle de processos visa assegurar qualidade, produtividade e/ou segurança. As aplicações são qualitativas e também quantitativas em operações em tempo real e integral.</p>
-                                <v-img src="/sft/4.webp" class="rounded my-6" height="300" cover></v-img>
-                                <p class="text-caption my-2">As soluções da Pred, aplicadas a controle de processos são sempre acompanhadas de engenharia de aplicação e ferramentas específicas. O Portal SFT é uma dessas ferramentas. É um sistema inteligente para a supervisão e monitoração de tendências termográficas de equipamentos e processos nas mais diversas aplicações industriais. O Portal SFT é totalmente configurável e apto a trabalhar em nuvem.</p>
-                                <p class="text-caption my-2">A termografia por infravermelho é o método mais confiável e preciso no acompanhamento contínuo de operações em locais com condições adversas para visualização.</p>
-                        
+                                <p class="text-caption my-2">{{ $t('process_control_description_2') }}</p>
+                                <v-img :src="$t('sft_image_4')" class="rounded my-6" height="300" cover></v-img>
+                                <p class="text-caption my-2">{{ $t('pred_solutions_description') }}</p>
+                                <p class="text-caption my-2">{{ $t('infrared_thermography_description') }}</p>
                             </div>
                         </div>
 
 
                         <div class="d-none d-md-block">
-                            <div class="mb-6 text-center text-indigo-darken-4"><h1>Por que escolher o SFT? Aqui estão alguns benefícios-chave:</h1></div>
+                            <div class="mb-6 text-center text-indigo-darken-4"><h1>{{ $t('why_choose_sft') }}</h1></div>
                             <v-row>
                                 <v-col>
-
                                     <div>
-                                        <h1 class="text-body-1 font-weight-bold px-6 my-4">Precisão e Confiabilidade</h1>
-                                            <p class="text-body-1 mt-8 px-6">A termografia por infravermelho é o método mais
-                                            confiável para monitoramento contínuo de operações onde a temperatura é
-                                            crítica. Nossas câmeras termográficas possuem lentes com zoom contínuo,
-                                            oferecendo medição precisa em diferentes distâncias.</p>
+                                        <h1 class="text-body-1 font-weight-bold px-6 my-4">{{ $t('precision_reliability') }}</h1>
+                                        <p class="text-body-1 mt-8 px-6">{{ $t('precision_reliability_description') }}</p>
                                     </div>
                                 </v-col>
                                 <v-col>
-                                    <v-img src="/sft/3.webp" class="rounded mt-4" height="200" cover></v-img>
+                                    <v-img :src="$t('sft_image_3')" class="rounded mt-4" height="200" cover></v-img>
                                 </v-col>
                             </v-row>
 
                             <v-row class="text-grey-darken-3 my-6">
                                 <v-col>
                                     <div>
-                                        <h1 class="text-body-1 font-weight-bold px-6 my-4">Visão de Apoio</h1>
-                                            <p class="text-body-1 mt-8 px-6">Priorizando a segurança operacional, o SFT oferece uma
-                                            visão qualitativa em tempo real, permitindo a supervisão integral das
-                                            operações.</p>
-                                        </div>
+                                        <h1 class="text-body-1 font-weight-bold px-6 my-4">{{ $t('support_vision') }}</h1>
+                                        <p class="text-body-1 mt-8 px-6">{{ $t('support_vision_description') }}</p>
+                                    </div>
                                 </v-col>
                                 <v-col>
-                                    <v-img src="/sft/5.webp" class="rounded mt-4" height="200" cover></v-img>
+                                    <v-img :src="$t('sft_image_5')" class="rounded mt-4" height="200" cover></v-img>
                                 </v-col>
                             </v-row>
 
                             <v-row class="text-grey-darken-3 my-6">
                                 <v-col cols="5">
-                                    <v-img src="/sft/4.webp" class="rounded mt-4" height="400" cover></v-img>
+                                    <v-img :src="$t('sft_image_4')" class="rounded mt-4" height="400" cover></v-img>
                                 </v-col>
                                 <v-col cols="7" class="d-flex justify-center align-center">
                                     <div class="d-flex flex-column">
+                                        <div>
+                                            <h1 class="text-body-1 font-weight-bold px-6 my-4">{{ $t('process_control') }}</h1>
+                                            <p class="text-body-1 pa-2 my-2">{{ $t('process_control_description_1') }}</p> 
+                                        </div>
 
-                                    
-                                    <div>
-                                        <h1 class="text-body-1 font-weight-bold px-6 my-4">Controle de Processos</h1>
-                                        <p class="text-body-1 pa-2  my-2">Garanta qualidade, produtividade e segurança em
-                                        suas operações com análises qualitativas e quantitativas em tempo real.</p> 
+                                        <div>
+                                            <h1 class="text-body-1 font-weight-bold px-6 my-4">{{ $t('specialized_engineering') }}</h1>
+                                            <p class="text-body-1 pa-2 my-2">{{ $t('specialized_engineering_description') }}</p> 
+                                        </div>
                                     </div>
-
-                                    <div>
-                                        <h1 class="text-body-1 font-weight-bold px-6 my-4">Engenharia Especializada</h1>
-                                        <p class="text-body-1 pa-2  my-2">Nossas soluções são acompanhadas de
-                                        engenharia de aplicação e ferramentas específicas, incluindo o Portal SFT, um
-                                        sistema inteligente para monitorar tendências termográficas em nuvem.</p> 
-                                    </div>
-                                </div>
                                 </v-col>
-                              
                             </v-row>
-                            <p class="text-body-1 text-indigo-darken-4">Obtenha o potencial da sua operação com o SFT da Pred Engenharia. Conte com a
-                            termografia por infravermelho para manter suas operações seguras e eficientes,
-                            mesmo nas condições mais adversas.</p>
+                            <p class="text-body-1 text-indigo-darken-4">{{ $t('sft_potential') }}</p>
                         </div>                    
                     </v-container>
                 </div>
 
-
-
                 <FormularioFormulariopages />
             </div>
         </v-main>
-
-
-
-
-
-
     </div>
 </template>
