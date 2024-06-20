@@ -6,8 +6,9 @@
       <template #append>
         <div class="d-flex align-center ">
             <NavNavoptions />
-            <NavNavusers />
             <NavLanguage />
+            <NavNavusers />
+            
         </div>
         
       </template>

@@ -8,7 +8,7 @@
       density="compact"
       prepend-inner-icon="mdi-web"
       size="x-small"
-      class="text-caption mt-5 mr-4"
+      class="text-caption mt-5 ml-4"
     >
     <template v-slot:selection="{ item }">
         <span style="font-size: 10px;">{{ item.title }}</span>
