@@ -1,4 +1,53 @@
 <template>
+
+  <v-list class="d-flex mr-4"
+  variant="compact"
+  >
+    <v-list-item
+    class="w-auto pa-0"
+   
+    >
+      <v-btn
+      variant="plain"
+      block
+      size="small"
+      class="pa-0"
+      @click="switchLocale('pt')"
+      >
+        <v-img src="/idioma/brasil.png" width="24" height="24" cover ></v-img>
+      </v-btn>
+    </v-list-item>
+
+    <v-list-item
+     class="w-auto pa-0"
+    >
+      <v-btn
+      variant="plain"
+      block
+      size="small"
+      class="px-1"
+      @click="switchLocale('en')"
+      >
+        <v-img src="/idioma/eua.png" width="24" height="24" cover ></v-img>
+      </v-btn>
+    </v-list-item>
+
+    <v-list-item
+     class="w-auto pa-0"
+    >
+      <v-btn
+      variant="plain"
+      block
+      size="small"
+      class="pa-0"
+      @click="switchLocale('es')"
+      >
+        <v-img src="/idioma/espanha.png" width="24" height="24" cover></v-img>
+      </v-btn>
+    </v-list-item>
+  </v-list>
+
+  <!--
     <v-select
       v-model="locale"
       :items="locales"
@@ -13,7 +62,7 @@
     <template v-slot:selection="{ item }">
         <span style="font-size: 10px;">{{ item.title }}</span>
     </template> 
-    </v-select>
+    </v-select>-->
   </template>
 
 
@@ -29,6 +78,7 @@ const locales = ref([
 ]);
 
 const switchLocale = (newLocale) => {
+
   locale.value = newLocale;
 };
 </script>

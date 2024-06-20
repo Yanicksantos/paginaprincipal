@@ -3,7 +3,7 @@
         <v-list class="d-flex">
             <v-list-item>
                 <v-btn
-                    variant="outlined"
+                    variant="plain"
                     width="100%"
                     to="/sobre"
                     class="text-caption"
@@ -16,7 +16,7 @@
                 <template #activator="{ props:menu }">
                     <v-list-item>
                         <v-btn
-                            variant="outlined"
+                            variant="plain"
                             width="100%"
                             v-bind="menu"
                             append-icon="mdi-chevron-down"
@@ -32,7 +32,7 @@
                         <v-btn
                             to="/servicos/engenharia-manutencao-e-confiabilidade"
                             class="w-100 text-caption"
-                            variant="tonal"
+                            variant="plain"
                             size="small"
                         >
                             {{ $t('engineering_maintenance_reliability_services') }}
@@ -42,7 +42,7 @@
                         <v-btn
                             to="/servicos/inspecoes"
                             class="w-100 text-caption"
-                            variant="tonal"
+                            variant="plain"
                             size="small"
                         >
                             {{ $t('technical_inspection_services') }}
@@ -52,7 +52,7 @@
                         <v-btn
                             to="/servicos/s3i"
                             class="w-100 text-caption"
-                            variant="tonal"
+                            variant="plain"
                             size="small"
                         >
                             {{ $t('s3i_system') }}
@@ -62,7 +62,7 @@
                         <v-btn
                             to="/servicos/sft"
                             class="w-100 text-caption"
-                            variant="tonal"
+                            variant="plain"
                             size="small"
                         >
                             {{ $t('sft_system') }}
@@ -73,7 +73,7 @@
 
             <v-list-item>
                 <v-btn
-                    variant="outlined"
+                    variant="plain"
                     width="100%"
                     href="https://suporte.s3i.com.br/blog/"
                     class="text-caption"
