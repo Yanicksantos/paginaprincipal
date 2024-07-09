@@ -13,7 +13,7 @@
             <div>
                 <v-container>
                     <v-row>
-                        <v-col cols="12"><v-img src="/mci.webp"></v-img></v-col>
+                        <v-col cols="12"><v-img :src="`/${$t('mci_image1')}`"></v-img></v-col>
                         <v-col cols="12"> 
                             <p class=" montserrat-font text-black text-body-2" >
                                 {{ $t('mci_description1') }}

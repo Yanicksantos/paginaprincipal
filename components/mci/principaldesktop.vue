@@ -10,7 +10,7 @@
                     <p class="text-h5 text-uppercase w-50 text-grey-lighten-1 montserrat-font">{{ $t('mci_titile1') }} <span class="text-white Roboto-font font-weight-black " >{{$t('mci_titile2')}} <br>{{$t('mci_titile3')}}</span>  {{$t('mci_titile4')}} </p>
                 </div>
                 <div style="border: 10px solid white; width: 750px; height: 420px;" class=" d-flex justify-center align-center pa-3 mt-10" >
-                    <v-img src="/mci.webp" cover height="400"></v-img>
+                    <v-img :src="`/${$t('mci_image1')}`" cover height="400"></v-img>
                 </div>
                 <div class="my-4 ">
                     <p class="text-grey-lighten-1 montserrat-font" style="width: 750px;">

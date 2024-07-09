@@ -50,7 +50,7 @@
                             ></iframe>
                         </v-carousel-item>
                         <v-carousel-item>
-                        <nuxt-link to="https://www.youtube.com/playlist?list=PLA8tyKb1AjYCrcGFOOtj0GiE_o5Q4Rpdk" target="_blank"><v-img src='/mci/mciseries.webp' height="180"></v-img></nuxt-link>
+                        <nuxt-link to="https://www.youtube.com/playlist?list=PLA8tyKb1AjYCrcGFOOtj0GiE_o5Q4Rpdk" target="_blank"><v-img :src="`/mci/${$t('mci_image4')}`" height="180"></v-img></nuxt-link>
                         </v-carousel-item>
                     </v-carousel>
 
@@ -72,7 +72,7 @@
                                 ></iframe>
                             </v-carousel-item>
                             <v-carousel-item>
-                                <nuxt-link to="https://www.youtube.com/playlist?list=PLA8tyKb1AjYCrcGFOOtj0GiE_o5Q4Rpdk" target="_blank"><v-img src='/mci/mciseries.webp' height="450"></v-img></nuxt-link>
+                                <nuxt-link to="https://www.youtube.com/playlist?list=PLA8tyKb1AjYCrcGFOOtj0GiE_o5Q4Rpdk" target="_blank"><v-img  :src="`/mci/${$t('mci_image4')}`" height="450"></v-img></nuxt-link>
                             </v-carousel-item>
                         </v-carousel>
                     </v-container>

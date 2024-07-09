@@ -224,6 +224,11 @@ export default defineI18nConfig(() => ({
       historia_image41:'41en.webp',
       historia_image51:'51en.webp',
       historia_image61:'61en.webp',
+
+      mci_image1:'mcien.webp',
+      mci_image2:'mci2en.webp',
+      mci_image3:'mci3en.webp',
+      mci_image4:'mciseriesen.webp',
     
     },
     es: {
@@ -445,6 +450,11 @@ export default defineI18nConfig(() => ({
       historia_image41:'41.webp',
       historia_image51:'51.webp',
       historia_image61:'61.webp',
+
+      mci_image1:'mci.webp',
+      mci_image2:'mci2.webp',
+      mci_image3:'mci3.webp',
+      mci_image4:'mciseries.webp',
     
       
     },
@@ -674,6 +684,11 @@ export default defineI18nConfig(() => ({
       historia_image41:'41.webp',
       historia_image51:'51.webp',
       historia_image61:'61.webp',
+
+      mci_image1:'mci.webp',
+      mci_image2:'mci2.webp',
+      mci_image3:'mci3.webp',
+      mci_image4:'mciseries.webp',
   
     }
   }
