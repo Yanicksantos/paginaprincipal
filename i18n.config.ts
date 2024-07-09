@@ -229,6 +229,11 @@ export default defineI18nConfig(() => ({
       mci_image2:'mci2en.webp',
       mci_image3:'mci3en.webp',
       mci_image4:'mciseriesen.webp',
+
+      service_man_image1:'1en.webp',
+      service_man_image2:'2en.webp',
+      service_man_image3:'3en.webp',
+      service_man_image4:'4en.webp',
     
     },
     es: {
@@ -440,21 +445,26 @@ export default defineI18nConfig(() => ({
       specialized_technical_visits: 'En Pred Engenharia, ofrecemos servicios de auditoría del mantenimiento para garantizar que sus planes y rutinas estén siempre actualizados y alineados con las mejores prácticas del sector.',
       interactive_training_material: 'El gran desafío de los gestores de mantenimiento es garantizar que los procesos de análisis crítico sobre las rutinas estén en marcha y que los resultados se utilicen para optimizar el plan de mantenimiento. Con un programa regular de auditorías, puede detectar la discontinuidad de estos procesos y tomar medidas para regularizarlos antes de que impacten negativamente en su tasa de fallas, interrupciones o costos de mantenimiento.',
       additional_services: 'Además de identificar áreas de mejora, nuestras auditorías proporcionan valiosas ideas para mejorar sus procesos de mantenimiento, aumentando la eficiencia operativa y reduciendo los riesgos de fallas no planificadas.',
-      historia_image1:'1.webp',
-      historia_image2:'2.webp',
-      historia_image3:'3.webp',
-      historia_image4:'4.webp',
-      historia_image5:'5.webp',
-      historia_image21:'21.webp',
-      historia_image31:'31.webp',
-      historia_image41:'41.webp',
-      historia_image51:'51.webp',
-      historia_image61:'61.webp',
+      historia_image1:'1es.webp',
+      historia_image2:'2es.webp',
+      historia_image3:'3es.webp',
+      historia_image4:'4es.webp',
+      historia_image5:'5es.webp',
+      historia_image21:'21es.webp',
+      historia_image31:'31es.webp',
+      historia_image41:'41es.webp',
+      historia_image51:'51es.webp',
+      historia_image61:'61es.webp',
 
-      mci_image1:'mci.webp',
-      mci_image2:'mci2.webp',
-      mci_image3:'mci3.webp',
-      mci_image4:'mciseries.webp',
+      mci_image1:'mcies.webp',
+      mci_image2:'mci2es.webp',
+      mci_image3:'mci3es.webp',
+      mci_image4:'mciserieses.webp',
+
+      service_man_image1:'1es.webp',
+      service_man_image2:'2es.webp',
+      service_man_image3:'3es.webp',
+      service_man_image4:'4es.webp',
     
       
     },
@@ -689,6 +699,11 @@ export default defineI18nConfig(() => ({
       mci_image2:'mci2.webp',
       mci_image3:'mci3.webp',
       mci_image4:'mciseries.webp',
+
+      service_man_image1:'1.webp',
+      service_man_image2:'2.webp',
+      service_man_image3:'3.webp',
+      service_man_image4:'4.webp',
   
     }
   }

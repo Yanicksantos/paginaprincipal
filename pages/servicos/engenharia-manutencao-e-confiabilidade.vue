@@ -42,7 +42,7 @@
                     </div>
 
                     <div class="px-6 pb-4">
-                        <v-img src="/man/1.webp" class="rounded my-6" max-width="700"></v-img>
+                        <v-img  :src="`/man/${$t('service_man_image1')}`"  class="rounded my-6" max-width="700"></v-img>
                         <div class="text-grey-darken-3 my-4">
                             <p class="text-caption my-2">{{ $t('efficient_maintenance_text1') }} <span class="font-italic">{{ $t('efficient_maintenance_text2') }}</span>, {{ $t('efficient_maintenance_text3') }}</p>
                             <p class="text-body-2 text-md-body-1 my-6">{{ $t('efficient_maintenance_text4') }}</p>
@@ -94,7 +94,7 @@
                         </div>
                         <div >
                             <p class="text-body-2 text-md-body-1 mb-2">{{ $t('lubrication_services_intro') }}</p>
-                            <v-img src="/man/2.webp" class="rounded mx-auto my-4" max-width="500"></v-img>
+                            <v-img :src="`/man/${$t('service_man_image2')}`" class="rounded mx-auto my-4" max-width="500"></v-img>
                         </div>
                     </v-container>
                 </div>
@@ -113,7 +113,7 @@
                             <p class="text-white text-caption s font-weight-light">{{ $t('maintenance_planning') }}</p>
                         </div>
                         <div >
-                            <v-img src="/man/3.webp" class="rounded-shaped my-6 mx-auto" max-width="700"></v-img>
+                            <v-img  :src="`/man/${$t('service_man_image3')}`" class="rounded-shaped my-6 mx-auto" max-width="700"></v-img>
                             <div>
                                 <p class="text-body-2 text-md-body-1 mt-4">{{ $t('maintenance_planning_field_or_office') }}</p>
                                 <p class="text-body-2 text-md-body-1 my-3">{{ $t('maintenance_planning_text') }}</p>
@@ -137,7 +137,7 @@
                             <p class="text-indigo-darken-4 text-body-1 s font-weight-light font-italic">{{ $t('maintenance_diagnosis_cost_reduction') }}</p>
                         </div>
                         <div >
-                            <v-img src="/man/4.webp" class="rounded-shaped my-6 mx-auto" max-width="600"></v-img>
+                            <v-img  :src="`/man/${$t('service_man_image4')}`" class="rounded-shaped my-6 mx-auto" max-width="600"></v-img>
                             <p class="text-body-2 text-md-body-1 mt-4">{{ $t('maintenance_diagnosis_text1') }}</p>
                             <p class="text-body-2 text-md-body-1 mt-4">{{ $t('maintenance_diagnosis_text2') }}</p>
                         </div>
