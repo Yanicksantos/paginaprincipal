@@ -213,7 +213,17 @@ export default defineI18nConfig(() => ({
       in_company_training: 'MAINTENANCE AUDIT: ENSURE EFFICIENCY AND REDUCE FAILURES',
       specialized_technical_visits: 'At Pred Engenharia, we offer maintenance audit services to ensure that your plans and routines are always up-to-date and aligned with the best industry practices.',
       interactive_training_material: 'The great challenge for maintenance managers is to ensure that critical analysis processes of routines are underway and that the results are used to optimize the maintenance plan. With a regular audit program, you can detect the discontinuity of these processes and take measures to regularize them before they negatively impact your failure rate, interruptions, or maintenance costs.',
-      additional_services: 'In addition to identifying areas for improvement, our audits provide valuable insights to enhance your maintenance processes, increasing operational efficiency and reducing the risks of unplanned failures.'
+      additional_services: 'In addition to identifying areas for improvement, our audits provide valuable insights to enhance your maintenance processes, increasing operational efficiency and reducing the risks of unplanned failures.',
+      historia_image1:'1en.webp',
+      historia_image2:'2en.webp',
+      historia_image3:'3en.webp',
+      historia_image4:'4en.webp',
+      historia_image5:'5en.webp',
+      historia_image21:'21en.webp',
+      historia_image31:'31en.webp',
+      historia_image41:'41en.webp',
+      historia_image51:'51en.webp',
+      historia_image61:'61en.webp',
     
     },
     es: {
@@ -424,8 +434,17 @@ export default defineI18nConfig(() => ({
       in_company_training: 'AUDITORÍA DEL MANTENIMIENTO: GARANTICE EFICIENCIA Y REDUZCA FALLAS',
       specialized_technical_visits: 'En Pred Engenharia, ofrecemos servicios de auditoría del mantenimiento para garantizar que sus planes y rutinas estén siempre actualizados y alineados con las mejores prácticas del sector.',
       interactive_training_material: 'El gran desafío de los gestores de mantenimiento es garantizar que los procesos de análisis crítico sobre las rutinas estén en marcha y que los resultados se utilicen para optimizar el plan de mantenimiento. Con un programa regular de auditorías, puede detectar la discontinuidad de estos procesos y tomar medidas para regularizarlos antes de que impacten negativamente en su tasa de fallas, interrupciones o costos de mantenimiento.',
-      additional_services: 'Además de identificar áreas de mejora, nuestras auditorías proporcionan valiosas ideas para mejorar sus procesos de mantenimiento, aumentando la eficiencia operativa y reduciendo los riesgos de fallas no planificadas.'
-    
+      additional_services: 'Además de identificar áreas de mejora, nuestras auditorías proporcionan valiosas ideas para mejorar sus procesos de mantenimiento, aumentando la eficiencia operativa y reduciendo los riesgos de fallas no planificadas.',
+      historia_image1:'1.webp',
+      historia_image2:'2.webp',
+      historia_image3:'3.webp',
+      historia_image4:'4.webp',
+      historia_image5:'5.webp',
+      historia_image21:'21.webp',
+      historia_image31:'31.webp',
+      historia_image41:'41.webp',
+      historia_image51:'51.webp',
+      historia_image61:'61.webp',
     
       
     },
@@ -645,7 +664,16 @@ export default defineI18nConfig(() => ({
       specialized_technical_visits: 'Na Pred Engenharia, oferecemos serviços de auditoria da manutenção para garantir que seus planos e rotinas estejam sempre atualizados e alinhados com as melhores práticas do setor.',
       interactive_training_material: 'O grande desafio dos gestores de manutenção é garantir que os processos de análise crítica sobre as rotinas estejam em andamento e que os resultados sejam utilizados para otimizar o plano de manutenção. Com um programa regular de auditorias, você pode detectar a descontinuidade desses processos e tomar medidas para regularizá-los antes que impactem negativamente sua taxa de falhas, interrupções ou custos de manutenção.',
       additional_services: 'Além de identificar áreas de melhoria, nossas auditorias fornecem insights valiosos para aprimorar seus processos de manutenção, aumentando a eficiência operacional e reduzindo os riscos de falhas não planejadas.',
-     
+      historia_image1:'1.webp',
+      historia_image2:'2.webp',
+      historia_image3:'3.webp',
+      historia_image4:'4.webp',
+      historia_image5:'5.webp',
+      historia_image21:'21.webp',
+      historia_image31:'31.webp',
+      historia_image41:'41.webp',
+      historia_image51:'51.webp',
+      historia_image61:'61.webp',
   
     }
   }

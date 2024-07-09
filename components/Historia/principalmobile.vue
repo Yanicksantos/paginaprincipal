@@ -15,31 +15,31 @@
              class="rounded-lg mb-4"
              >
                  <v-carousel-item
-                 src='/historias/21.webp'
+                 :src="`/historias/${$t('historia_image21')}`"
                  cover
                  class="rounded-lg "
                  ></v-carousel-item>
 
                  <v-carousel-item
-                 src='/historias/31.webp'
+                 :src="`/historias/${$t('historia_image31')}`"
                  cover
                  class="rounded-lg "
                  ></v-carousel-item>
 
                  <v-carousel-item
-                 src='/historias/41.webp'
+                 :src="`/historias/${$t('historia_image41')}`"
                  cover
                  class="rounded-lg "
                  ></v-carousel-item>
 
                  <v-carousel-item
-                 src='/historias/51.webp'
+                 :src="`/historias/${$t('historia_image51')}`"
                  cover
                  class="rounded-lg "
                  ></v-carousel-item>
 
                  <v-carousel-item
-                 src='/historias/61.webp'
+                 :src="`/historias/${$t('historia_image61')}`"
                  cover
                  class="rounded-lg "
                  ></v-carousel-item>

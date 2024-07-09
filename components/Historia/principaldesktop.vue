@@ -19,24 +19,24 @@
                  class="rounded-xl mb-4 "
                  >
                  <v-carousel-item
-                 src='/historias/1.webp'
+                 :src="`/historias/${$t('historia_image1')}`"
                
                  ></v-carousel-item>
 
                  <v-carousel-item
-                 src='/historias/2.webp'
+                 :src="`/historias/${$t('historia_image2')}`"
                
                  ></v-carousel-item>
                  <v-carousel-item
-                 src='/historias/3.webp'
+                 :src="`/historias/${$t('historia_image3')}`"
                
                  ></v-carousel-item>
                  <v-carousel-item
-                 src='/historias/4.webp'
+                 :src="`/historias/${$t('historia_image4')}`"
                
                  ></v-carousel-item>
                  <v-carousel-item
-                 src='/historias/5.webp'
+                 :src="`/historias/${$t('historia_image5')}`"
                
                  ></v-carousel-item>
              </v-carousel>
