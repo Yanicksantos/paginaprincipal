@@ -16,11 +16,12 @@
             :key="i"
             flat
           >
-            <nuxt-link :to="servico.to" class="text-decoration-none">
+            <nuxt-link :to="servico.to" class="text-decoration-none" aria-label="Link para serviço">
               <v-img
                 class="align-end text-white"
                 height="200"
                 :src="servico.src"
+                :alt="$t(servico.titleKey)"
                 cover
                 gradient="to bottom, transparent, rgba(0,0,0,.4), rgba(0,0,0,1)"
               >
