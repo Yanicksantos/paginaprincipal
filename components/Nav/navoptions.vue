@@ -7,13 +7,14 @@
                     width="100%"
                     to="/sobre"
                     class="text-caption"
+                    aria-label="Sobre nós"
                 >
                     {{ $t('about_us') }}
                 </v-btn>
             </v-list-item>
 
             <v-menu>
-                <template #activator="{ props:menu }">
+                <template #activator="{ props: menu }">
                     <v-list-item>
                         <v-btn
                             variant="plain"
@@ -21,6 +22,8 @@
                             v-bind="menu"
                             append-icon="mdi-chevron-down"
                             class="text-caption"
+                            aria-label="Nossos serviços"
+                            aria-expanded="false"
                         >
                             {{ $t('our_services') }}
                         </v-btn>
@@ -34,6 +37,7 @@
                             class="w-100 text-caption"
                             variant="plain"
                             size="small"
+                            aria-label="Serviços de Engenharia, Manutenção e Confiabilidade"
                         >
                             {{ $t('engineering_maintenance_reliability_services') }}
                         </v-btn>
@@ -44,6 +48,7 @@
                             class="w-100 text-caption"
                             variant="plain"
                             size="small"
+                            aria-label="Serviços de Inspeções Técnicas"
                         >
                             {{ $t('technical_inspection_services') }}
                         </v-btn>
@@ -54,6 +59,7 @@
                             class="w-100 text-caption"
                             variant="plain"
                             size="small"
+                            aria-label="Sistema S3i"
                         >
                             {{ $t('s3i_system') }}
                         </v-btn>
@@ -64,6 +70,7 @@
                             class="w-100 text-caption"
                             variant="plain"
                             size="small"
+                            aria-label="Sistema SFT"
                         >
                             {{ $t('sft_system') }}
                         </v-btn>
@@ -77,6 +84,7 @@
                     width="100%"
                     href="https://suporte.s3i.com.br/blog/"
                     class="text-caption"
+                    aria-label="Blog"
                 >
                     {{ $t('blog') }}
                 </v-btn>
