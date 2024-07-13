@@ -20,6 +20,7 @@
             height="600"
             :src="$t('service_image3')"
             gradient="to top, rgba(0,0,0,.9), rgba(0,0,0,.75), transparent"
+            alt="Imagem ilustrativa do serviço S3I"
         >
             <div class="d-flex flex-column justify-center align-center w-100 h-100 pa-4" style="background-image: linear-gradient(to top, rgba(0,0,0,.9), rgba(0,0,0,.75), transparent);">
                 <div><v-icon icon="mdi-cellphone-cog" size="50"></v-icon></div>
@@ -47,7 +48,8 @@
                         </div>
                     </div>
                 </v-container>
-                <div class="px-6 py-4 bg-grey-lighten-2">
+
+                <section class="px-6 py-4 bg-grey-lighten-2">
                     <v-container>
                         <h1 class="text-body-2 text-md-body-1 font-weight-bold text-center">{{ $t('traceability_intelligence_title') }}</h1>
                         <div 
@@ -85,12 +87,15 @@
                             </v-list-item>
                         </div>
 
-                        <v-img :src="$t('image_3')" class="rounded my-6 mx-auto"></v-img>
+                        <v-img :src="$t('image_3')" class="rounded my-6 mx-auto"   alt="Imagem ilustrativa do serviço S3I"></v-img>
                     </v-container>
-                </div>
+                </section>
                 
                 <!--outra secção-->
-                <FormularioFormulariopages />
+                <section>
+                    <FormularioFormulariopages />
+                </section>
+                
             </div>
         </v-main>
     </div>

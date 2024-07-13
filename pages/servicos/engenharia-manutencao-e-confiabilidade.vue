@@ -1,11 +1,12 @@
 <template >
-    <div >
+    <div>
         <v-img
         class="d-md-none"
         gradient="to top, rgba(0,0,0,.9), rgba(0,0,0,.7),transparent"
         height="350"
         cover
         src="/services1.webp"
+        alt="Imagem descritiva - Pred Engenharia"
         >
             <div class=" d-flex flex-column justify-center align-center w-100 h-100 pa-4" style="background-image: linear-gradient(to top, rgba(0,0,0,.9), rgba(0,0,0,.7),transparent);">
                 <div><v-icon icon="mdi-cog-play" size="50"></v-icon></div>
@@ -22,6 +23,7 @@
         height="600"
         cover
         src="/services1.webp"
+        alt="Imagem descritiva - Pred Engenharia"
         >
             <div class=" d-flex flex-column justify-center align-center w-100 h-100 pa-4" style="background-image: linear-gradient(to top, rgba(0,0,0,.9), rgba(0,0,0,.7),transparent);">
                 <div><v-icon icon="mdi-cog-play" size="50"></v-icon></div>
@@ -31,7 +33,7 @@
 
 
         <v-main class="pa-0">
-            <div>
+            <section>
                 <v-container>
                     <div class="px-6 py-6 ml-6">
                         <h1 class="text-h6 font-weight-bold">{{ $t('efficient_maintenance_systematization') }}</h1>
@@ -50,7 +52,8 @@
                         </div>
                     </div>
                 </v-container>
-                <div class="px-4 py-4 bg-grey-lighten-2 h-100" >
+
+                <section class="px-4 py-4 bg-grey-lighten-2 h-100" >
                     <v-container>
                         <div class=" pa-2">
                             <h4 class="text-body-2 text-md-body-1 pa-2">{{ $t('efficient_maintenance_text6') }}</h4>
@@ -78,12 +81,12 @@
                             <p class="text-body-2 text-md-body-1 ">{{ $t('discover_pred_services') }}</p>
                         </div>
                     </v-container>
-                </div>
+                </section>
                 
 
                 <!--outra secção-->
 
-                <div class="bg-white px-6" >
+                <section class="bg-white px-6" >
                     <v-container>
                         <div class=" py-4 ml-6 my-4">
                             <h1 class="text-h6 font-weight-bold">{{ $t('lubrication_engineering') }}</h1>
@@ -97,11 +100,11 @@
                             <v-img :src="`/man/${$t('service_man_image2')}`" class="rounded mx-auto my-4" max-width="500"></v-img>
                         </div>
                     </v-container>
-                </div>
+                </section>
 
                   <!--outra secção-->
 
-                  <div class="bg-white px-6 py-2 my-4" >
+                  <section class="bg-white px-6 py-2 my-4" >
                     <v-container>
                         <div class=" py-2 ml-4 " >
                             <div class=" mt-4  text-h4 font-weight-bold" >
@@ -121,11 +124,11 @@
                         
                         </div>
                     </v-container>
-                </div>
+                </section>
 
                 <!--outra secção-->
 
-                <div  class="bg-white px-6 py-4">
+                <section  class="bg-white px-6 py-4">
                     <v-container>
                         <div class=" py-2 ml-6" >
                             <div class=" mt-4 text-h6 font-weight-bold " >
@@ -142,11 +145,11 @@
                             <p class="text-body-2 text-md-body-1 mt-4">{{ $t('maintenance_diagnosis_text2') }}</p>
                         </div>
                     </v-container>
-                </div>
+                </section>
 
 
                 <!--outra secção-->
-                <div class="px-4 py-4 bg-grey-lighten-1 h-100" >
+                <section class="px-4 py-4 bg-grey-lighten-1 h-100" >
                     <v-container>
                         <div class=" pa-2">
                             <div class="px-6 py-4">
@@ -175,12 +178,12 @@
                         
                     </div>
                     </v-container>
-                </div>
+                </section>
 
 
                    <!--outra secção-->
 
-                <div class="bg-white px-6 py-4" >
+                <section class="bg-white px-6 py-4" >
                     <v-container>
                         <div class=" py-4 ml-6">
                             <h1 class="text-h6 font-weight-bold">{{ $t('in_company_training') }}</h1>
@@ -197,17 +200,16 @@
                             <p class="text-body-2 text-md-body-1">{{ $t('additional_services') }}</p>
                         </div>
                     </v-container>
-                </div>
-                        <FormularioFormulariopages />
-
-            </div>
+                </section>
+                <section>
+                    <FormularioFormulariopages />
+                </section>
+            </section>
         </v-main>
-       
-        
     </div>
 </template>
 
-<style>
+<style scoped>
 .montserrat-font {
   font-family: 'Montserrat', sans-serif;
 }

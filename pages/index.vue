@@ -1,22 +1,38 @@
 <template>
     <div class="h-100  " style="overflow-x: hidden; background-color: #838595; ">
-        <div  
+        <main
         style="position: relative;"
         >
-            <MarcaPred />          
-            <Banner />
-            <MciPrincipal /> 
-            <ServicosPrincipal />
-            <VisaoPrincipal />
-            <ParceriasPrincipal />
-            <div
+            <section aria-labelledby="Marca D'água - Pred engenharia">
+                <MarcaPred /> 
+            </section>
+            <section aria-labelledby="banner - Pred Engenharia">
+                <Banner />
+            </section>
+            <section aria-labelledby="MCI - Pred Engenharia">
+                <MciPrincipal /> 
+            </section>
+            <section aria-labelledby="Serviços - Pred Engenharia">
+                <ServicosPrincipal />
+            </section>
+            <section aria-labelledby="Visão - Pred Engenharia">
+                <VisaoPrincipal />
+            </section>
+            <section aria-labelledby="Parcerias - Pred Engenharia">
+                <ParceriasPrincipal />
+            </section>               
+            <section
+            aria-labelledby="História e Sobre - Pred Engenharia"
             style=" background-image: url('/pred_site_04.webp'); background-size: cover; background-position: center center;"
             >
                 <historia  style="position: relative; z-index: 10;"/>
                 <SobrePagePrincipal style="position: relative; z-index: 10;"/>
-            </div>
-            <FormularioPrincipal />
-        </div>
+            </section>
+            <section aria-labelledby="História e Sobre - Pred Engenharia">
+                <FormularioPrincipal />
+            </section>
+            
+        </main>
     </div>
 </template>
 
