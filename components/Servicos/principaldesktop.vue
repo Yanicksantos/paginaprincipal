@@ -11,16 +11,17 @@
       <LanguageSwitcher />
     </div>
 
-    <div class="w-100 d-flex py-4" style="background-color: rgba(255, 0, 0, .1);">
-      <div class="w-50">
-        <v-img src="/services1.webp" alt="Imagem representativa do serviço de engenharia" aria-label="Imagem do serviço de engenharia"></v-img>
+    <div class="w-100 d-flex py-4" style="background-color: rgba(255, 0, 0, .1); height: 400px;">
+      <div class="w-50" >
+        <v-img src="/services1.webp" cover  alt="Imagem representativa do serviço de engenharia" aria-label="Imagem do serviço de engenharia"></v-img>
       </div>
-      <div class="w-50 px-4 mt-4">
+      <div class="w-50 px-4 mt-4 " >
         <div class="mb-2">
           <h1 class="text-lg-h4 text-h6 text-white montserrat-font">
             <strong class="text-red-accent-4"># 1</strong> <span style="opacity: .8;">{{ $t('engineering') }}</span>
           </h1>
         </div>
+
         <div class="my-6">
           <p class="text-white pr-4 text-lg-subtitle-2 text-caption">{{ $t('engineering_desc') }}</p>
         </div>
@@ -33,8 +34,8 @@
       </div>
     </div>
 
-    <div class="w-100 d-flex py-4" style="background-color: rgba(25, 31, 52, .12);">
-      <div class="w-50 pl-16 pr-4">
+    <div class="w-100 d-flex py-4" style="background-color: rgba(25, 31, 52, .12); height: 400px">
+      <div class="w-50 pl-16 pr-4" >
         <div class="ml-6 mt-4">     
           <div class="mb-2">
             <h1 class="text-lg-h4 text-h6 text-white">
@@ -53,13 +54,13 @@
         </div>
       </div>
       <div class="w-50">
-        <v-img src="/services2.webp" alt="Imagem representativa do serviço de inspeções" aria-label="Imagem do serviço de inspeções"></v-img>
+        <v-img src="/services2.webp" cover alt="Imagem representativa do serviço de inspeções" aria-label="Imagem do serviço de inspeções"></v-img>
       </div>
     </div>
 
-    <div class="w-100 d-flex py-4" style="background-color: rgba(255, 0, 0, .1);">
-      <div class="w-50">
-        <v-img src="/services3.webp" alt="Imagem representativa do serviço S3I" aria-label="Imagem do serviço S3I"></v-img>
+    <div class="w-100 d-flex py-4" style="background-color: rgba(255, 0, 0, .1); height: 400px">
+      <div class="w-50" >
+        <v-img src="/services3.webp"  cover alt="Imagem representativa do serviço S3I" aria-label="Imagem do serviço S3I"></v-img>
       </div>
       <div class="w-50 px-8 mt-4">
         <div class="mb-4">
@@ -83,7 +84,7 @@
       </div>
     </div>
 
-    <div class="w-100 d-flex py-4" style="background-color: rgba(25, 31, 52, .12);">
+    <div class="w-100 d-flex py-4" style="background-color: rgba(25, 31, 52, .12); height: 400px">
       <div class="w-50 pl-16 pr-4">
         <div class="ml-6 mt-4">                 
           <div class="mb-2">
@@ -103,7 +104,7 @@
         </div>
       </div>
       <div class="w-50">
-        <v-img src="/services4.webp" alt="Imagem representativa do serviço SFT" aria-label="Imagem do serviço SFT"></v-img>
+        <v-img src="/services4.webp" cover alt="Imagem representativa do serviço SFT" aria-label="Imagem do serviço SFT"></v-img>
       </div>
     </div>
   </div>

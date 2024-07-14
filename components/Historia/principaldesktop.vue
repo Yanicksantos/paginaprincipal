@@ -1,6 +1,6 @@
 <template>
-    <v-container class="py-4 h-100 d-none d-sm-block">
-      <div class="px-10">
+    <v-container class="py-4 h-100 d-none d-sm-block" >
+      <div class="px-10 " style="height: 500px;">
         <div class="d-flex align-center justify-center my-6">
           <div class="mr-10">
             <v-img src="/partelogo3.webp" width="40" alt="Parte logo 3"></v-img>

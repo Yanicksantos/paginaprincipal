@@ -3,7 +3,7 @@
      <SpeedInsights/>
     <v-app-bar scroll-behavior="hide" scroll-threshold="10000" >
       
-      <v-app-bar-title><nuxt-link to="/"  aria-label="Home"><v-img src="/logo.webp" width="100" alt="Logo Pred Engenharia"></v-img></nuxt-link></v-app-bar-title>
+      <v-app-bar-title><nuxt-link to="/"  aria-label="Home"><v-img src="/logo.webp" max-width="150" alt="Logo Pred Engenharia"></v-img></nuxt-link></v-app-bar-title>
       <template #append>
         <section class="d-flex align-center ">
             <NavNavoptions />
