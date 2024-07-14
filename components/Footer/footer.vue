@@ -40,7 +40,7 @@
       <div class="w-100 h-100 py-4 px-5">
         <v-container>
           <div class="mb-4 text-caption text-md-body-2 text-indigo-darken-4">
-            <div><v-icon icon="mdi-email-fast-outline"></v-icon> predengenharia@pred.com.br</div>
+            <div><v-icon icon="mdi-email-fast-outline"></v-icon> contato@pred.com.br</div>
             <div class="mt-2"><v-icon icon="mdi-map-marker-radius"></v-icon> R. Italina Pereira Mota, 440 - Jardim Camburi, Vitória - ES, 29090-370</div>
           </div>
           <hr>
@@ -66,4 +66,7 @@ const socias = [
   { icon: 'mdi-instagram', to: 'https://www.instagram.com/predengenharia/' },
   { icon: 'mdi-facebook', to: 'https://www.facebook.com/PredEngenharia/' }
 ];
+
+
+
 </script>

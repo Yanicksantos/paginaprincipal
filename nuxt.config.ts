@@ -46,16 +46,16 @@ export default defineNuxtConfig({
         { name: "author", content: "Pred Engenharia" },
         { property: "og:title", content: "Pred Engenharia" },
         { property: "og:description", content: "A Pred Engenharia é uma provedora de soluções para gestão de ativos e processos, com foco na garantia da segurança, confiabilidade e produtividade das atividades. Atuando na indústria e na área de serviços desde 1993, suas inovadoras soluções são fornecidas ao mercado através de três áreas de negócios: Serviços Técnicos, Tecnologia da Informação e Automação Industrial." },
-        { property: "og:image", content: "https://pred-engenharia.vercel.app/30anos.webp" },
-        { property: "og:url", content: "https://pred-engenharia.vercel.app/" },
+        { property: "og:image", content: "https://www.predengenharia.com.br/30anos.webp" },
+        { property: "og:url", content: "https://www.predengenharia.com.br/" },
         { property: "og:type", content: "website" },
         { name: "twitter:card", content: "summary_large_image" },
         { name: "twitter:title", content: "Pred Engenharia" },
         { name: "twitter:description", content: "A Pred Engenharia é uma provedora de soluções para gestão de ativos e processos, com foco na garantia da segurança, confiabilidade e produtividade das atividades. Atuando na indústria e na área de serviços desde 1993, suas inovadoras soluções são fornecidas ao mercado através de três áreas de negócios: Serviços Técnicos, Tecnologia da Informação e Automação Industrial." },
-        { name: "twitter:image", content: "https://pred-engenharia.vercel.app/30anos.webp" },
+        { name: "twitter:image", content: "https://www.predengenharia.com.br/30anos.webp" },
       ],
       link: [
-        { rel: "canonical", href: "https://pred-engenharia.vercel.app/" },
+        { rel: "canonical", href: "https://www.predengenharia.com.br/" },
       ],
       title: "Pred Engenharia"
     }

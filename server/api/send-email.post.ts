@@ -4,7 +4,8 @@ import nodemailer from 'nodemailer';
 interface EmailBody {
   name: string;
   email: string;
-  message: string;
+  phone: string;
+  Whatsapp: string;
 }
 
 export default defineEventHandler(async (event) => {
@@ -42,10 +43,12 @@ export default defineEventHandler(async (event) => {
           <h1>Novo Contato</h1>
         </div>
         <div class="content">
-          <p><strong>Nome:</strong> ${body.name}</p>
-          <p><strong>Email:</strong> ${body.email}</p>
-          <p><strong>Mensagem:</strong></p>
-          <p>${body.message}</p>
+          <p><strong>Nome:</strong> ${body.name || ''}</p>
+          <p><strong>Email:</strong> ${body.email || ''}</p>
+          <p><strong>Celular:</strong></p>
+          <p>${body.phone || ''}</p>
+          <p><strong>whatsapp:</strong></p>
+          <p>${body.Whatsapp || ''}</p>
         </div>
         <div class="footer">
           <p>Obrigado por entrar em contato conosco.</p>
@@ -65,10 +68,9 @@ export default defineEventHandler(async (event) => {
   });
 
   const mailOptions = {
-    from: 'yanickeduardo04@gmail.com',
+    from: process.env.SMTP_USER,
     to: 'yanick@pred.com.br',
-    subject: 'Novo Contato',
-    //text: `Nome: ${body.name}\nEmail: ${body.email}\nMensagem: ${body.message}`
+    subject: 'Novo contato - enviado por email-ssl.com.br via https://www.predengenharia.com.br/',
     html: htmlContent
   };
 
